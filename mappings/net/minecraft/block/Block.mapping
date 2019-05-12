@@ -127,7 +127,7 @@ CLASS pb net/minecraft/block/Block
 	FIELD j GLASS_SOUNDS Lvj;
 	FIELD k WOOL_SOUNDS Lvj;
 	FIELD l SAND_SOUNDS Lvj;
-	FIELD m BY_ID [Lpb;
+	FIELD m BLOCKS [Lpb;
 	FIELD t STONE Lpb;
 	FIELD u GRASS Lqy;
 	FIELD v DIRT Lpb;
@@ -137,9 +137,17 @@ CLASS pb net/minecraft/block/Block
 	FIELD z BEDROCK Lpb;
 	METHOD <init> (ILacn;)V
 		ARG 1 id
+	METHOD a getDropId (ILjava/util/Random;I)I
 	METHOD a setRawName (Ljava/lang/String;)Lpb;
+	METHOD a getDropCount (Ljava/util/Random;)I
 	METHOD a sounds (Lvj;)Lpb;
+	METHOD a onScheduledTick (Lxd;IIILjava/util/Random;)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c getDropData (I)I
 	METHOD g (I)Z
 		ARG 0 id
+	METHOD g canPlaceAt (Lxd;III)Z
 	METHOD r getTranslatedName ()Ljava/lang/String;
 	METHOD s getRawName ()Ljava/lang/String;

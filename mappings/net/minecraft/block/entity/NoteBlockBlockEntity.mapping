@@ -1,1 +1,2 @@
 CLASS oh net/minecraft/block/entity/NoteBlockBlockEntity
+	METHOD a playNote (Lxd;III)V

@@ -2,9 +2,12 @@ CLASS acq net/minecraft/entity/LivingEntity
 	FIELD bA hurtTime I
 	FIELD bD deathTime I
 	FIELD bE attackTime I
+	FIELD bI experiencePoints I
 	FIELD bS activeEffects Ljava/util/HashMap;
 	FIELD bm texture Ljava/lang/String;
 	FIELD bx health I
+	FIELD cd despawnCounter I
+	FIELD cj movementSpeed F
 	METHOD a hasEffect (Laad;)Z
 	METHOD a onKilled (Lmd;)V
 	METHOD aq isAlive ()Z
@@ -15,8 +18,10 @@ CLASS acq net/minecraft/entity/LivingEntity
 	METHOD bb getHealth ()I
 	METHOD bf clearPotionEffects ()V
 	METHOD d getMaxHealth ()I
+	METHOD e updateDespawnCounter ()V
 	METHOD f getMobDrops ()I
 	METHOD g mobTick ()V
+	METHOD i canSpawn ()Z
 	METHOD k addHealth (I)V
 	METHOD l setHealth (I)V
 	METHOD m getAmbientSound ()Ljava/lang/String;

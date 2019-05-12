@@ -5,10 +5,22 @@ CLASS kw net/minecraft/block/entity/BlockEntity
 	FIELD j x I
 	FIELD k y I
 	FIELD l z I
+	FIELD m invalid Z
+	FIELD n cachedId I
+	FIELD o block Lpb;
+	METHOD a getSquaredDistance (DDD)D
 	METHOD a fromTag (Lady;)V
 	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
 		ARG 0 blockEntityClass
 		ARG 1 id
-	METHOD b toTag (Lady;)V
+	METHOD b resetBlock ()V
+	METHOD b onBlockAction (II)V
+	METHOD b writeIdentifyingData (Lady;)V
 	METHOD c createFromTag (Lady;)Lkw;
+	METHOD h invalidate ()V
+	METHOD i getCachedId ()I
+	METHOD j markDirty ()V
+	METHOD k getBlock ()Lpb;
+	METHOD l isInvalid ()Z
+	METHOD m validate ()V
 	METHOD n_ tick ()V

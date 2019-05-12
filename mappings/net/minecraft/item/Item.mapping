@@ -114,7 +114,7 @@ CLASS yr net/minecraft/item/Item
 	FIELD bo BLAZE_ROD Lyr;
 	FIELD bp GHAST_TEAR Lyr;
 	FIELD bq GOLD_NUGGET Lyr;
-	FIELD br NETHER_WARTS Lyr;
+	FIELD br NETHER_WART Lyr;
 	FIELD bs POTION Lei;
 	FIELD bt GLASS_BOTTLE Lyr;
 	FIELD bu SPIDER_EYE Lyr;
@@ -124,7 +124,7 @@ CLASS yr net/minecraft/item/Item
 	FIELD by BREWING_STAND Lyr;
 	FIELD bz CAULDRON Lyr;
 	FIELD d random Ljava/util/Random;
-	FIELD e BY_ID [Lyr;
+	FIELD e ITEMS [Lyr;
 	FIELD f IRON_SHOVEL Lyr;
 	FIELD g IRON_PICKAXE Lyr;
 	FIELD h IRON_AXE Lyr;
@@ -147,8 +147,10 @@ CLASS yr net/minecraft/item/Item
 	FIELD y STONE_AXE Lyr;
 	FIELD z DIAMOND_SWORD Lyr;
 	METHOD a getRawName (Laan;)Ljava/lang/String;
-	METHOD a interactWith (Laan;Lacq;)V
+	METHOD a interactWithEntity (Laan;Lacq;)V
 	METHOD a buildTooltip (Laan;Ljava/util/List;)V
+	METHOD a getBlockBreakingSpeed (Laan;Lpb;)F
+	METHOD a onEntityTick (Laan;Lxd;Lnn;IZ)V
 	METHOD a use (Laan;Lxd;Lyw;)Laan;
 	METHOD a useOnBlock (Laan;Lyw;Lxd;IIII)Z
 		ARG 4 x
@@ -161,11 +163,13 @@ CLASS yr net/minecraft/item/Item
 	METHOD b getMaxUseTime (Laan;)I
 	METHOD b onItemFinishedUsing (Laan;Lxd;Lyw;)Laan;
 	METHOD c getUseAction (Laan;)Laaq;
+	METHOD c onCrafted (Laan;Lxd;Lyw;)V
 	METHOD e getRawName ()Ljava/lang/String;
-	METHOD e hasEnchants (Laan;)Z
+	METHOD e hasEnchantmentGlint (Laan;)Z
 	METHOD f getMaxStackSize ()I
 	METHOD f setMaxStackSize (I)Lyr;
 	METHOD f getRarity (Laan;)Lfo;
 	METHOD g setDurability (I)Lyr;
 	METHOD h getDurability ()I
+	METHOD j isTool (Laan;)Z
 	METHOD n getTranslatedName ()Ljava/lang/String;

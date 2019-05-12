@@ -1,3 +1,4 @@
 CLASS gh net/minecraft/nbt/Tag
 	METHOD a getType ()B
+	METHOD b copy ()Lgh;
 	METHOD b read (Ljava/io/DataInput;)Lgh;

@@ -1,0 +1,2 @@
+CLASS abf net/minecraft/entity/FallingBlockEntity
+	METHOD n getWorld ()Lxd;

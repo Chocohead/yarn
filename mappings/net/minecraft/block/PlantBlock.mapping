@@ -1,1 +1,3 @@
 CLASS qk net/minecraft/block/PlantBlock
+	METHOD f_ canPlantOnTop (I)Z
+		ARG 1 id

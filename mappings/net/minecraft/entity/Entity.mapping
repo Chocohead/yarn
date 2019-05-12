@@ -1,7 +1,15 @@
 CLASS nn net/minecraft/entity/Entity
 	FIELD D velocityModified Z
+	FIELD G removed Z
+	FIELD I width F
+	FIELD J height F
 	FIELD M fallDistance F
+	FIELD N prevRenderX D
+	FIELD O prevRenderY D
+	FIELD P prevRenderZ D
 	FIELD U random Ljava/util/Random;
+	FIELD ab immuneToFire Z
+	FIELD al velocityDirty Z
 	FIELD c fireTime I
 	FIELD i passenger Lnn;
 	FIELD j vehicle Lnn;
@@ -16,30 +24,60 @@ CLASS nn net/minecraft/entity/Entity
 	FIELD s velocityY D
 	FIELD t velocityZ D
 	FIELD u yaw F
+	FIELD v pitch F
+	FIELD w prevYaw F
+	FIELD x prevPitch F
 	FIELD y boundingBox Lwu;
 	FIELD z onGround Z
 	METHOD A remove ()V
 	METHOD B baseTick ()V
+	METHOD C setOnFireFromLava ()V
 	METHOD D extinguish ()V
+	METHOD E destroy ()V
+	METHOD F isImmuneToFire ()Z
 	METHOD J_ tick ()V
 	METHOD K scheduleVelocityUpdate ()V
 	METHOD a setVelocity (DDD)V
+	METHOD a getBrightnessAtEyes (F)F
 	METHOD a burn (I)V
-	METHOD a fromTag (Lady;)V
+	METHOD a playStepSound (IIII)V
+	METHOD a readCustomDataFromTag (Lady;)V
 	METHOD a damage (Lmd;I)Z
+	METHOD a isPartOf (Lnn;)Z
+	METHOD a setWorld (Lxd;)V
 	METHOD a onPlayerCollision (Lyw;)V
 	METHOD a createList ([D)Lno;
 	METHOD a createList ([F)Lno;
 	METHOD b move (DDD)V
-	METHOD b toTag (Lady;)V
+	METHOD b setPositionAndAnglesAndUpdate (DDDFF)V
+	METHOD b setRotation (FF)V
+	METHOD b writeCustomDataToTag (Lady;)V
+	METHOD c addVelocity (DDD)V
+	METHOD c setPositionAndAngles (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD c changeLookDirection (FF)V
+	METHOD c saveSelfToTag (Lady;)Z
+	METHOD c interact (Lyw;)Z
 	METHOD d setPosition (DDD)V
-	METHOD e squaredDistanceTo (Lnn;)F
+	METHOD d toTag (Lady;)V
+	METHOD e setOnFireFor (I)V
+	METHOD e fromTag (Lady;)V
+	METHOD e distanceTo (Lnn;)F
 	METHOD e_ canClimb ()Z
 	METHOD f squaredDistanceTo (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
+	METHOD f squaredDistanceTo (Lnn;)D
+	METHOD g distanceTo (DDD)D
 	METHOD g inAir (I)V
 	METHOD h pushOutOfBlocks (DDD)Z
+	METHOD h startRiding (Lnn;)V
+	METHOD h_ getEyeHeight ()F
 	METHOD k_ canPlayerAttack ()Z
+	METHOD l getMountedHeightOffset ()D
 	METHOD v_ getTexture ()Ljava/lang/String;

@@ -1,1 +1,2 @@
 CLASS amc net/minecraft/block/entity/BrewingStandBlockEntity
+	FIELD a contents [Laan;

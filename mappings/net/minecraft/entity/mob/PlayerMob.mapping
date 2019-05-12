@@ -10,6 +10,7 @@ CLASS yw net/minecraft/entity/mob/PlayerMob
 	FIELD ap inventory Laak;
 	FIELD aq playerContainer Ldd;
 	METHOD a dropItem (Laan;)Lfq;
+	METHOD a increaseStat (Lajw;I)V
 	METHOD aj isUsingItem ()Z
 	METHOD as dropSelectedItem ()Lfq;
 	METHOD ax swingHand ()V

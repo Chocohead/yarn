@@ -7,4 +7,6 @@ CLASS ahg net/minecraft/block/entity/FurnaceBlockEntity
 	METHOD b isBurning (Laan;)Z
 	METHOD c getCookProgress (I)I
 	METHOD d getFuelProgress (I)I
-	METHOD g isActive ()Z
+	METHOD g isBurning ()Z
+	METHOD n craftRecipe ()V
+	METHOD o canAcceptRecipeOutput ()Z

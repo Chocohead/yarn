@@ -1,0 +1,2 @@
+CLASS agy net/minecraft/block/BlockWithEntity
+	METHOD u_ createBlockEntity ()Lkw;

@@ -2,6 +2,7 @@ CLASS gv net/minecraft/stat/Stats
 	FIELD A PLAYER_KILLS Lajw;
 	FIELD B FISH_CAUGHT Lajw;
 	FIELD C MINE_BLOCK [Lajw;
+	FIELD D CRAFTED [Lajw;
 	FIELD a STATS Ljava/util/Map;
 	FIELD f TIMES_PLAYED Lajw;
 	FIELD g WORLDS_CREATED Lajw;

@@ -1,1 +1,2 @@
 CLASS aho net/minecraft/block/FurnaceBlock
+	METHOD a setBurning (ZLxd;III)V

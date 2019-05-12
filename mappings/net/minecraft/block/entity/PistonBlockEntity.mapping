@@ -3,4 +3,7 @@ CLASS ou net/minecraft/block/entity/PistonBlockEntity
 	FIELD b blockData I
 	FIELD c facing I
 	FIELD d extending Z
+	FIELD f nextProgress F
 	FIELD g progress F
+	METHOD d isExtending ()Z
+	METHOD e getFacing ()I

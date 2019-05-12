@@ -1,16 +1,43 @@
 CLASS aan net/minecraft/item/ItemStack
 	FIELD a count I
+	FIELD b updateCooldown I
 	FIELD c itemId I
-	FIELD d data Lady;
+	FIELD d tag Lady;
 	FIELD e damage I
 	METHOD a getItem ()Lyr;
 	METHOD a applyDamage (ILacq;)V
+	METHOD a isEqualIgnoreFlags (Laan;)Z
+	METHOD a areTagsEqual (Laan;Laan;)Z
+	METHOD a interactWithEntity (Lacq;)V
+	METHOD a createFromTag (Lady;)Laan;
+	METHOD a addEnchantment (Ljt;I)V
+		ARG 2 level
+	METHOD a getBlockBreakingSpeed (Lpb;)F
+	METHOD a update (Lxd;Lnn;IZ)V
+	METHOD a use (Lxd;Lyw;)Laan;
+	METHOD a onCrafted (Lxd;Lyw;I)V
 	METHOD b setDamage (I)V
+	METHOD b areEqualIgnoreDurability (Laan;)Laan;
+	METHOD b areEqual (Laan;Laan;)Z
 	METHOD b toTag (Lady;)Lady;
+	METHOD b onItemFinishedUsing (Lxd;Lyw;)Laan;
+	METHOD c getMaxStackSize ()I
 	METHOD c fromTag (Lady;)V
-	METHOD d setNbt (Lady;)V
-	METHOD o getNbt ()Lady;
-	METHOD p getEnchantsTag ()Lno;
+	METHOD d canStack ()Z
+	METHOD d isEqual (Laan;)Z
+	METHOD d setTag (Lady;)V
+		ARG 1 tag
+	METHOD e hasDurability ()Z
+	METHOD g isDamaged ()Z
+	METHOD j getDurability ()I
+	METHOD k copy ()Laan;
+	METHOD l getMaxUseTime ()I
+	METHOD m getUseAction ()Laaq;
+	METHOD n hasTag ()Z
+	METHOD o getTag ()Lady;
+	METHOD p hasEnchantments ()Lno;
+	METHOD q getEnchantmentList ()Ljava/util/List;
 	METHOD r hasEnchantmentGlint ()Z
 	METHOD s getRarity ()Lfo;
+	METHOD t isEnchantable ()Z
 	METHOD u hasEnchants ()Z

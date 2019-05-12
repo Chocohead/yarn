@@ -1,2 +1,7 @@
 CLASS ali
+	METHOD a getBiome (II)Labn;
 	METHOD a getBlockId (III)I
+	METHOD b getBlockEntity (III)Lkw;
+	METHOD c getBrightness (III)F
+	METHOD e getBlockData (III)I
+	METHOD i isAir (III)Z

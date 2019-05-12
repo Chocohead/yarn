@@ -1,1 +1,2 @@
 CLASS de net/minecraft/block/DragonEggBlock
+	METHOD i activate (Lxd;III)V

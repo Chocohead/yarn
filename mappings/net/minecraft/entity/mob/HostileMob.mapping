@@ -1,1 +1,3 @@
 CLASS yy net/minecraft/entity/mob/HostileMob
+	FIELD c attackDamage I
+	METHOD aa checkLightLevelForSpawn ()Z
