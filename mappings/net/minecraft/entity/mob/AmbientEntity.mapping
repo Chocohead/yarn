@@ -1,3 +1,0 @@
-CLASS aql net/minecraft/entity/mob/AmbientEntity
-	METHOD <init> (Laij;Lbhh;)V
-		ARG 1 type

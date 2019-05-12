@@ -1,0 +1,2 @@
+CLASS hg net/minecraft/client/screen/container/BrewingStandScreen
+	FIELD h brewingStand Lamc;

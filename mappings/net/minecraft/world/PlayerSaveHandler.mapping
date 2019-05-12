@@ -1,3 +1,0 @@
-CLASS cog net/minecraft/world/PlayerSaveHandler
-	METHOD a savePlayerData (Lavx;)V
-	METHOD b loadPlayerData (Lavx;)Lib;

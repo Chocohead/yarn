@@ -1,3 +1,0 @@
-CLASS oy net/minecraft/server/network/packet/UpdateSelectedSlotC2SPacket
-	FIELD a selectedSlot I
-	METHOD b getSelectedSlot ()I

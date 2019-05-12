@@ -1,0 +1,3 @@
+CLASS alu net/minecraft/client/screen/SignScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b sign Lsc;

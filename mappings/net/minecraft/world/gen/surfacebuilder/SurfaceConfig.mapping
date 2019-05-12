@@ -1,3 +1,0 @@
-CLASS cjy net/minecraft/world/gen/surfacebuilder/SurfaceConfig
-	METHOD a getTopMaterial ()Lbvj;
-	METHOD b getUnderMaterial ()Lbvj;

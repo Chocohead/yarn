@@ -1,3 +1,0 @@
-CLASS gm net/minecraft/data/server/AdventureTabAdvancementGenerator
-	FIELD a BIOMES [Lbie;
-	FIELD b MONSTERS [Laij;

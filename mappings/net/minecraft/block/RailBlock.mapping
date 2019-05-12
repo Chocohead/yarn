@@ -1,4 +1,0 @@
-CLASS bqm net/minecraft/block/RailBlock
-	FIELD c SHAPE Lbwh;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

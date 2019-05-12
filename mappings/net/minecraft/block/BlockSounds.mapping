@@ -1,0 +1,2 @@
+CLASS vj net/minecraft/block/BlockSounds
+	METHOD a getBreakSound ()Ljava/lang/String;

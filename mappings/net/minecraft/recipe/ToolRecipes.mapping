@@ -1,0 +1,4 @@
+CLASS yz net/minecraft/recipe/ToolRecipes
+	FIELD a patterns [[Ljava/lang/String;
+	FIELD b items [[Ljava/lang/Object;
+	METHOD a addRecipes (Lfr;)V

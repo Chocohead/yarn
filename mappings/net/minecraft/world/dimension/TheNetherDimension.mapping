@@ -1,4 +1,0 @@
-CLASS bye net/minecraft/world/dimension/TheNetherDimension
-	METHOD <init> (Lbhh;Lbyd;)V
-		ARG 1 world
-		ARG 2 type

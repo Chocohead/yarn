@@ -1,2 +1,0 @@
-CLASS dfh net/minecraft/client/render/entity/model/ParrotEntityModel
-	CLASS dfh$a Pose

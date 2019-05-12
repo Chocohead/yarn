@@ -1,3 +1,0 @@
-CLASS dqc net/minecraft/client/render/entity/LeashKnotEntityRenderer
-	FIELD a SKIN Lqs;
-	FIELD f model Ldfa;

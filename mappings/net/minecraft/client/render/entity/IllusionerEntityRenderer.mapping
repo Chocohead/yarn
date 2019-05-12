@@ -1,2 +1,0 @@
-CLASS dpw net/minecraft/client/render/entity/IllusionerEntityRenderer
-	FIELD a SKIN Lqs;

@@ -1,3 +1,6 @@
-CLASS bul net/minecraft/block/entity/MobSpawnerBlockEntity
-	FIELD a logic Lbgo;
-	METHOD c getLogic ()Lbgo;
+CLASS cj net/minecraft/block/entity/MobSpawnerBlockEntity
+	FIELD a delay I
+	FIELD d entityId Ljava/lang/String;
+	METHOD a getEntityId ()Ljava/lang/String;
+	METHOD a setEntityId (Ljava/lang/String;)V
+	METHOD d resetDelay ()V

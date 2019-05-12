@@ -1,6 +1,0 @@
-CLASS cgk net/minecraft/world/gen/decorator/CountDecoratorConfig
-	FIELD a count I
-	METHOD <init> (I)V
-		ARG 1 count
-	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgk;
-		ARG 0 dynamic

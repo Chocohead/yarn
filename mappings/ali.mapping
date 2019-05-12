@@ -1,0 +1,2 @@
+CLASS ali
+	METHOD a getBlockId (III)I

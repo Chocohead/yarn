@@ -1,0 +1,2 @@
+CLASS at
+	METHOD a read (Ljava/io/DataInput;)Lady;

@@ -1,4 +1,0 @@
-CLASS avr net/minecraft/world/WanderingTraderManager
-	FIELD a random Ljava/util/Random;
-	FIELD b world Lvg;
-	METHOD a tick ()V

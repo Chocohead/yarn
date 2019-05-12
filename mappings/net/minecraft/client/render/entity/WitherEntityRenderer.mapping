@@ -1,3 +1,0 @@
-CLASS dry net/minecraft/client/render/entity/WitherEntityRenderer
-	FIELD a INVINCIBLE_SKIN Lqs;
-	FIELD j SKIN Lqs;

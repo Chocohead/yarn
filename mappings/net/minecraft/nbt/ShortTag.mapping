@@ -1,4 +1,1 @@
-CLASS iq net/minecraft/nbt/ShortTag
-	FIELD f value S
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS ow net/minecraft/nbt/ShortTag

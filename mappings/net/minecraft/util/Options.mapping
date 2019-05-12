@@ -1,0 +1,5 @@
+CLASS zq net/minecraft/util/Options
+	FIELD t name Ljava/lang/String;
+	METHOD a getOption (I)Lzq;
+	METHOD c getId ()I
+	METHOD d getName ()Ljava/lang/String;

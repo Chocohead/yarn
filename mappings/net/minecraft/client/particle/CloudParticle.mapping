@@ -1,3 +1,0 @@
-CLASS diy net/minecraft/client/particle/CloudParticle
-	CLASS diy$a CloudFactory
-	CLASS diy$b SneezeFactory

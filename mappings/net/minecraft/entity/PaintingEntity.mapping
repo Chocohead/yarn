@@ -1,0 +1,2 @@
+CLASS mk net/minecraft/entity/PaintingEntity
+	FIELD e type Lgo;

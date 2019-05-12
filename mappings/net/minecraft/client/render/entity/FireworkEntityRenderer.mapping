@@ -1,2 +1,0 @@
-CLASS dpl net/minecraft/client/render/entity/FireworkEntityRenderer
-	FIELD a itemRenderer Ldqa;

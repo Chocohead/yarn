@@ -1,3 +1,0 @@
-CLASS tb net/minecraft/server/dedicated/command/SaveOnCommand
-	FIELD a ALREADY_ON_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

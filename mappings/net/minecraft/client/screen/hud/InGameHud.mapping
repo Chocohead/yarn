@@ -1,0 +1,15 @@
+CLASS aiy net/minecraft/client/screen/hud/InGameHud
+	FIELD h random Ljava/util/Random;
+	FIELD i minecraft Lnet/minecraft/client/Minecraft;
+	FIELD k overlayMessage Ljava/lang/String;
+	FIELD l overlayTimeRemaining I
+	FIELD m overlayTinted Z
+	METHOD a tick ()V
+	METHOD a renderVignetteOverlay (FII)V
+		ARG 2 scaledWidth
+		ARG 3 scaledHeight
+	METHOD b clear ()V
+	METHOD b renderPumpkinOverlay (II)V
+	METHOD b setOverlayMessage (Ljava/lang/String;)V
+	METHOD e isChatOpen ()Z
+	METHOD f draw ()V

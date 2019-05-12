@@ -1,2 +1,0 @@
-CLASS dqf net/minecraft/client/render/entity/LlamaEntityRenderer
-	FIELD a TEXTURES [Lqs;

@@ -1,3 +1,0 @@
-CLASS oi net/minecraft/server/network/packet/UpdateDifficultyLockC2SPacket
-	FIELD a difficultyLocked Z
-	METHOD b isDifficultyLocked ()Z

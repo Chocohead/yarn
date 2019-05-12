@@ -1,3 +1,0 @@
-CLASS mj net/minecraft/client/network/packet/SelectAdvancementTabS2CPacket
-	FIELD a tabId Lqs;
-	METHOD b getTabId ()Lqs;

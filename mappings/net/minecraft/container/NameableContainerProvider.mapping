@@ -1,2 +1,0 @@
-CLASS ahd net/minecraft/container/NameableContainerProvider
-	METHOD d getDisplayName ()Ljm;

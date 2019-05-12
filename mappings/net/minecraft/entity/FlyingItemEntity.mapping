@@ -1,2 +1,0 @@
-CLASS awj net/minecraft/entity/FlyingItemEntity
-	METHOD f getStack ()Lbca;

@@ -1,0 +1,10 @@
+CLASS dy net/minecraft/recipe/SmeltingRecipes
+	FIELD a INSTANCE Ldy;
+	FIELD b recipes Ljava/util/Map;
+	METHOD a getInstance ()Ldy;
+	METHOD a getOutput (I)Laan;
+		ARG 1 ingredientId
+	METHOD a addRecipes (ILaan;)V
+		ARG 1 ingredientId
+		ARG 2 output
+	METHOD b getRecipes ()Ljava/util/Map;

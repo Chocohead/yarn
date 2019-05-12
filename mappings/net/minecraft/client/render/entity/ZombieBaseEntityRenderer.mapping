@@ -1,2 +1,0 @@
-CLASS dog net/minecraft/client/render/entity/ZombieBaseEntityRenderer
-	FIELD a SKIN Lqs;

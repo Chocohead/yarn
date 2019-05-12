@@ -1,3 +1,0 @@
-CLASS no net/minecraft/client/network/packet/SynchronizeTagsS2CPacket
-	FIELD a tagManager Lzd;
-	METHOD b getTagManager ()Lzd;

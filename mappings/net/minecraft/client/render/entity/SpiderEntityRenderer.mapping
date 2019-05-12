@@ -1,2 +1,0 @@
-CLASS drg net/minecraft/client/render/entity/SpiderEntityRenderer
-	FIELD a SKIN Lqs;

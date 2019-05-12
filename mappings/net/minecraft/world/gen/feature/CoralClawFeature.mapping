@@ -1,3 +1,0 @@
-CLASS cac net/minecraft/world/gen/feature/CoralClawFeature
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory

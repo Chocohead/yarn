@@ -1,4 +1,0 @@
-CLASS bsf net/minecraft/block/FernBlock
-	FIELD a SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

@@ -1,0 +1,19 @@
+CLASS agu net/minecraft/client/screen/TextField
+	FIELD a textRenderer Lnl;
+	FIELD f text Ljava/lang/String;
+	FIELD h maxLength I
+	FIELD i focusedTicks I
+	FIELD o cursorMax I
+	FIELD p cursorMin I
+	METHOD a tick ()V
+	METHOD a onKeyPressed (CI)Z
+	METHOD a setText (Ljava/lang/String;)V
+	METHOD b getText ()Ljava/lang/String;
+	METHOD b addText (Ljava/lang/String;)V
+	METHOD c getSelectedText ()Ljava/lang/String;
+	METHOD e onTextChanged ()V
+	METHOD f render ()V
+	METHOD f setMaxLength (I)V
+	METHOD g getMaxLength ()I
+	METHOD h getCursorMax ()I
+	METHOD k getCursorMin ()I

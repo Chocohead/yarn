@@ -1,3 +1,0 @@
-CLASS aad net/minecraft/datafixers/DataFixTypes
-	FIELD k typeReference Lcom/mojang/datafixers/DSL$TypeReference;
-	METHOD a getTypeReference ()Lcom/mojang/datafixers/DSL$TypeReference;

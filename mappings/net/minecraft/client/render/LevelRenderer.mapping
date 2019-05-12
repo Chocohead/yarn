@@ -1,0 +1,3 @@
+CLASS l net/minecraft/client/render/LevelRenderer
+	FIELD i world Lxd;
+	METHOD d tick ()V

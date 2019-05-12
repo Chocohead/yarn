@@ -1,0 +1,2 @@
+CLASS dq
+	METHOD a getChestLoot (Ljava/util/Random;)Laan;

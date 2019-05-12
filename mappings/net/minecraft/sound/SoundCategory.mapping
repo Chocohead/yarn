@@ -1,5 +1,0 @@
-CLASS yl net/minecraft/sound/SoundCategory
-	FIELD h PLAYERS Lyl;
-	FIELD k NAME_MAP Ljava/util/Map;
-	FIELD l name Ljava/lang/String;
-	METHOD a getName ()Ljava/lang/String;

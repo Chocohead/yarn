@@ -1,4 +1,1 @@
-CLASS boc net/minecraft/block/EndPortalBlock
-	FIELD a SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS tc net/minecraft/block/EndPortalBlock

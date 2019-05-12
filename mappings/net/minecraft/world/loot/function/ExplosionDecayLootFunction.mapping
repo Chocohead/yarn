@@ -1,5 +1,0 @@
-CLASS cpl net/minecraft/world/loot/function/ExplosionDecayLootFunction
-	CLASS cpl$a Factory
-	METHOD <init> ([Lcqy;)V
-		ARG 1 conditions
-	METHOD b builder ()Lcpu$a;

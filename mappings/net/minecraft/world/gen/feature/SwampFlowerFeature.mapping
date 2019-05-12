@@ -1,3 +1,0 @@
-CLASS cel net/minecraft/world/gen/feature/SwampFlowerFeature
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory

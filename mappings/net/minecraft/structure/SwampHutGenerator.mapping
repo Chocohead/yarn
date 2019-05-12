@@ -1,3 +1,0 @@
-CLASS cim net/minecraft/structure/SwampHutGenerator
-	FIELD e hasWitch Z
-	FIELD f hasCat Z

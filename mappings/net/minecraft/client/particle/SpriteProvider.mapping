@@ -1,3 +1,0 @@
-CLASS djg net/minecraft/client/particle/SpriteProvider
-	METHOD a getSprite (II)Ldug;
-	METHOD a getSprite (Ljava/util/Random;)Ldug;

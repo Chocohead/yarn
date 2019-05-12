@@ -1,2 +1,0 @@
-CLASS cfa net/minecraft/structure/pool/EmptyPoolElement
-	FIELD a INSTANCE Lcfa;

@@ -1,0 +1,2 @@
+CLASS uy net/minecraft/client/screen/DeathScreen
+	FIELD a ticksSinceDeath I

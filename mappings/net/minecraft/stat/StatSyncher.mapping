@@ -1,0 +1,4 @@
+CLASS vc net/minecraft/stat/StatSyncher
+	FIELD a busy Z
+	METHOD a getStats ()V
+	METHOD a saveStats (Ljava/util/Map;)V

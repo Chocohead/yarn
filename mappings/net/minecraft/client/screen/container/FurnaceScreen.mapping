@@ -1,0 +1,2 @@
+CLASS kv net/minecraft/client/screen/container/FurnaceScreen
+	FIELD h furnace Lahg;

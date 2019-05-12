@@ -1,3 +1,0 @@
-CLASS bsk net/minecraft/block/TrappedChestBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

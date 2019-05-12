@@ -1,3 +1,1 @@
-CLASS bql net/minecraft/block/PumpkinBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS xa net/minecraft/block/PumpkinBlock

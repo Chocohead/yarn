@@ -1,33 +1,14 @@
-CLASS btm net/minecraft/block/entity/BlockEntity
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b type Lbtn;
-	FIELD c cachedState Lbvj;
-	FIELD d world Lbhh;
-	FIELD e pos Lev;
-	FIELD f invalid Z
-	METHOD W_ getSquaredRenderDistance ()D
-	METHOD a toUpdatePacket ()Lkn;
-	METHOD a getSquaredDistance (DDD)D
-		ARG 1 x
-	METHOD a setWorld (Lbhh;)V
-	METHOD a applyMirror (Lbpw;)V
-	METHOD a applyRotation (Lbqw;)V
-	METHOD a populateCrashReport (Le;)V
-	METHOD a setPos (Lev;)V
-	METHOD a fromTag (Lib;)V
-	METHOD a_ onBlockAction (II)Z
-	METHOD b toInitialChunkDataTag ()Lib;
-	METHOD b toTag (Lib;)Lib;
-	METHOD c createFromTag (Lib;)Lbtm;
-	METHOD d writeIdentifyingData (Lib;)Lib;
-	METHOD e markDirty ()V
-	METHOD i hasWorld ()Z
-	METHOD j getPos ()Lev;
-	METHOD k getCachedState ()Lbvj;
-	METHOD l isInvalid ()Z
-	METHOD m invalidate ()V
-	METHOD n validate ()V
-	METHOD o resetBlock ()V
-	METHOD p shouldNotCopyTagFromItem ()Z
-	METHOD q getType ()Lbtn;
-	METHOD w getWorld ()Lbhh;
+CLASS kw net/minecraft/block/entity/BlockEntity
+	FIELD a ID_TO_CLASS_MAP Ljava/util/Map;
+	FIELD b CLASS_TO_ID_MAP Ljava/util/Map;
+	FIELD i world Lxd;
+	FIELD j x I
+	FIELD k y I
+	FIELD l z I
+	METHOD a fromTag (Lady;)V
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 blockEntityClass
+		ARG 1 id
+	METHOD b toTag (Lady;)V
+	METHOD c createFromTag (Lady;)Lkw;
+	METHOD n_ tick ()V

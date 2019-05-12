@@ -1,2 +1,0 @@
-CLASS adq net/minecraft/datafixers/mapping/LegacyCoralFanBlockMapping
-	FIELD a MAP Ljava/util/Map;

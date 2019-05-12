@@ -1,2 +1,0 @@
-CLASS dru net/minecraft/client/render/entity/VillagerEntityRenderer
-	FIELD a VILLAGER_SKIN Lqs;

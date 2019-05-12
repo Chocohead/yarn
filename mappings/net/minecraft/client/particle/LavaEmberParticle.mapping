@@ -1,2 +1,0 @@
-CLASS dip net/minecraft/client/particle/LavaEmberParticle
-	CLASS dip$a Factory

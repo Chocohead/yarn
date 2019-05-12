@@ -1,3 +1,0 @@
-CLASS y net/minecraft/advancement/criterion/CriterionConditions
-	METHOD a getId ()Lqs;
-	METHOD b toJson ()Lcom/google/gson/JsonElement;

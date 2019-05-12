@@ -1,0 +1,2 @@
+CLASS aal
+	FIELD c gameOptions Lhu;

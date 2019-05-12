@@ -1,3 +1,0 @@
-CLASS xx net/minecraft/server/Whitelist
-	METHOD a isAllowed (Lcom/mojang/authlib/GameProfile;)Z
-		ARG 1 profile

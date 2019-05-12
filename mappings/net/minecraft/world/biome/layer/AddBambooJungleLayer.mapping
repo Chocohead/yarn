@@ -1,3 +1,0 @@
-CLASS cmc net/minecraft/world/biome/layer/AddBambooJungleLayer
-	FIELD b JUNGLE_ID I
-	FIELD c BAMBOO_JUNGLE_ID I

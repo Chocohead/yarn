@@ -1,0 +1,8 @@
+CLASS alg net/minecraft/moveme/PotionEffect
+	FIELD a id I
+	FIELD b duration I
+	FIELD c amplifier I
+	METHOD a getId ()I
+	METHOD a matchEffect (Lalg;)V
+	METHOD b getDuration ()I
+	METHOD c getAmplifier ()I

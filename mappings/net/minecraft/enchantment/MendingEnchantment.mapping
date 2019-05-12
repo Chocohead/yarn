@@ -1,4 +1,0 @@
-CLASS bfs net/minecraft/enchantment/MendingEnchantment
-	METHOD <init> (Lbfi$a;[Laik;)V
-		ARG 1 weight
-		ARG 2 slotTypes

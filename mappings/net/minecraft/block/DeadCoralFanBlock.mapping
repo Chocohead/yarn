@@ -1,4 +1,0 @@
-CLASS blx net/minecraft/block/DeadCoralFanBlock
-	FIELD a SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

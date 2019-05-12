@@ -1,3 +1,0 @@
-CLASS ain net/minecraft/util/AbsoluteHand
-	FIELD c name Ljm;
-	METHOD a getOpposite ()Lain;

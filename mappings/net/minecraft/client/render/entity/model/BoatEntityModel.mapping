@@ -1,2 +1,0 @@
-CLASS dea net/minecraft/client/render/entity/model/BoatEntityModel
-	METHOD c renderPass (Laif;FFFFFF)V

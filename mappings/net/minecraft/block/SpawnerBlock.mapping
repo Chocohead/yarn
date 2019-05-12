@@ -1,3 +1,0 @@
-CLASS brp net/minecraft/block/SpawnerBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

@@ -1,3 +1,0 @@
-CLASS bog net/minecraft/block/BlockEntityProvider
-	METHOD a createBlockEntity (Lbgr;)Lbtm;
-		ARG 1 view

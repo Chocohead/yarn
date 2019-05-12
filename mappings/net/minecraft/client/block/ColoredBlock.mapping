@@ -1,2 +1,0 @@
-CLASS bme net/minecraft/client/block/ColoredBlock
-	METHOD a getColor ()Lbax;

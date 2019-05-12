@@ -1,2 +1,0 @@
-CLASS dil net/minecraft/client/particle/ExplosionLargeParticle
-	CLASS dil$a Factory

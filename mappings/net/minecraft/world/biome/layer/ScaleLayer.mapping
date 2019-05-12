@@ -1,2 +1,0 @@
-CLASS cmm net/minecraft/world/biome/layer/ScaleLayer
-	FIELD b FUZZY Lcmm;

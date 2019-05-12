@@ -1,3 +1,1 @@
-CLASS bos net/minecraft/block/GlassBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS xj net/minecraft/block/GlassBlock

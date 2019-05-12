@@ -1,3 +1,0 @@
-CLASS nu net/minecraft/server/network/packet/UpdateDifficultyC2SPacket
-	FIELD a difficulty Lagx;
-	METHOD b getDifficulty ()Lagx;

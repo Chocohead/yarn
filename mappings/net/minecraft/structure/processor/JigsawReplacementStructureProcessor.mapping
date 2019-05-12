@@ -1,2 +1,0 @@
-CLASS ciw net/minecraft/structure/processor/JigsawReplacementStructureProcessor
-	FIELD a INSTANCE Lciw;

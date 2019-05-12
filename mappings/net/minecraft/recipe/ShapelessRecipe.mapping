@@ -1,0 +1,2 @@
+CLASS aif net/minecraft/recipe/ShapelessRecipe
+	FIELD b items Ljava/util/List;

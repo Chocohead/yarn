@@ -1,0 +1,2 @@
+CLASS ox
+	FIELD a random Ljava/util/Random;

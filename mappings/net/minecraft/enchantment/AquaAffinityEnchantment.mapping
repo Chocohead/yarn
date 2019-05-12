@@ -1,4 +1,0 @@
-CLASS bgg net/minecraft/enchantment/AquaAffinityEnchantment
-	METHOD <init> (Lbfi$a;[Laik;)V
-		ARG 1 weight
-		ARG 2 slotTypes

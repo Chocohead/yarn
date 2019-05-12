@@ -1,9 +1,0 @@
-CLASS ws net/minecraft/resource/ResourcePackCompatibility
-	FIELD a TOO_OLD Lws;
-	FIELD b TOO_NEW Lws;
-	FIELD d notification Ljm;
-	FIELD e confirmMessage Ljm;
-	METHOD a isCompatible ()Z
-	METHOD a from (I)Lws;
-	METHOD b getNotification ()Ljm;
-	METHOD c getConfirmMessage ()Ljm;

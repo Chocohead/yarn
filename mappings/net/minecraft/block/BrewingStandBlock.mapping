@@ -1,5 +1,1 @@
-CLASS bmo net/minecraft/block/BrewingStandBlock
-	FIELD a BOTTLE_PROPERTIES [Lbwb;
-	FIELD b SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS xc net/minecraft/block/BrewingStandBlock

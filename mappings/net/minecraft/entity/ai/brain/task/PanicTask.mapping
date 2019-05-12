@@ -1,5 +1,0 @@
-CLASS akl net/minecraft/entity/ai/brain/task/PanicTask
-	METHOD a isHostileNearby (Laio;)Z
-		ARG 0 entity
-	METHOD b wasHurt (Laio;)Z
-		ARG 0 entity

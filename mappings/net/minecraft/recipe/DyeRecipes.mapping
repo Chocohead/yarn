@@ -1,0 +1,2 @@
+CLASS jr net/minecraft/recipe/DyeRecipes
+	METHOD a addRecipes (Lfr;)V

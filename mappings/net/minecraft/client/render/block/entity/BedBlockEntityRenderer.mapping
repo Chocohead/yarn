@@ -1,3 +1,0 @@
-CLASS dmh net/minecraft/client/render/block/entity/BedBlockEntityRenderer
-	FIELD c TEXTURES [Lqs;
-	FIELD d model Lddx;

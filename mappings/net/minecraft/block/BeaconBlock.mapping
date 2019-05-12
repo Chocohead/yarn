@@ -1,3 +1,0 @@
-CLASS bmf net/minecraft/block/BeaconBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

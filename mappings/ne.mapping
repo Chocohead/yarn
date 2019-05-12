@@ -1,0 +1,8 @@
+CLASS ne
+	FIELD a foodLevel I
+	FIELD b foodSaturationLevel F
+	FIELD c foodExhaustionLevel F
+	FIELD d foodTickTimer I
+	METHOD a getFoodLevel ()I
+	METHOD a fromTag (Lady;)V
+	METHOD b toTag (Lady;)V

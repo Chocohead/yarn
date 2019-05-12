@@ -1,5 +1,0 @@
-CLASS alm net/minecraft/entity/ai/brain/task/ForgetCompletedPointOfInterestTask
-	FIELD a memoryModule Lapb;
-	FIELD b condition Ljava/util/function/Predicate;
-	METHOD <init> (Laqj;Lapb;)V
-		ARG 2 memoryModule

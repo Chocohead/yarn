@@ -1,3 +1,0 @@
-CLASS ccs net/minecraft/world/gen/feature/DefaultFeatureConfig
-	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccs;
-		ARG 0 dynamic

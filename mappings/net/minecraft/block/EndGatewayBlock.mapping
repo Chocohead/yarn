@@ -1,3 +1,0 @@
-CLASS bob net/minecraft/block/EndGatewayBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

@@ -1,2 +1,0 @@
-CLASS h net/minecraft/util/UncaughtExceptionHandler
-	FIELD a logger Lorg/apache/logging/log4j/Logger;

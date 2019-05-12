@@ -1,2 +1,0 @@
-CLASS dgs net/minecraft/client/render/entity/model/WolfEntityModel
-	FIELD a head Ldhb;

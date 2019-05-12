@@ -1,4 +1,1 @@
-CLASS bfq net/minecraft/enchantment/KnockbackEnchantment
-	METHOD <init> (Lbfi$a;[Laik;)V
-		ARG 1 weight
-		ARG 2 slot
+CLASS ls net/minecraft/enchantment/KnockbackEnchantment

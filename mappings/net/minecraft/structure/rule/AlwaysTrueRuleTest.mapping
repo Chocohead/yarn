@@ -1,2 +1,0 @@
-CLASS ciq net/minecraft/structure/rule/AlwaysTrueRuleTest
-	FIELD a INSTANCE Lciq;

@@ -1,2 +1,0 @@
-CLASS oc net/minecraft/server/network/packet/GuiCloseC2SPacket
-	FIELD a id I

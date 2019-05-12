@@ -1,2 +1,0 @@
-CLASS dqb net/minecraft/client/render/entity/MagmaCubeEntityRenderer
-	FIELD a SKIN Lqs;

@@ -1,0 +1,2 @@
+CLASS xs net/minecraft/client/screen/AddServerScreen
+	FIELD a screen Lvp;

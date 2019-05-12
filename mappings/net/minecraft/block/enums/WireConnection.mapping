@@ -1,2 +1,0 @@
-CLASS bwo net/minecraft/block/enums/WireConnection
-	FIELD d name Ljava/lang/String;

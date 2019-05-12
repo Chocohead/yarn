@@ -1,2 +1,0 @@
-CLASS dox net/minecraft/client/render/entity/DolphinEntityRenderer
-	FIELD a SKIN Lqs;

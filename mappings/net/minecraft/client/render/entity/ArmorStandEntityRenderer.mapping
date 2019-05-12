@@ -1,2 +1,0 @@
-CLASS doj net/minecraft/client/render/entity/ArmorStandEntityRenderer
-	FIELD a TEX Lqs;

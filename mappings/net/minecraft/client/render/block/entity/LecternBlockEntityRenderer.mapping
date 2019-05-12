@@ -1,3 +1,0 @@
-CLASS dmp net/minecraft/client/render/block/entity/LecternBlockEntityRenderer
-	FIELD c BOOK_TEXTURE Lqs;
-	FIELD d book Ldeb;

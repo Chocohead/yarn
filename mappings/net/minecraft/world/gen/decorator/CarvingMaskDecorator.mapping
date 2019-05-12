@@ -1,3 +1,0 @@
-CLASS cfp net/minecraft/world/gen/decorator/CarvingMaskDecorator
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configDeserializer

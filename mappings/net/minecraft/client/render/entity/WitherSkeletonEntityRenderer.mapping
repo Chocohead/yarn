@@ -1,2 +1,0 @@
-CLASS drz net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
-	FIELD a SKIN Lqs;

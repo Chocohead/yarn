@@ -1,0 +1,8 @@
+CLASS aak net/minecraft/util/PlayerInventory
+	FIELD a main [Laan;
+	FIELD c selectedHotbarSlot I
+	FIELD d player Lyw;
+	METHOD a insertStack (Laan;)Z
+	METHOD b getHandStack ()Laan;
+	METHOD h getSlotWithStack (I)I
+		ARG 1 id

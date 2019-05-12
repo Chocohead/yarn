@@ -1,2 +1,0 @@
-CLASS abn net/minecraft/datafixers/fixes/EntityHealthFix
-	FIELD a ENTITIES Ljava/util/Set;

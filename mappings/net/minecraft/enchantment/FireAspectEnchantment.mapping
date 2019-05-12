@@ -1,4 +1,1 @@
-CLASS bfn net/minecraft/enchantment/FireAspectEnchantment
-	METHOD <init> (Lbfi$a;[Laik;)V
-		ARG 1 weight
-		ARG 2 slotTypes
+CLASS acg net/minecraft/enchantment/FireAspectEnchantment

@@ -1,2 +1,0 @@
-CLASS bwd net/minecraft/block/enums/ComparatorMode
-	FIELD c name Ljava/lang/String;

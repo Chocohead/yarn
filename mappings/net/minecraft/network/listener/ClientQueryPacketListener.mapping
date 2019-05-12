@@ -1,3 +1,0 @@
-CLASS pz net/minecraft/network/listener/ClientQueryPacketListener
-	METHOD a onPong (Lqa;)V
-	METHOD a onResponse (Lqb;)V

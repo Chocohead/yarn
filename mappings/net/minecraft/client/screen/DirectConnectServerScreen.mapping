@@ -1,0 +1,4 @@
+CLASS acz net/minecraft/client/screen/DirectConnectServerScreen
+	FIELD a parent Lvp;
+	FIELD b addressField Lagu;
+	FIELD c serverEntry Loa;

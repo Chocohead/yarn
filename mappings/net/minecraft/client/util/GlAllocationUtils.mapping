@@ -1,8 +1,5 @@
-CLASS ctt net/minecraft/client/util/GlAllocationUtils
-	METHOD a genLists (I)I
-	METHOD a deleteLists (II)V
-	METHOD b deleteSingletonList (I)V
+CLASS ew net/minecraft/client/util/GlAllocationUtils
+	METHOD b deleteLists (I)V
 	METHOD c allocateByteBuffer (I)Ljava/nio/ByteBuffer;
-		ARG 0 size
-	METHOD d allocateFloatBuffer (I)Ljava/nio/FloatBuffer;
-		ARG 0 size
+	METHOD d allocateIntBuffer (I)Ljava/nio/IntBuffer;
+	METHOD e allocateFloatBuffer (I)Ljava/nio/FloatBuffer;

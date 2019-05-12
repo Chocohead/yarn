@@ -1,5 +1,3 @@
-CLASS bay net/minecraft/item/DyeItem
-	FIELD a dyes Ljava/util/Map;
-	FIELD b color Lbax;
-	METHOD a fromColor (Lbax;)Lbay;
-	METHOD d getColor ()Lbax;
+CLASS hm net/minecraft/item/DyeItem
+	FIELD a names [Ljava/lang/String;
+	FIELD b colors [I

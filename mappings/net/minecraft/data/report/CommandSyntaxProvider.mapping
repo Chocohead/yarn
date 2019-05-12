@@ -1,2 +1,0 @@
-CLASS gt net/minecraft/data/report/CommandSyntaxProvider
-	FIELD c root Lgi;

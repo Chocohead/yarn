@@ -1,3 +1,0 @@
-CLASS bpu net/minecraft/block/MagmaBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

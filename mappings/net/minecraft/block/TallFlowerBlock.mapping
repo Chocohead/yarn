@@ -1,3 +1,0 @@
-CLASS bse net/minecraft/block/TallFlowerBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

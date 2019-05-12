@@ -1,2 +1,0 @@
-CLASS dqo net/minecraft/client/render/entity/PhantomEntityRenderer
-	FIELD a SKIN Lqs;

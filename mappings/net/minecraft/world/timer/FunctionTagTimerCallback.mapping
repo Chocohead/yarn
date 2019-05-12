@@ -1,3 +1,0 @@
-CLASS crk net/minecraft/world/timer/FunctionTagTimerCallback
-	CLASS crk$a Serializer
-	FIELD a name Lqs;

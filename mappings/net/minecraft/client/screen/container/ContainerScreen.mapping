@@ -1,0 +1,5 @@
+CLASS gb net/minecraft/client/screen/container/ContainerScreen
+	FIELD b containerWidth I
+	FIELD c containerHeight I
+	METHOD a drawBackground (FII)V
+	METHOD d drawForeground ()V

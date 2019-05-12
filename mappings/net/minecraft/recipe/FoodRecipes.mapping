@@ -1,0 +1,2 @@
+CLASS aeg net/minecraft/recipe/FoodRecipes
+	METHOD a addRecipes (Lfr;)V

@@ -1,3 +1,0 @@
-CLASS wi net/minecraft/resource/ResourceType
-	FIELD c name Ljava/lang/String;
-	METHOD a getName ()Ljava/lang/String;

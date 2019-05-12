@@ -1,5 +1,1 @@
-CLASS bai net/minecraft/item/GlassBottleItem
-	METHOD a fill (Lbca;Lavx;Lbca;)Lbca;
-		ARG 1 emptyBottle
-		ARG 2 player
-		ARG 3 filledBottle
+CLASS aio net/minecraft/item/GlassBottleItem

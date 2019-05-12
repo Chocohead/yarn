@@ -1,0 +1,4 @@
+CLASS mi net/minecraft/client/screen/YesNoScreen
+	FIELD a parent Lvp;
+	FIELD c yesLabel Ljava/lang/String;
+	FIELD d noLabel Ljava/lang/String;

@@ -1,3 +1,0 @@
-CLASS lu net/minecraft/client/network/packet/OpenWrittenBookS2CPacket
-	FIELD a hand Lagz;
-	METHOD b getHand ()Lagz;

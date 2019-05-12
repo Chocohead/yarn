@@ -1,2 +1,0 @@
-CLASS dpe net/minecraft/client/render/entity/EndermiteEntityRenderer
-	FIELD a SKIN Lqs;

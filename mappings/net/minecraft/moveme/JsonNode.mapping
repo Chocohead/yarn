@@ -1,0 +1,4 @@
+CLASS fd net/minecraft/moveme/JsonNode
+	METHOD b getText ()Ljava/lang/String;
+	METHOD c getFields ()Ljava/util/Map;
+	METHOD d getElements ()Ljava/util/List;

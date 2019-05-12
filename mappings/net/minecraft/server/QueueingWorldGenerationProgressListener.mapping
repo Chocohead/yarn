@@ -1,5 +1,0 @@
-CLASS vs net/minecraft/server/QueueingWorldGenerationProgressListener
-	FIELD a progressListener Lvp;
-	FIELD b queue Lagk;
-	METHOD <init> (Lvp;Ljava/util/concurrent/Executor;)V
-		ARG 1 progressListener

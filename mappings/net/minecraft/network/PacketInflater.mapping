@@ -1,4 +1,0 @@
-CLASS iy net/minecraft/network/PacketInflater
-	FIELD a inflater Ljava/util/zip/Inflater;
-	FIELD b minCompressedSize I
-	METHOD a setCompressionThreshold (I)V

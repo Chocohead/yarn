@@ -1,3 +1,0 @@
-CLASS ux net/minecraft/server/network/DemoServerPlayerInteractionManager
-	FIELD d demoEnded Z
-	METHOD f sendDemoReminder ()V

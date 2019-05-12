@@ -1,3 +1,0 @@
-CLASS pi net/minecraft/server/network/packet/PlayerInteractItemC2SPacket
-	FIELD a hand Lagz;
-	METHOD b getHand ()Lagz;

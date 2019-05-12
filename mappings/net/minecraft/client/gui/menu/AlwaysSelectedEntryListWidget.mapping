@@ -1,2 +1,0 @@
-CLASS cwy net/minecraft/client/gui/menu/AlwaysSelectedEntryListWidget
-	CLASS cwy$a Entry

@@ -1,3 +1,0 @@
-CLASS don net/minecraft/client/render/entity/BoatEntityRenderer
-	FIELD a model Ldea;
-	FIELD f SKIN [Lqs;

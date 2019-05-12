@@ -1,0 +1,4 @@
+CLASS gy
+	FIELD a INSTANCE Lgy;
+	FIELD b random Ljava/util/Random;
+	METHOD a setSeed (J)V

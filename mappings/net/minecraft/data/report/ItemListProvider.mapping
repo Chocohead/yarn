@@ -1,2 +1,0 @@
-CLASS gu net/minecraft/data/report/ItemListProvider
-	FIELD c root Lgi;

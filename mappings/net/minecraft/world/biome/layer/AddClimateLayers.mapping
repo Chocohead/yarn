@@ -1,4 +1,0 @@
-CLASS clr net/minecraft/world/biome/layer/AddClimateLayers
-	CLASS clr$a AddTemperateBiomesLayer
-	CLASS clr$b AddCoolBiomesLayer
-	CLASS clr$c AddSpecialBiomesLayer

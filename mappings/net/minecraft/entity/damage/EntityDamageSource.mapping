@@ -1,4 +1,4 @@
-CLASS ahp net/minecraft/entity/damage/EntityDamageSource
-	FIELD x source Laif;
-	METHOD <init> (Ljava/lang/String;Laif;)V
+CLASS fl net/minecraft/entity/damage/EntityDamageSource
+	FIELD a entity Lnn;
+	METHOD <init> (Ljava/lang/String;Lnn;)V
 		ARG 1 name

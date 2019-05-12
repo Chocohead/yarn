@@ -1,2 +1,0 @@
-CLASS ad net/minecraft/advancement/criterion/AbstractCriterionConditions
-	FIELD a id Lqs;

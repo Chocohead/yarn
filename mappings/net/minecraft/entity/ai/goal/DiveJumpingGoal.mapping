@@ -1,3 +1,0 @@
-CLASS amz net/minecraft/entity/ai/goal/DiveJumpingGoal
-	METHOD a updatePitch (FFF)F
-		ARG 1 previousPitch

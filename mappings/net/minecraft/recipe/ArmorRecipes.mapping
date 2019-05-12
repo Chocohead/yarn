@@ -1,0 +1,4 @@
+CLASS tk net/minecraft/recipe/ArmorRecipes
+	FIELD a patterns [[Ljava/lang/String;
+	FIELD b items [[Ljava/lang/Object;
+	METHOD a addRecipes (Lfr;)V

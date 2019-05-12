@@ -1,2 +1,0 @@
-CLASS dri net/minecraft/client/render/entity/StrayEntityRenderer
-	FIELD a SKIN Lqs;

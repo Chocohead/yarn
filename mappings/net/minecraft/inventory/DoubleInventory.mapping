@@ -1,4 +1,4 @@
-CLASS ags net/minecraft/inventory/DoubleInventory
-	FIELD a first Lagt;
-	FIELD b second Lagt;
-	METHOD a isPart (Lagt;)Z
+CLASS kl net/minecraft/inventory/DoubleInventory
+	FIELD a invName Ljava/lang/String;
+	FIELD b leftInv Lio;
+	FIELD c rightInv Lio;

@@ -1,2 +1,0 @@
-CLASS dqv net/minecraft/client/render/entity/IllagerBeastEntityRenderer
-	FIELD a SKIN Lqs;

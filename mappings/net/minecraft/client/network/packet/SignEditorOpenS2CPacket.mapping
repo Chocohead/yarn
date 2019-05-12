@@ -1,3 +1,0 @@
-CLASS lw net/minecraft/client/network/packet/SignEditorOpenS2CPacket
-	FIELD a pos Lev;
-	METHOD b getPos ()Lev;

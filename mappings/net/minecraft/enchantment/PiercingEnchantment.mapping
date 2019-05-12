@@ -1,4 +1,0 @@
-CLASS bfd net/minecraft/enchantment/PiercingEnchantment
-	METHOD <init> (Lbfi$a;[Laik;)V
-		ARG 1 weight
-		ARG 2 slotTypes

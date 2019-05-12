@@ -1,3 +1,0 @@
-CLASS agr net/minecraft/util/Clearable
-	METHOD M_ clear ()V
-	METHOD a clear (Ljava/lang/Object;)V

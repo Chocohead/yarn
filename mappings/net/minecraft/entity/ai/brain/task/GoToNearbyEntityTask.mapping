@@ -1,2 +1,0 @@
-CLASS akz net/minecraft/entity/ai/brain/task/GoToNearbyEntityTask
-	FIELD a entityMemory Lapb;

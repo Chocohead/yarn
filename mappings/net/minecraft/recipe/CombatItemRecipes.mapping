@@ -1,0 +1,4 @@
+CLASS alc net/minecraft/recipe/CombatItemRecipes
+	FIELD a swordPattern [[Ljava/lang/String;
+	FIELD b items [[Ljava/lang/Object;
+	METHOD a addRecipes (Lfr;)V

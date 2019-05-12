@@ -1,0 +1,2 @@
+CLASS acp net/minecraft/client/screen/MultiplayerScreen
+	FIELD c screen Lvp;

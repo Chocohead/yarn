@@ -1,0 +1,2 @@
+CLASS ed net/minecraft/entity/VillagerMob
+	METHOD u getProfession ()I

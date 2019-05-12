@@ -1,3 +1,0 @@
-CLASS hn net/minecraft/data/SnbtProvider
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c root Lgi;

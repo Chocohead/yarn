@@ -1,149 +1,171 @@
-CLASS bbv net/minecraft/item/Item
-	CLASS bbv$a Settings
-		FIELD a fullStackSize I
-		FIELD b durability I
-		FIELD c recipeRemainder Lbbv;
-		FIELD d itemGroup Lbar;
-		FIELD e rarity Lbcn;
-		FIELD f foodSetting Laxy;
-		METHOD a stackSize (I)Lbbv$a;
-			ARG 1 fullStackSize
-		METHOD a food (Laxy;)Lbbv$a;
-		METHOD a itemGroup (Lbar;)Lbbv$a;
-			ARG 1 itemGroup
-		METHOD a recipeRemainder (Lbbv;)Lbbv$a;
-			ARG 1 recipeRemainder
-		METHOD a rarity (Lbcn;)Lbbv$a;
-			ARG 1 rarity
-		METHOD b durabilityIfNotSet (I)Lbbv$a;
-			ARG 1 durability
-		METHOD c durability (I)Lbbv$a;
-			ARG 1 durability
-	FIELD a GETTER_DAMAGED Lbbz;
-	FIELD b GETTER_DAMAGE Lbbz;
-	FIELD c GETTER_HAND Lbbz;
-	FIELD d GETTER_COOLDOWN Lbbz;
-	FIELD e GETTER_CUSTOM_MODEL_DATA Lbbz;
-	FIELD f BLOCK_ITEM_MAP Ljava/util/Map;
-	FIELD g MODIFIER_DAMAGE Ljava/util/UUID;
-	FIELD h MODIFIER_SWING_SPEED Ljava/util/UUID;
-	FIELD i random Ljava/util/Random;
-	FIELD j itemGroup Lbar;
-	FIELD k PROPERTIES Ljava/util/Map;
-	FIELD l rarity Lbcn;
-	FIELD m fullStackSize I
-	FIELD n durability I
-	FIELD o recipeRemainder Lbbv;
-	FIELD p translationKey Ljava/lang/String;
-	FIELD q foodSetting Laxy;
-	METHOD <init> (Lbbv$a;)V
-		ARG 1 settings
-	METHOD P_ isMap ()Z
-	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a getAttributeModifiers (Laik;)Lcom/google/common/collect/Multimap;
-		ARG 1 equiptmentSlot
-	METHOD a isInItemGroup (Lbar;)Z
-	METHOD a appendItemsForGroup (Lbar;Lfj;)V
-	METHOD a getRawIdByItem (Lbbv;)I
-		ARG 0 item
-	METHOD a onEntityDamaged (Lbca;Laio;Laio;)Z
-		ARG 1 stack
-		ARG 2 target
-		ARG 3 livingEntity
-	METHOD a interactWithEntity (Lbca;Lavx;Laio;Lagz;)Z
-		ARG 1 stack
-		ARG 2 player
-		ARG 3 target
-	METHOD a canRepair (Lbca;Lbca;)Z
-		ARG 1 tool
-		ARG 2 ingredient
-	METHOD a onEntityTick (Lbca;Lbhh;Laif;IZ)V
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 entity
-		ARG 4 invSlot
-		ARG 5 selected
-	METHOD a onItemFinishedUsing (Lbca;Lbhh;Laio;)Lbca;
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 livingEntity
-	METHOD a onItemStopUsing (Lbca;Lbhh;Laio;I)V
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 player
-	METHOD a onBlockBroken (Lbca;Lbhh;Lbvj;Lev;Laio;)Z
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 state
-		ARG 4 pos
-		ARG 5 livingEntity
-	METHOD a buildTooltip (Lbca;Lbhh;Ljava/util/List;Lbdi;)V
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 tooltip
-		ARG 4 options
-	METHOD a getBlockBreakingSpeed (Lbca;Lbvj;)F
-		ARG 1 stack
-		ARG 2 blockState
-	METHOD a useOnBlock (Lbdl;)Laha;
-		ARG 1 usageContext
-	METHOD a onUsingTick (Lbhh;Laio;Lbca;I)V
-		ARG 1 world
-		ARG 2 entity
-		ARG 3 stack
-		ARG 4 timeLeft
-	METHOD a use (Lbhh;Lavx;Lagz;)Lahb;
-		ARG 1 world
-		ARG 2 player
-		ARG 3 hand
-	METHOD a getHitResult (Lbhh;Lavx;Lbgv$b;)Lcrt;
-	METHOD a getItemFromBlock (Lbml;)Lbbv;
-		ARG 0 block
-	METHOD a beforeBlockBreak (Lbvj;Lbhh;Lev;Lavx;)Z
-		ARG 1 blockState
-		ARG 2 world
-		ARG 3 position
-		ARG 4 player
-	METHOD a onTagDeserialized (Lib;)Z
-		ARG 1 tag
-	METHOD a getProperty (Lqs;)Lbbz;
-	METHOD a addProperty (Lqs;Lbbz;)V
-		ARG 1 id
-	METHOD a matches (Lzb;)Z
-		ARG 1 tag
-	METHOD b byRawId (I)Lbbv;
-		ARG 0 id
-	METHOD b onCrafted (Lbca;Lbhh;Lavx;)V
-		ARG 1 stack
-		ARG 2 world
-		ARG 3 player
-	METHOD b isEffectiveOn (Lbvj;)Z
-		ARG 1 blockState
-	METHOD c getEnchantability ()I
-	METHOD d_ hasEnchantmentGlint (Lbca;)Z
-		ARG 1 stack
-	METHOD e_ getUseAction (Lbca;)Lbdk;
-		ARG 1 stack
-	METHOD f hasProperties ()Z
-	METHOD f getTranslationKey (Lbca;)Ljava/lang/String;
-		ARG 1 stack
-	METHOD f_ getMaxUseTime (Lbca;)I
-		ARG 1 stack
-	METHOD g getTranslatedNameTrimmed (Lbca;)Ljm;
-		ARG 1 stack
-	METHOD g_ isTool (Lbca;)Z
-		ARG 1 stack
-	METHOD h getMaxAmount ()I
-	METHOD h getRarity (Lbca;)Lbcn;
-		ARG 1 stack
-	METHOD i getDurability ()I
-	METHOD j canDamage ()Z
-	METHOD k getTextComponent ()Ljm;
-	METHOD l getOrCreateTranslationKey ()Ljava/lang/String;
-	METHOD m requiresClientSync ()Z
-	METHOD n getRecipeRemainder ()Lbbv;
-	METHOD o hasRecipeRemainder ()Z
-	METHOD p getItemGroup ()Lbar;
-	METHOD q getDefaultStack ()Lbca;
-	METHOD r isFood ()Z
-	METHOD s getFoodSetting ()Laxy;
+CLASS yr net/minecraft/item/Item
+	FIELD A DIAMOND_SHOVEL Lyr;
+	FIELD B DIAMOND_PICKAXE Lyr;
+	FIELD C DIAMOND_AXE Lyr;
+	FIELD D STICK Lyr;
+	FIELD E BOWL Lyr;
+	FIELD F MUSHROOM_STEW Lyr;
+	FIELD G GOLDEN_SWORD Lyr;
+	FIELD H GOLDEN_SHOVEL Lyr;
+	FIELD I GOLDEN__PICKAXE Lyr;
+	FIELD J GOLDEN_AXE Lyr;
+	FIELD K STRING Lyr;
+	FIELD L FEATHER Lyr;
+	FIELD M GUNPOWDER Lyr;
+	FIELD N WOODEN_HOE Lyr;
+	FIELD O STONE_HOE Lyr;
+	FIELD P IRON_HOE Lyr;
+	FIELD Q DIAMOND_HOE Lyr;
+	FIELD R GOLDEN_HOE Lyr;
+	FIELD S SEEDS Lyr;
+	FIELD T WHEAT Lyr;
+	FIELD U BREAD Lyr;
+	FIELD V LEATHER_HELMET Lyr;
+	FIELD W LEATHER_CHESTPLATE Lyr;
+	FIELD X LEATHER_LEGGINGS Lyr;
+	FIELD Y LEATHER_BOOTS Lyr;
+	FIELD Z CHAINMAIL_HELMET Lyr;
+	FIELD aA SADDLE Lyr;
+	FIELD aB IRON_DOOR Lyr;
+	FIELD aC REDSTONE Lyr;
+	FIELD aD SNOWBALL Lyr;
+	FIELD aE BOAT Lyr;
+	FIELD aF LEATHER Lyr;
+	FIELD aG MILK_BUCKET Lyr;
+	FIELD aH BRICKS Lyr;
+	FIELD a durability I
+	FIELD aI CLAY Lyr;
+	FIELD aJ SUGAR_CANE Lyr;
+	FIELD aK PAPER Lyr;
+	FIELD aL BOOK Lyr;
+	FIELD aM SLIMEBALL Lyr;
+	FIELD aN MINECART_CHEST Lyr;
+	FIELD aO MINECART_FURNACE Lyr;
+	FIELD aP EGG Lyr;
+	FIELD aQ COMPASS Lyr;
+	FIELD aR FISHING_ROD Lyr;
+	FIELD aS CLOCK Lyr;
+	FIELD aT GLOWSTONE_DUST Lyr;
+	FIELD aU RAW_FISH Lyr;
+	FIELD aV COOKED_FISH Lyr;
+	FIELD aW DYE Lyr;
+	FIELD aX BONE Lyr;
+	FIELD aY SUGAR Lyr;
+	FIELD aZ CAKE Lyr;
+	FIELD aa CHAINMAIL_CHESTPLATE Lyr;
+	FIELD ab CHAINMAIL_LEGGINGS Lyr;
+	FIELD ac CHAINMAIL_BOOTS Lyr;
+	FIELD ad IRON_HELMET Lyr;
+	FIELD ae IRON_CHESTPLATE Lyr;
+	FIELD af IRON_LEGGINGS Lyr;
+	FIELD ag IRON_BOOTS Lyr;
+	FIELD ah DIAMOND_HELMET Lyr;
+	FIELD ai DIAMOND_CHESTPLATE Lyr;
+	FIELD aj DIAMOND_LEGGINGS Lyr;
+	FIELD ak DIAMOND_BOOTS Lyr;
+	FIELD al GOLDEN_HELMET Lyr;
+	FIELD am GOLDEN_CHESTPLATE Lyr;
+	FIELD an GOLDEN_LEGGINGS Lyr;
+	FIELD ao GOLDEN_BOOTS Lyr;
+	FIELD ap FLINT Lyr;
+	FIELD aq RAW_PORKCHOP Lyr;
+	FIELD ar COOKED_PORKCHOP Lyr;
+	FIELD as PAINTING Lyr;
+	FIELD at GOLDEN_APPLE Lyr;
+	FIELD au SIGN Lyr;
+	FIELD av WOODEN_DOOR Lyr;
+	FIELD aw BUCKET Lyr;
+	FIELD ax WATER_BUCKET Lyr;
+	FIELD ay LAVA_BUCKET Lyr;
+	FIELD az MINECART Lyr;
+	FIELD bA EYE_OF_ENDER Lyr;
+	FIELD bB GLISTERING_MELON Lyr;
+	FIELD bC SPAWN_EGG Lyr;
+	FIELD bD BOTTLE_O_ENCHANTING Lyr;
+	FIELD bE FIRE_BALL Lyr;
+	FIELD bF RECORD_13 Lyr;
+	FIELD bG RECORD_CAT Lyr;
+	FIELD bH RECORD_BLOCKS Lyr;
+	FIELD bI RECORD_CHIRP Lyr;
+	FIELD bJ RECORD_FAR Lyr;
+	FIELD bK RECORD_MALL Lyr;
+	FIELD bL RECORD_MELLOHI Lyr;
+	FIELD bM RECORD_STAL Lyr;
+	FIELD bN RECORD_STRAD Lyr;
+	FIELD bO RECORD_WARD Lyr;
+	FIELD bP RECORD_11 Lyr;
+	FIELD bQ id I
+	FIELD bR maxStackSize I
+	FIELD bV rawName Ljava/lang/String;
+	FIELD ba BED Lyr;
+	FIELD bb REDSTONE_REPEATER Lyr;
+	FIELD bc COOKIE Lyr;
+	FIELD bd MAP Lra;
+	FIELD be SHEARS Lbh;
+	FIELD bf MELON Lyr;
+	FIELD bg PUMPKIN_SEEDS Lyr;
+	FIELD bh MELON_SEEDS Lyr;
+	FIELD bi RAW_BEEF Lyr;
+	FIELD bj COOKED_BEEF Lyr;
+	FIELD bk RAW_CHICKEN Lyr;
+	FIELD bl COOKED_CHICKEN Lyr;
+	FIELD bm ROTTEN_LESH Lyr;
+	FIELD bn ENDER_PEARL Lyr;
+	FIELD bo BLAZE_ROD Lyr;
+	FIELD bp GHAST_TEAR Lyr;
+	FIELD bq GOLD_NUGGET Lyr;
+	FIELD br NETHER_WARTS Lyr;
+	FIELD bs POTION Lei;
+	FIELD bt GLASS_BOTTLE Lyr;
+	FIELD bu SPIDER_EYE Lyr;
+	FIELD bv FERMENTED_SPIDER_EYE Lyr;
+	FIELD bw BLAZE_POWDER Lyr;
+	FIELD bx MAGMA_CREAM Lyr;
+	FIELD by BREWING_STAND Lyr;
+	FIELD bz CAULDRON Lyr;
+	FIELD d random Ljava/util/Random;
+	FIELD e BY_ID [Lyr;
+	FIELD f IRON_SHOVEL Lyr;
+	FIELD g IRON_PICKAXE Lyr;
+	FIELD h IRON_AXE Lyr;
+	FIELD i FLINT_AND_STEEL Lyr;
+	FIELD j APPLE Lyr;
+	FIELD k BOW Lyr;
+	FIELD l ARROW Lyr;
+	FIELD m COAL Lyr;
+	FIELD n DIAMOND Lyr;
+	FIELD o IRON_INGOT Lyr;
+	FIELD p GOLD_INGOT Lyr;
+	FIELD q IRON_SWORD Lyr;
+	FIELD r WOOD_SWORD Lyr;
+	FIELD s WOODEN_SHOVEL Lyr;
+	FIELD t WOODEN_PICKAXE Lyr;
+	FIELD u WOODEN_AXE Lyr;
+	FIELD v STONE_SWORD Lyr;
+	FIELD w STONE_SHOVEL Lyr;
+	FIELD x STONE_PICKAXE Lyr;
+	FIELD y STONE_AXE Lyr;
+	FIELD z DIAMOND_SWORD Lyr;
+	METHOD a getRawName (Laan;)Ljava/lang/String;
+	METHOD a interactWith (Laan;Lacq;)V
+	METHOD a buildTooltip (Laan;Ljava/util/List;)V
+	METHOD a use (Laan;Lxd;Lyw;)Laan;
+	METHOD a useOnBlock (Laan;Lyw;Lxd;IIII)Z
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+	METHOD a setRawName (Ljava/lang/String;)Lyr;
+	METHOD a getHitResult (Lxd;Lyw;Z)Lpl;
+	METHOD b getEnchantability ()I
+	METHOD b getDisplayColor (II)I
+	METHOD b getMaxUseTime (Laan;)I
+	METHOD b onItemFinishedUsing (Laan;Lxd;Lyw;)Laan;
+	METHOD c getUseAction (Laan;)Laaq;
+	METHOD e getRawName ()Ljava/lang/String;
+	METHOD e hasEnchants (Laan;)Z
+	METHOD f getMaxStackSize ()I
+	METHOD f setMaxStackSize (I)Lyr;
+	METHOD f getRarity (Laan;)Lfo;
+	METHOD g setDurability (I)Lyr;
+	METHOD h getDurability ()I
+	METHOD n getTranslatedName ()Ljava/lang/String;

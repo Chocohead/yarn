@@ -1,3 +1,0 @@
-CLASS asr net/minecraft/entity/boss/dragon/phase/SittingAttackingPhase
-	METHOD <init> (Lasg;)V
-		ARG 1 dragon

@@ -1,3 +1,0 @@
-CLASS ddf net/minecraft/client/gui/hud/spectator/SpectatorMenuCommandGroup
-	METHOD a getCommands ()Ljava/util/List;
-	METHOD b getPrompt ()Ljm;

@@ -1,0 +1,3 @@
+CLASS afv net/minecraft/client/screen/LanguageSelectScreen
+	FIELD a parent Lvp;
+	FIELD d options Lhu;

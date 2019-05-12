@@ -1,4 +1,0 @@
-CLASS aoh net/minecraft/entity/ai/goal/MoveIntoWaterGoal
-	FIELD a mob Laiv;
-	METHOD <init> (Laiv;)V
-		ARG 1 mob

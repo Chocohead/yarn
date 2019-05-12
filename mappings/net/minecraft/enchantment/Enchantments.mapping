@@ -1,3 +1,0 @@
-CLASS bfm net/minecraft/enchantment/Enchantments
-	FIELD L ALL_ARMOR [Laik;
-	METHOD a register (Ljava/lang/String;Lbfi;)Lbfi;

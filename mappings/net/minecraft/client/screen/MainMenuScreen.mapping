@@ -1,0 +1,4 @@
+CLASS xt net/minecraft/client/screen/MainMenuScreen
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD c splashText Ljava/lang/String;
+	FIELD d multiplayerButton Labp;

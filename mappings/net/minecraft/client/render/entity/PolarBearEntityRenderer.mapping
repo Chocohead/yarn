@@ -1,2 +1,0 @@
-CLASS dqs net/minecraft/client/render/entity/PolarBearEntityRenderer
-	FIELD a SKIN Lqs;

@@ -1,0 +1,3 @@
+CLASS zk
+	METHOD a fromTag (Lady;)V
+	METHOD b toTag (Lady;)V

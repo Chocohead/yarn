@@ -1,3 +1,0 @@
-CLASS bta net/minecraft/block/WallWitherSkullBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

@@ -1,3 +1,0 @@
-CLASS vq net/minecraft/server/WorldGenerationProgressListenerFactory
-	METHOD create (I)Lvp;
-		ARG 1 radius

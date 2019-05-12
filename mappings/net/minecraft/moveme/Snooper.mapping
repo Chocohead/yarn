@@ -1,0 +1,5 @@
+CLASS vt net/minecraft/moveme/Snooper
+	FIELD a dataMap Ljava/util/Map;
+	FIELD b snooperUrl Ljava/net/URL;
+	METHOD a start ()V
+	METHOD a put (Ljava/lang/String;Ljava/lang/Object;)V

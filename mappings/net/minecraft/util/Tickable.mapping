@@ -1,2 +1,0 @@
-CLASS bup net/minecraft/util/Tickable
-	METHOD U_ tick ()V

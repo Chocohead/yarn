@@ -1,3 +1,0 @@
-CLASS bwu net/minecraft/world/border/WorldBorderStage
-	FIELD d color I
-	METHOD a getColor ()I

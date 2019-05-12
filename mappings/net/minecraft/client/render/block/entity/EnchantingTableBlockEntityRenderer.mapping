@@ -1,3 +1,1 @@
-CLASS dmo net/minecraft/client/render/block/entity/EnchantingTableBlockEntityRenderer
-	FIELD c BOOK_TEX Lqs;
-	FIELD d book Ldeb;
+CLASS eq net/minecraft/client/render/block/entity/EnchantingTableBlockEntityRenderer

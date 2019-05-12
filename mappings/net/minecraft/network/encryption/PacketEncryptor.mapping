@@ -1,2 +1,0 @@
-CLASS ix net/minecraft/network/encryption/PacketEncryptor
-	FIELD a manager Liv;

@@ -1,3 +1,0 @@
-CLASS dla net/minecraft/client/render/block/DynamicBlockRenderer
-	METHOD a render (Lbml;F)V
-		ARG 1 block

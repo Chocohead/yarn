@@ -1,0 +1,3 @@
+CLASS qr net/minecraft/entity/mob/PigMob
+	METHOD a setSaddled (Z)V
+	METHOD aa isSaddled ()Z

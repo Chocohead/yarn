@@ -1,2 +1,0 @@
-CLASS abu net/minecraft/datafixers/fixes/EntityPaintingMotiveFix
-	FIELD a RENAMED_MOTIVES Ljava/util/Map;

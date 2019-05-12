@@ -1,2 +1,0 @@
-CLASS dqr net/minecraft/client/render/entity/PillagerEntityRenderer
-	FIELD a SKIN Lqs;

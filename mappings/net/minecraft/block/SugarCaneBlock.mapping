@@ -1,5 +1,1 @@
-CLASS bsc net/minecraft/block/SugarCaneBlock
-	FIELD a AGE Lbwj;
-	FIELD b SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS ago net/minecraft/block/SugarCaneBlock

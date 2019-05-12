@@ -1,0 +1,4 @@
+CLASS alf
+	METHOD a incrementStat (Lajw;I)V
+	METHOD a (Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;
+		ARG 1 sessionId

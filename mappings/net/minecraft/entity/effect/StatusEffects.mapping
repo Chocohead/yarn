@@ -1,2 +1,0 @@
-CLASS aib net/minecraft/entity/effect/StatusEffects
-	METHOD a register (ILjava/lang/String;Lahx;)Lahx;

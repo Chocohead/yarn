@@ -1,3 +1,2 @@
-CLASS bcu net/minecraft/item/ShovelItem
-	FIELD a BLOCK_TRANSFORMATIONS_MAP Ljava/util/Map;
-	FIELD e EFFECTIVE_BLOCKS Ljava/util/Set;
+CLASS akd net/minecraft/item/ShovelItem
+	FIELD c EFFECTIVE_BLOCKS [Lpb;

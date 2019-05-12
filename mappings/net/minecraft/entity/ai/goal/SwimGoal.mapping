@@ -1,4 +1,0 @@
-CLASS amo net/minecraft/entity/ai/goal/SwimGoal
-	FIELD a mob Laip;
-	METHOD <init> (Laip;)V
-		ARG 1 mob

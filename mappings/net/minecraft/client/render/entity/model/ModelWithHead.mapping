@@ -1,3 +1,0 @@
-CLASS dpr net/minecraft/client/render/entity/model/ModelWithHead
-	METHOD a getHead ()Ldhb;
-	METHOD c setHeadAngle (F)V

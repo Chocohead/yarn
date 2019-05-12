@@ -1,5 +1,1 @@
-CLASS bqa net/minecraft/block/NetherWartBlock
-	FIELD a AGE Lbwj;
-	FIELD b AGE_TO_SHAPE [Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS rr net/minecraft/block/NetherWartBlock

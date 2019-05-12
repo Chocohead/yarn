@@ -1,3 +1,0 @@
-CLASS bbd net/minecraft/item/ElytraItem
-	METHOD e isUsable (Lbca;)Z
-		ARG 0 stack

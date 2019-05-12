@@ -1,3 +1,0 @@
-CLASS cbn net/minecraft/world/gen/feature/GrassFeature
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory

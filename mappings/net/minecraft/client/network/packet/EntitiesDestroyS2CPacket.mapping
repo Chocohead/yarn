@@ -1,3 +1,0 @@
-CLASS me net/minecraft/client/network/packet/EntitiesDestroyS2CPacket
-	FIELD a entityIds [I
-	METHOD b getEntityIds ()[I

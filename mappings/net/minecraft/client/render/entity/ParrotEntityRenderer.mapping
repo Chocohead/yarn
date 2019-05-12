@@ -1,2 +1,0 @@
-CLASS dqn net/minecraft/client/render/entity/ParrotEntityRenderer
-	FIELD a SKINS [Lqs;

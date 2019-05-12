@@ -1,3 +1,2 @@
-CLASS bch net/minecraft/item/MinecartItem
-	FIELD a DISPENSER_BEHAVIOR Lfv;
-	FIELD b type Laxl$a;
+CLASS agr net/minecraft/item/MinecartItem
+	FIELD a type I

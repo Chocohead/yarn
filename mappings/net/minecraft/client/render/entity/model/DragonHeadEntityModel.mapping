@@ -1,3 +1,0 @@
-CLASS dgv net/minecraft/client/render/entity/model/DragonHeadEntityModel
-	FIELD b head Ldhb;
-	FIELD c jaw Ldhb;

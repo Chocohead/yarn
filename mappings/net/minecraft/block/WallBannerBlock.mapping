@@ -1,3 +1,0 @@
-CLASS bsp net/minecraft/block/WallBannerBlock
-	FIELD a FACING Lbwe;
-	FIELD b FACING_TO_SHAPE Ljava/util/Map;

@@ -1,2 +1,0 @@
-CLASS dht net/minecraft/client/particle/SweepAttackParticle
-	CLASS dht$a Factory

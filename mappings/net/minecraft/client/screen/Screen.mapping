@@ -1,0 +1,16 @@
+CLASS vp net/minecraft/client/screen/Screen
+	FIELD p minecraft Lnet/minecraft/client/Minecraft;
+	FIELD q screenWidth I
+	FIELD r screenHeight I
+	FIELD s buttons Ljava/util/List;
+	FIELD u font Lnl;
+	METHOD a tick ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a onButtonPressed (Labp;)V
+	METHOD a setClipboardText (Ljava/lang/String;)V
+	METHOD b isPauseScreen ()Z
+	METHOD c init ()V
+	METHOD e removed ()V
+	METHOD h getClipboardText ()Ljava/lang/String;
+	METHOD k renderBackground ()V

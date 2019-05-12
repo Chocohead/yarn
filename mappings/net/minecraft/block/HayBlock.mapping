@@ -1,3 +1,0 @@
-CLASS boz net/minecraft/block/HayBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings

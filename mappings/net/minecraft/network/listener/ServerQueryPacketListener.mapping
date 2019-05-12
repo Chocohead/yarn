@@ -1,3 +1,0 @@
-CLASS qd net/minecraft/network/listener/ServerQueryPacketListener
-	METHOD a onPing (Lqe;)V
-	METHOD a onRequest (Lqf;)V

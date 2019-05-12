@@ -1,0 +1,18 @@
+CLASS yw net/minecraft/entity/mob/PlayerMob
+	FIELD aB dimension I
+	FIELD a sleepTimer I
+	FIELD aK sleeping Z
+	FIELD aT abilities Lqu;
+	FIELD aU experienceLevel I
+	FIELD aV experienceTotal I
+	FIELD aW experienceLevelProgress F
+	FIELD aZ fishHook Lact;
+	FIELD ap inventory Laak;
+	FIELD aq playerContainer Ldd;
+	METHOD a dropItem (Laan;)Lfq;
+	METHOD aj isUsingItem ()Z
+	METHOD as dropSelectedItem ()Lfq;
+	METHOD ax swingHand ()V
+	METHOD b sendPickup (Lnn;I)V
+	METHOD d copyFrom (Lyw;)V
+	METHOD i addExperience (I)V
