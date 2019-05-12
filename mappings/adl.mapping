@@ -1,0 +1,2 @@
+CLASS adl
+	METHOD c sendPacket (Labs;)V

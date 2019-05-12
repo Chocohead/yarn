@@ -9,6 +9,7 @@ CLASS vp net/minecraft/client/screen/Screen
 	METHOD a render (IIF)V
 	METHOD a onButtonPressed (Labp;)V
 	METHOD a setClipboardText (Ljava/lang/String;)V
+	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
 	METHOD b isPauseScreen ()Z
 	METHOD c init ()V
 	METHOD e removed ()V

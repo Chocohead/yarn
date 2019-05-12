@@ -1,1 +1,5 @@
 CLASS ug net/minecraft/container/FurnaceContainer
+	FIELD a furnace Lahg;
+	FIELD b cookTime I
+	FIELD c burnTime I
+	FIELD h fuelTime I

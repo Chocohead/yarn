@@ -1,3 +1,7 @@
 CLASS aar net/minecraft/client/render/block/entity/BlockEntityRenderer
 	FIELD b renderers Lach;
+	METHOD a getTextRenderer ()Lnl;
 	METHOD a setRenderers (Lach;)V
+	METHOD a bindTexture (Ljava/lang/String;)V
+	METHOD a render (Lkw;DDDF)V
+	METHOD a setWorld (Lxd;)V

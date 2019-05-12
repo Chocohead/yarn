@@ -1,1 +1,3 @@
 CLASS amm net/minecraft/item/FoodItem
+	METHOD q getHunger ()I
+	METHOD r getSaturationModifier ()F

@@ -1,0 +1,3 @@
+CLASS agd
+	METHOD a getScaledWidth ()I
+	METHOD b getScaledHeight ()I

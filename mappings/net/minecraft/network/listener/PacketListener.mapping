@@ -1,0 +1,3 @@
+CLASS oe net/minecraft/network/listener/PacketListener
+	METHOD a onPacket (Labs;)V
+	METHOD a onPlayerAbilities (Lym;)V

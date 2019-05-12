@@ -1,1 +1,2 @@
 CLASS sr net/minecraft/client/screen/container/CreativeInventoryScreen
+	FIELD h inventory Lme;

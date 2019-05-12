@@ -1,0 +1,18 @@
+CLASS ne net/minecraft/entity/player/HungerManager
+	FIELD a foodLevel I
+	FIELD b foodSaturationLevel F
+	FIELD c foodExhaustionLevel F
+	FIELD d foodTickTimer I
+	FIELD e prevFoodLevel I
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+	METHOD a setFoodLevel (I)V
+	METHOD a add (IF)V
+	METHOD a fromTag (Lady;)V
+	METHOD a eat (Lamm;)V
+	METHOD a update (Lyw;)V
+	METHOD b getPrevFoodLevel ()I
+	METHOD b setSaturationLevel (F)V
+	METHOD b toTag (Lady;)V
+	METHOD c isNotFull ()Z
+	METHOD d getSaturationLevel ()F

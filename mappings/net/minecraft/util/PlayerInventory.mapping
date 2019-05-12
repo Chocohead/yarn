@@ -6,3 +6,4 @@ CLASS aak net/minecraft/util/PlayerInventory
 	METHOD b getHandStack ()Laan;
 	METHOD h getSlotWithStack (I)I
 		ARG 1 id
+	METHOD k getCursorStack ()Laan;

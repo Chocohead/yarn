@@ -1,10 +1,12 @@
 CLASS net/minecraft/client/Minecraft
 	FIELD A options Lhu;
+	FIELD K inGameHud Lalf;
 	FIELD T lastTickTime J
 	FIELD a INSTANCE Lnet/minecraft/client/Minecraft;
 	FIELD ak openProfilerSection Ljava/lang/String;
 	FIELD c interactionManager Lki;
 	FIELD d windowScaledWidth I
+	FIELD e windowScaledHeight I
 	FIELD f world Lxd;
 	FIELD g levelRenderer Ll;
 	FIELD h player Lvq;
@@ -12,6 +14,7 @@ CLASS net/minecraft/client/Minecraft
 	FIELD k session Lfc;
 	FIELD o paused Z
 	FIELD p textureManager Laaw;
+	FIELD q textRenderer Lnl;
 	FIELD s currentScreen Lvp;
 	FIELD u gameRenderer Llr;
 	FIELD w chatHud Laiy;
@@ -29,3 +32,6 @@ CLASS net/minecraft/client/Minecraft
 	METHOD h unlockCursor ()V
 	METHOD k tick ()V
 	METHOD l isInServer ()Z
+	METHOD s isFancyGraphicsEnabled ()Z
+	METHOD t isAmbientOcclusionEnabled ()Z
+	METHOD u isDebugEnabled ()Z

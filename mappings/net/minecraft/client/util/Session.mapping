@@ -1,3 +1,4 @@
 CLASS fc net/minecraft/client/util/Session
+	FIELD a DEFAULT_HOTBAR_BLOCKS Ljava/util/List;
 	FIELD b username Ljava/lang/String;
 	FIELD c sessionId Ljava/lang/String;

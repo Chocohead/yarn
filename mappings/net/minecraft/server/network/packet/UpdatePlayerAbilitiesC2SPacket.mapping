@@ -1,0 +1,5 @@
+CLASS ym net/minecraft/server/network/packet/UpdatePlayerAbilitiesC2SPacket
+	FIELD a invulnerable Z
+	FIELD b flying Z
+	FIELD c allowFlying Z
+	FIELD d creativeMode Z

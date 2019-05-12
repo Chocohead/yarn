@@ -90,6 +90,7 @@ CLASS pb net/minecraft/block/Block
 	FIELD bK DRAGON_EGG Lpb;
 	FIELD bL REDSTONE_LAMP Lpb;
 	FIELD bM REDSTONE_LAMP_LIT Lpb;
+	FIELD bN texUVStart I
 	FIELD bO id I
 	FIELD ba PUMPKIN Lpb;
 	FIELD bb NETHERRACK Lpb;

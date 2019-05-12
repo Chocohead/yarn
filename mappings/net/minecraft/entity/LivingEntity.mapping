@@ -15,6 +15,7 @@ CLASS acq net/minecraft/entity/LivingEntity
 	METHOD az isSleeping ()Z
 	METHOD b getEffect (Laad;)Lalg;
 	METHOD b addPotionEffect (Lalg;)V
+	METHOD b getCurrentExperience (Lyw;)I
 	METHOD bb getHealth ()I
 	METHOD bf clearPotionEffects ()V
 	METHOD d getMaxHealth ()I

@@ -1,8 +1,9 @@
 CLASS oo net/minecraft/client/screen/DrawableHelper
+	FIELD g blitOffset F
 	METHOD a hLine (IIII)V
 	METHOD a fill (IIIII)V
 	METHOD a fillGradient (IIIIII)V
 	METHOD a drawCenteredString (Lnl;Ljava/lang/String;III)V
 	METHOD b vLine (IIII)V
-	METHOD b drawBackground (IIIIII)V
+	METHOD b blit (IIIIII)V
 	METHOD b drawString (Lnl;Ljava/lang/String;III)V

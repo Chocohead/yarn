@@ -2,3 +2,5 @@ CLASS abs net/minecraft/packet/Packet
 	FIELD a packets Ljava/util/Map;
 	METHOD a (I)Labs;
 		ARG 0 id
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

@@ -1,1 +1,4 @@
 CLASS amn net/minecraft/container/CraftingResultSlot
+	FIELD a resultInventory Lio;
+	FIELD f player Lyw;
+	FIELD g amount I

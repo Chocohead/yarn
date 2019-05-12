@@ -1,3 +1,9 @@
 CLASS l net/minecraft/client/render/LevelRenderer
+	FIELD a blockEntities Ljava/util/List;
 	FIELD i world Lxd;
+	FIELD j textureManager Laaw;
+	FIELD r minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a renderEntities (Lbo;Lamd;F)V
+	METHOD a drawShapeOutline (Lwu;)V
+	METHOD b drawHighlightedBlockOutline (Lyw;Lpl;ILaan;F)V
 	METHOD d tick ()V

@@ -1,0 +1,3 @@
+CLASS lf net/minecraft/enchantment/EnchantmentEntry
+	FIELD a enchantment Ljt;
+	FIELD b level I

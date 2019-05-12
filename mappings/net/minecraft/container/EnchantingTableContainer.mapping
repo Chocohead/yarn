@@ -1,0 +1,5 @@
+CLASS gm net/minecraft/container/EnchantingTableContainer
+	FIELD a inventory Lio;
+	FIELD c enchantmentPower [I
+	FIELD h world Lxd;
+	FIELD l random Ljava/util/Random;

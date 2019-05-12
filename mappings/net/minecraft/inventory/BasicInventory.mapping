@@ -1,0 +1,5 @@
+CLASS me net/minecraft/inventory/BasicInventory
+	FIELD a name Ljava/lang/String;
+	FIELD b size I
+	FIELD c contents [Laan;
+	FIELD d listeners Ljava/util/List;

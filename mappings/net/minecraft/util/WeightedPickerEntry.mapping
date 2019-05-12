@@ -1,0 +1,2 @@
+CLASS cc net/minecraft/util/WeightedPickerEntry
+	FIELD d weight I

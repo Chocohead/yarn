@@ -11,4 +11,5 @@ CLASS adz net/minecraft/client/render/BufferBuilder
 	METHOD a vertex (DDDDD)V
 	METHOD a begin (I)V
 	METHOD b begin ()V
+	METHOD b setOffset (DDD)V
 	METHOD d clear ()V

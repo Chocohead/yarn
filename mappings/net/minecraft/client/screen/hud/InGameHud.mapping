@@ -1,4 +1,5 @@
 CLASS aiy net/minecraft/client/screen/hud/InGameHud
+	FIELD d itemRenderer Ltw;
 	FIELD h random Ljava/util/Random;
 	FIELD i minecraft Lnet/minecraft/client/Minecraft;
 	FIELD k overlayMessage Ljava/lang/String;
@@ -8,7 +9,10 @@ CLASS aiy net/minecraft/client/screen/hud/InGameHud
 	METHOD a renderVignetteOverlay (FII)V
 		ARG 2 scaledWidth
 		ARG 3 scaledHeight
+	METHOD a draw (FZII)V
+	METHOD a renderHotbarItem (IIIF)V
 	METHOD b clear ()V
+	METHOD b renderPortalOverlay (FII)V
 	METHOD b renderPumpkinOverlay (II)V
 	METHOD b setOverlayMessage (Ljava/lang/String;)V
 	METHOD e isChatOpen ()Z

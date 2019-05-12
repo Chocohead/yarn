@@ -1,4 +1,4 @@
-CLASS yw net/minecraft/entity/mob/PlayerMob
+CLASS yw net/minecraft/entity/player/PlayerMob
 	FIELD aB dimension I
 	FIELD a sleepTimer I
 	FIELD aK sleeping Z
@@ -9,11 +9,18 @@ CLASS yw net/minecraft/entity/mob/PlayerMob
 	FIELD aZ fishHook Lact;
 	FIELD ap inventory Laak;
 	FIELD aq playerContainer Ldd;
+	FIELD as hungerManager Lne;
+	FIELD av score I
 	METHOD a dropItem (Laan;)Lfq;
 	METHOD a increaseStat (Lajw;I)V
+	METHOD aE getNextLevelExperience ()I
+	METHOD aF getHungerManager ()Lne;
 	METHOD aj isUsingItem ()Z
 	METHOD as dropSelectedItem ()Lfq;
 	METHOD ax swingHand ()V
 	METHOD b sendPickup (Lnn;I)V
+	METHOD bl incrementExperienceLevel ()V
+	METHOD c addExhaustion (F)V
 	METHOD d copyFrom (Lyw;)V
 	METHOD i addExperience (I)V
+	METHOD j takeExperience (I)V

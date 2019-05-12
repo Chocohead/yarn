@@ -1,1 +1,2 @@
 CLASS os net/minecraft/container/CreativeContainer
+	FIELD a items Ljava/util/List;

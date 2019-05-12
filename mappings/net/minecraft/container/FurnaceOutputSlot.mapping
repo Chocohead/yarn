@@ -1,0 +1,3 @@
+CLASS ajv net/minecraft/container/FurnaceOutputSlot
+	FIELD a player Lyw;
+	FIELD f amount I

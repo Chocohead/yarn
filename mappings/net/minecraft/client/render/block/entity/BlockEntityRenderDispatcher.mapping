@@ -1,0 +1,21 @@
+CLASS ach net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
+	FIELD a INSTANCE Lach;
+	FIELD b renderOffsetX D
+	FIELD c renderOffsetY D
+	FIELD d renderOffsetZ D
+	FIELD e textureManager Laaw;
+	FIELD f world Lxd;
+	FIELD g hitResult Lacq;
+	FIELD j cameraX D
+	FIELD k cameraY D
+	FIELD l cameraZ D
+	FIELD m renderers Ljava/util/Map;
+	FIELD n textRenderer Lnl;
+	METHOD a getRenderer (Ljava/lang/Class;)Laar;
+	METHOD a hasRenderer (Lkw;)Z
+	METHOD a renderBlockEntity (Lkw;DDDF)V
+	METHOD a render (Lkw;F)V
+	METHOD a setWorld (Lxd;)V
+	METHOD a configure (Lxd;Laaw;Lnl;Lacq;F)V
+	METHOD b getTextRenderer ()Lnl;
+	METHOD b getRenderer (Lkw;)Laar;

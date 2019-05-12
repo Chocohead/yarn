@@ -1,0 +1,4 @@
+CLASS ki
+	METHOD a dropCreativeStack (Laan;)V
+	METHOD b setDefaultHotbar (Lyw;)V
+	METHOD h hasCreativeInventory ()Z

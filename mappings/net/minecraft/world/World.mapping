@@ -17,3 +17,4 @@ CLASS xd net/minecraft/world/World
 	METHOD j isBlockLoaded (III)Z
 	METHOD n tickEntities ()V
 	METHOD o getLightLevel (III)I
+	METHOD v getSeed ()J

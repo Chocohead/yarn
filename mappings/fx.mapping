@@ -1,0 +1,4 @@
+CLASS fx
+	FIELD a itemId I
+	METHOD <init> (IIIII)V
+		ARG 1 itemId
