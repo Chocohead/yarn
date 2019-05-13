@@ -1,2 +1,0 @@
-CLASS kb
-	METHOD a getLevelFormat ()Ljava/lang/String;

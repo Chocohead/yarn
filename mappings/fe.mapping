@@ -1,0 +1,2 @@
+CLASS fe
+	METHOD a renderLabel (Lacq;Ljava/lang/String;DDDI)V

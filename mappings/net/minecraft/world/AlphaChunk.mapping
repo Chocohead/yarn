@@ -1,0 +1,13 @@
+CLASS acj net/minecraft/world/AlphaChunk
+	FIELD a lastUpdate J
+	FIELD b terrainPopulated Z
+	FIELD c heightMap [B
+	FIELD d blockLight Lpd;
+	FIELD e skyLight Lpd;
+	FIELD f data Lpd;
+	FIELD g blocks [B
+	FIELD h entities Lno;
+	FIELD i blockEntities Lno;
+	FIELD j blockTicks Lno;
+	FIELD k x I
+	FIELD l z I

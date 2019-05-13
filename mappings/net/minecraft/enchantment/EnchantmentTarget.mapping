@@ -1,1 +1,2 @@
 CLASS mb net/minecraft/enchantment/EnchantmentTarget
+	METHOD a canApplyTo (Lyr;)Z

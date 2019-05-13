@@ -22,6 +22,7 @@ CLASS aan net/minecraft/item/ItemStack
 	METHOD b toTag (Lady;)Lady;
 	METHOD b onItemFinishedUsing (Lxd;Lyw;)Laan;
 	METHOD c getMaxStackSize ()I
+	METHOD c isEqualCheckCount (Laan;)Z
 	METHOD c fromTag (Lady;)V
 	METHOD d canStack ()Z
 	METHOD d isEqual (Laan;)Z

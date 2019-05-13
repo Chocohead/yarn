@@ -1,0 +1,2 @@
+CLASS fh
+	METHOD a getRandomEntrance (Ljava/util/Random;)Lmg;

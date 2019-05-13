@@ -1,1 +1,2 @@
 CLASS nr net/minecraft/block/StairsBlock
+	FIELD a baseBlock Lpb;

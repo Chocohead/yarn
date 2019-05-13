@@ -1,5 +1,5 @@
 CLASS ady net/minecraft/nbt/CompoundTag
-	FIELD a underlying Ljava/util/Map;
+	FIELD a tags Ljava/util/Map;
 	METHOD a putByte (Ljava/lang/String;B)V
 	METHOD a putDouble (Ljava/lang/String;D)V
 	METHOD a putFloat (Ljava/lang/String;F)V
@@ -14,6 +14,7 @@ CLASS ady net/minecraft/nbt/CompoundTag
 	METHOD a putIntArray (Ljava/lang/String;[I)V
 	METHOD b get (Ljava/lang/String;)Lgh;
 	METHOD c contains (Ljava/lang/String;)Z
+	METHOD d getValues ()Ljava/util/Collection;
 	METHOD d getByte (Ljava/lang/String;)B
 	METHOD e getShort (Ljava/lang/String;)S
 	METHOD f getInt (Ljava/lang/String;)I

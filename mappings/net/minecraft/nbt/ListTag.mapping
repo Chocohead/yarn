@@ -1,5 +1,6 @@
 CLASS no net/minecraft/nbt/ListTag
-	FIELD a underlying Ljava/util/List;
+	FIELD a value Ljava/util/List;
+	FIELD b type B
 	METHOD a get (I)Lgh;
 	METHOD a add (Lgh;)V
 	METHOD d size ()I

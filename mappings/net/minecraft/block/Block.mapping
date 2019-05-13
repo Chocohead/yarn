@@ -146,7 +146,12 @@ CLASS pb net/minecraft/block/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD a onEntityCollision (Lxd;IIILnn;)V
+	METHOD b onBlockAction (Lxd;IIIII)V
+	METHOD b activate (Lxd;IIILyw;)Z
 	METHOD c getDropData (I)I
+	METHOD e getTickRate ()I
+	METHOD g emitsRedstonePower ()Z
 	METHOD g (I)Z
 		ARG 0 id
 	METHOD g canPlaceAt (Lxd;III)Z

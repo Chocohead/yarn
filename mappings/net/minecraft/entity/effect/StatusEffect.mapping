@@ -1,0 +1,27 @@
+CLASS aad net/minecraft/entity/effect/StatusEffect
+	FIELD a POTIONS [Laad;
+	FIELD c SWIFTNESS_POTION Laad;
+	FIELD d SLOWNESS_POTION Laad;
+	FIELD e HASTE_POTION Laad;
+	FIELD f MINING_FATIGUE Laad;
+	FIELD g STRENGTH Laad;
+	FIELD h INSTANT_HEALTH Laad;
+	FIELD i INSTANT_DAMAGE Laad;
+	FIELD j JUMP_BOOST Laad;
+	FIELD k NAUSEA Laad;
+	FIELD l REGENERATION Laad;
+	FIELD m RESISTANCE Laad;
+	FIELD n FIRE_RESISTANCE Laad;
+	FIELD o WATER_BREATHING Laad;
+	FIELD p INVISIBILITY Laad;
+	FIELD q BLINDNESS Laad;
+	FIELD r NIGHT_VISION Laad;
+	FIELD s HUNGER Laad;
+	FIELD t WEAKNESS Laad;
+	FIELD u POISON Laad;
+	METHOD a applyUpdateEffect (Lacq;I)V
+	METHOD a applyInstantEffect (Lacq;Lacq;ID)V
+	METHOD a setRawName (Ljava/lang/String;)Laad;
+	METHOD b isInstant ()Z
+	METHOD b canApplyUpdateEffect (II)Z
+	METHOD c getTranslationKey ()Ljava/lang/String;

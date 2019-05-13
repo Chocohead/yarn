@@ -1,0 +1,2 @@
+CLASS ahv net/minecraft/client/network/ClientPlayerMob
+	FIELD cl networkHandler Ladl;

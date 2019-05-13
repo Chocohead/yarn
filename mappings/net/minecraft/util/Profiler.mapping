@@ -1,0 +1,6 @@
+CLASS lv net/minecraft/util/Profiler
+	FIELD a debugEnabled Z
+	METHOD a push (Ljava/lang/String;)V
+	METHOD b pop ()V
+	METHOD b getTimings (Ljava/lang/String;)Ljava/util/List;
+	METHOD c swap (Ljava/lang/String;)V

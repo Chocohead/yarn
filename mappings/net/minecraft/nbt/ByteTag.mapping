@@ -1,1 +1,2 @@
 CLASS mf net/minecraft/nbt/ByteTag
+	FIELD a value B

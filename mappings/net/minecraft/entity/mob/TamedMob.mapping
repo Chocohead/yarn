@@ -1,0 +1,3 @@
+CLASS wd net/minecraft/entity/mob/TamedMob
+	METHOD a setOwner (Ljava/lang/String;)V
+	METHOD b setTamed (Z)V

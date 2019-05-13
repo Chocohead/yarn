@@ -1,0 +1,3 @@
+CLASS oj net/minecraft/world/AlphaChunkIo
+	METHOD a convertAlphaChunk (Lacj;Lady;Lrs;)V
+	METHOD a readAlphaChunk (Lady;)Lacj;

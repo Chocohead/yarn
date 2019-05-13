@@ -1,1 +1,2 @@
 CLASS gc net/minecraft/nbt/IntArrayTag
+	FIELD a value [I

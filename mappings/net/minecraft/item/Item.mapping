@@ -171,5 +171,6 @@ CLASS yr net/minecraft/item/Item
 	METHOD f getRarity (Laan;)Lfo;
 	METHOD g setDurability (I)Lyr;
 	METHOD h getDurability ()I
+	METHOD h translateRawName (Laan;)Ljava/lang/String;
 	METHOD j isTool (Laan;)Z
 	METHOD n getTranslatedName ()Ljava/lang/String;

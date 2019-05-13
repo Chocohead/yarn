@@ -1,0 +1,12 @@
+CLASS alg net/minecraft/entity/effect/StatusEffectInstance
+	FIELD a id I
+	FIELD b duration I
+	FIELD c amplifier I
+	METHOD a getId ()I
+	METHOD a update (Lacq;)Z
+	METHOD a upgrade (Lalg;)V
+	METHOD b getDuration ()I
+	METHOD b applyUpdateEffect (Lacq;)V
+	METHOD c getAmplifier ()I
+	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD e updateDuration ()I

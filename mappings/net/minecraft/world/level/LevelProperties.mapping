@@ -1,0 +1,56 @@
+CLASS wq net/minecraft/world/level/LevelProperties
+	FIELD a randomSeed J
+	FIELD b generatorType Lvx;
+	FIELD c spawnX I
+	FIELD d spawnY I
+	FIELD e spawnZ I
+	FIELD f time J
+	FIELD g lastPlayed J
+	FIELD h sizeOnDisk J
+	FIELD i playerData Lady;
+	FIELD j dimension I
+	FIELD k levelName Ljava/lang/String;
+	FIELD l version I
+	FIELD m raining Z
+	FIELD n rainTime I
+	FIELD o thundering Z
+	FIELD p thunderTime I
+	FIELD q gameModeId I
+	FIELD r structures Z
+	FIELD s hardcore Z
+	METHOD a setSpawnX (I)V
+	METHOD a setSpawnPos (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setTime (J)V
+	METHOD a setPlayer (Lady;)V
+	METHOD a save (Lady;Lady;)V
+	METHOD a setLevelName (Ljava/lang/String;)V
+	METHOD a setGeneratorType (Lvx;)V
+	METHOD a setThundering (Z)V
+	METHOD b getSeed ()J
+	METHOD b setSpawnY (I)V
+	METHOD b setRaining (Z)V
+	METHOD c getSpawnX ()I
+	METHOD c setSpawnZ (I)V
+	METHOD d getSpawnY ()I
+	METHOD d setVersion (I)V
+	METHOD e getSpawnZ ()I
+	METHOD e setThunderTime (I)V
+	METHOD f getTime ()J
+	METHOD f setRainTime (I)V
+	METHOD g getSizeOnDisk ()J
+	METHOD h getPlayer ()Lady;
+	METHOD i getDimensionId ()I
+	METHOD j getLevelName ()Ljava/lang/String;
+	METHOD k getVersion ()I
+	METHOD l getLastPlayed ()J
+	METHOD m getThundering ()Z
+	METHOD n getThunderTime ()I
+	METHOD o isRaining ()Z
+	METHOD p getRainTime ()I
+	METHOD q getGameType ()I
+	METHOD r hasMapFeatures ()Z
+	METHOD s isHardcore ()Z
+	METHOD t getGeneratorType ()Lvx;

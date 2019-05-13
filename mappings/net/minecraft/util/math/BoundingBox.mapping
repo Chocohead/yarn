@@ -5,3 +5,4 @@ CLASS wu net/minecraft/util/math/BoundingBox
 	FIELD d maxX D
 	FIELD e maxY D
 	FIELD f maxZ D
+	METHOD b create (DDDDDD)Lwu;

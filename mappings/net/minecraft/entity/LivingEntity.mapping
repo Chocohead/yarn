@@ -18,6 +18,8 @@ CLASS acq net/minecraft/entity/LivingEntity
 	METHOD b getCurrentExperience (Lyw;)I
 	METHOD bb getHealth ()I
 	METHOD bf clearPotionEffects ()V
+	METHOD c onToolBroken (Laan;)V
+	METHOD c applyDamage (Lmd;I)V
 	METHOD d getMaxHealth ()I
 	METHOD e updateDespawnCounter ()V
 	METHOD f getMobDrops ()I

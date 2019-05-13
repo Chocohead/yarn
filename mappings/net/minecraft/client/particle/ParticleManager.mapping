@@ -3,3 +3,4 @@ CLASS cw net/minecraft/client/particle/ParticleManager
 	FIELD c textureManager Laaw;
 	FIELD d random Ljava/util/Random;
 	METHOD a tick ()V
+	METHOD a addEmitter (Lrt;)V

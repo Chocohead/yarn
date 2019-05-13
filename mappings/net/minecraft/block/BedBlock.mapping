@@ -1,1 +1,2 @@
 CLASS pm net/minecraft/block/BedBlock
+	METHOD f findWakeUpPosition (Lxd;IIII)Luh;

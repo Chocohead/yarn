@@ -1,0 +1,9 @@
+CLASS vx net/minecraft/world/level/LevelGeneratorType
+	FIELD a TYPES [Lvx;
+	FIELD b DEFAULT Lvx;
+	FIELD d DEFAULT_1_1 Lvx;
+	METHOD a getStoredName ()Ljava/lang/String;
+	METHOD a getTypeForVersion (I)Lvx;
+	METHOD a getTypeFromName (Ljava/lang/String;)Lvx;
+	METHOD c getVersion ()I
+	METHOD e isVersioned ()Z

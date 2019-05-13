@@ -1,4 +1,6 @@
 CLASS ki
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
 	METHOD a dropCreativeStack (Laan;)V
+	METHOD a pickFromInventory (Laan;I)V
 	METHOD b setDefaultHotbar (Lyw;)V
 	METHOD h hasCreativeInventory ()Z

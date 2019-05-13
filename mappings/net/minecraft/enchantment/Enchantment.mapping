@@ -1,8 +1,20 @@
 CLASS jt net/minecraft/enchantment/Enchantment
 	FIELD a BY_ID [Ljt;
+	FIELD b PROTECTION Ljt;
+	FIELD c FIRE_PROTECTION Ljt;
+	FIELD d FEATHER_FALLING Ljt;
+	FIELD e BLAST_PROTECTION Ljt;
+	FIELD f PROJECTILE_PROTECTION Ljt;
+	FIELD g RESPIRATION Ljt;
+	FIELD h AQUA_AFFINITY Ljt;
+	FIELD i SHARPNESS Ljt;
+	FIELD j SMITE Ljt;
+	FIELD k BANE_OF_ATHROPODS Ljt;
 	FIELD l KNOCKBACK Ljt;
 	FIELD m FIRE_ASPECT Ljt;
 	FIELD n LOOTING Ljt;
+	FIELD o EFFICIENCY Ljt;
+	FIELD p SILK_TOUCH Ljt;
 	FIELD q UNBREAKING Ljt;
 	FIELD r FORTUNE Ljt;
 	FIELD s POWER Ljt;
@@ -12,9 +24,15 @@ CLASS jt net/minecraft/enchantment/Enchantment
 	FIELD w id I
 	FIELD x target Lmb;
 	FIELD y rawName Ljava/lang/String;
+	FIELD z weight I
 	METHOD a getMaximumLevel ()I
 	METHOD a getMinimumPower (I)I
+	METHOD a getAttackDamage (ILacq;)I
+	METHOD a getProtectionAmount (ILmd;)I
 	METHOD a setRawName (Ljava/lang/String;)Ljt;
+	METHOD a differs (Ljt;)Z
+	METHOD b getWeight ()I
+	METHOD c getMinimumLevel ()I
 	METHOD c getDisplayNAme (I)Ljava/lang/String;
 		ARG 1 level
 	METHOD d getTranslationKey ()Ljava/lang/String;

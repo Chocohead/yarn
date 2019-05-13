@@ -3,6 +3,7 @@ CLASS gv net/minecraft/stat/Stats
 	FIELD B FISH_CAUGHT Lajw;
 	FIELD C MINE_BLOCK [Lajw;
 	FIELD D CRAFTED [Lajw;
+	FIELD F TOOLS_BROKEN [Lajw;
 	FIELD a STATS Ljava/util/Map;
 	FIELD f TIMES_PLAYED Lajw;
 	FIELD g WORLDS_CREATED Lajw;

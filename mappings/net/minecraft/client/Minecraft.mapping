@@ -26,8 +26,10 @@ CLASS net/minecraft/client/Minecraft
 	METHOD a openScreen (Lvp;)V
 	METHOD b handleProfilerKeyPress (I)V
 	METHOD c doItemUse (I)V
+	METHOD c isCommand (Ljava/lang/String;)Z
 	METHOD d closeGame ()V
 	METHOD d setPhase (Ljava/lang/String;)V
+	METHOD f stopGame ()V
 	METHOD g lockCursor ()V
 	METHOD h unlockCursor ()V
 	METHOD k tick ()V

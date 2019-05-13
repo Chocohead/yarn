@@ -1,5 +1,6 @@
 CLASS aak net/minecraft/util/PlayerInventory
 	FIELD a main [Laan;
+	FIELD b armor [Laan;
 	FIELD c selectedHotbarSlot I
 	FIELD d player Lyw;
 	METHOD a insertStack (Laan;)Z

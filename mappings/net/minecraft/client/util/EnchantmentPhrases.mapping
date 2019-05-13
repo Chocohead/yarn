@@ -1,0 +1,6 @@
+CLASS gy net/minecraft/client/util/EnchantmentPhrases
+	FIELD a INSTANCE Lgy;
+	FIELD b random Ljava/util/Random;
+	FIELD c phrases [Ljava/lang/String;
+	METHOD a generatePhrase ()Ljava/lang/String;
+	METHOD a setSeed (J)V

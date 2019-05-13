@@ -1,1 +1,4 @@
 CLASS bg net/minecraft/world/biome/BiomeSpawnEntry
+	FIELD a entityClass Ljava/lang/Class;
+	FIELD b minGroupSize I
+	FIELD c maxGroupSize I

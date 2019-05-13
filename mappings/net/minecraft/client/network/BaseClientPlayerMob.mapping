@@ -1,0 +1,5 @@
+CLASS vq net/minecraft/client/network/BaseClientPlayerMob
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a updateExperience (FII)V
+	METHOD a sendChatMessage (Ljava/lang/String;)V
+	METHOD d updateHealth (I)V

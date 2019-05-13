@@ -1,1 +1,2 @@
 CLASS yf net/minecraft/client/screen/ChatScreen
+	FIELD a chatField Lagu;

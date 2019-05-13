@@ -1,0 +1,2 @@
+CLASS aeq net/minecraft/util/MCRFilenameFilter
+	FIELD a storage Lfp;

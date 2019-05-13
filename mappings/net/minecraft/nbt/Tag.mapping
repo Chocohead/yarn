@@ -1,4 +1,13 @@
 CLASS gh net/minecraft/nbt/Tag
+	FIELD a key Ljava/lang/String;
 	METHOD a getType ()B
+	METHOD a idToString (B)Ljava/lang/String;
+	METHOD a createTag (BLjava/lang/String;)Lgh;
+		ARG 0 type
+	METHOD a writeKey (Lgh;Ljava/io/DataOutput;)V
+	METHOD a read (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a setKey (Ljava/lang/String;)Lgh;
 	METHOD b copy ()Lgh;
-	METHOD b read (Ljava/io/DataInput;)Lgh;
+	METHOD b readBaseData (Ljava/io/DataInput;)Lgh;
+	METHOD c getKey ()Ljava/lang/String;

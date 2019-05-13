@@ -1,0 +1,5 @@
+CLASS kb net/minecraft/world/level/storage/LevelStorage
+	METHOD a getLevelFormat ()Ljava/lang/String;
+	METHOD a (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 2 levelName
+	METHOD b getWorldData (Ljava/lang/String;)Lwq;

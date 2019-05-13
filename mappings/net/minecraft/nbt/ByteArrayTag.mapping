@@ -1,1 +1,2 @@
 CLASS zl net/minecraft/nbt/ByteArrayTag
+	FIELD a value [B

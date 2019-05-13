@@ -1,0 +1,3 @@
+CLASS sm net/minecraft/client/screen/container/EnchantingTableScreen
+	FIELD x random Ljava/util/Random;
+	FIELD y container Lgm;
