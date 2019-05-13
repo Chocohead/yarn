@@ -10,8 +10,16 @@ CLASS vp net/minecraft/client/screen/Screen
 	METHOD a onButtonPressed (Labp;)V
 	METHOD a setClipboardText (Ljava/lang/String;)V
 	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
+	METHOD a updateServer (ZI)V
 	METHOD b isPauseScreen ()Z
 	METHOD c init ()V
+	METHOD d renderBackground (I)V
 	METHOD e removed ()V
+	METHOD e renderDirtBackground (I)V
+	METHOD f handleMouseClick ()V
 	METHOD h getClipboardText ()Ljava/lang/String;
+	METHOD i handleInput ()V
+	METHOD j handleKeyPress ()V
 	METHOD k renderBackground ()V
+	METHOD l hasControlDown ()Z
+	METHOD m hasShiftDown ()Z

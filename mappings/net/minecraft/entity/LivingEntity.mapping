@@ -10,6 +10,7 @@ CLASS acq net/minecraft/entity/LivingEntity
 	FIELD cj movementSpeed F
 	METHOD a hasEffect (Laad;)Z
 	METHOD a onKilled (Lmd;)V
+	METHOD aO getRandom ()Ljava/util/Random;
 	METHOD aq isAlive ()Z
 	METHOD at getWalkSpeed ()F
 	METHOD az isSleeping ()Z

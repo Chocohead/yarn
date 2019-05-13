@@ -1,0 +1,6 @@
+CLASS jy net/minecraft/client/screen/VideoOptionsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b parent Lvp;
+	FIELD c options Lhu;
+	FIELD d os64Bit Z
+	FIELD e OPTIONS [Lzq;

@@ -1,1 +1,5 @@
 CLASS cd net/minecraft/client/screen/OptionsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD b parent Lvp;
+	FIELD c gameOptions Lhu;
+	FIELD d OPTIONS [Lzq;

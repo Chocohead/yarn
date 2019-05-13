@@ -1,0 +1,18 @@
+CLASS if net/minecraft/client/screen/EntryListWidget
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b width I
+	FIELD c height I
+	FIELD d right I
+	FIELD e left I
+	FIELD h top I
+	FIELD i bottom I
+	FIELD j itemHeight I
+	FIELD m yDrag F
+	FIELD o scrollAmount F
+	FIELD s renderHeader Z
+	METHOD a renderList (IIF)V
+	METHOD a renderHoleBackground (IIII)V
+	METHOD a render (IIIILadz;)V
+	METHOD a renderHeader (IILadz;)V
+	METHOD b renderDecorations (II)V
+	METHOD d validateScrollAmount ()V

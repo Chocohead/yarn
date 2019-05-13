@@ -1,0 +1,3 @@
+CLASS z net/minecraft/client/screen/OptionButton
+	FIELD j option Lzq;
+	METHOD a getOption ()Lzq;

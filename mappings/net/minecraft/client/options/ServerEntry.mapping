@@ -1,5 +1,5 @@
 CLASS oa net/minecraft/client/options/ServerEntry
 	FIELD a name Ljava/lang/String;
-	FIELD b ip Ljava/lang/String;
+	FIELD b address Ljava/lang/String;
 	METHOD a toTag ()Lady;
 	METHOD a fromTag (Lady;)Loa;

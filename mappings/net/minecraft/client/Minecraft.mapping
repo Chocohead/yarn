@@ -32,6 +32,7 @@ CLASS net/minecraft/client/Minecraft
 	METHOD f stopGame ()V
 	METHOD g lockCursor ()V
 	METHOD h unlockCursor ()V
+	METHOD j setFullScreen ()V
 	METHOD k tick ()V
 	METHOD l isInServer ()Z
 	METHOD s isFancyGraphicsEnabled ()Z

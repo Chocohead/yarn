@@ -1,0 +1,7 @@
+CLASS mw net/minecraft/client/screen/SelectWorldScreen
+	FIELD a parent Lvp;
+	FIELD b title Ljava/lang/String;
+	FIELD i worldString Ljava/lang/String;
+	FIELD j conversionString Ljava/lang/String;
+	FIELD k gamemodeStrings [Ljava/lang/String;
+	METHOD d addButtons ()V

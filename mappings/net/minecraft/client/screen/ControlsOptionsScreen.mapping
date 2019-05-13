@@ -3,3 +3,4 @@ CLASS oz net/minecraft/client/screen/ControlsOptionsScreen
 	FIELD b parent Lvp;
 	FIELD c options Lhu;
 	FIELD d selectedKeybinding I
+	METHOD d getButtonX ()I
