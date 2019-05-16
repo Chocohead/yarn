@@ -1,1 +1,2 @@
 CLASS ov net/minecraft/block/CakeBlock
+	METHOD c tryEat (Lxd;IIILyw;)V

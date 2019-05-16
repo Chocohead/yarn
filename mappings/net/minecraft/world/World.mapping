@@ -5,12 +5,14 @@ CLASS xd net/minecraft/world/World
 	FIELD K unloadedBlockEntities Ljava/util/List;
 	FIELD Q iteratingTickingBlockEntities Z
 	FIELD c blockEntities Ljava/util/List;
+	FIELD f ambientDarkness I
 	FIELD n ticksSinceLightning I
 	FIELD q difficulty I
 	FIELD r random Ljava/util/Random;
 	FIELD t dimension Lalb;
-	FIELD v chunkManager Lca;
+	FIELD v chunkGenerator Lca;
 	FIELD x properties Lwq;
+	METHOD B getProperties ()Lwq;
 	METHOD E canSkipNight ()Z
 	METHOD I getHorizonHeight ()D
 	METHOD a isPlayerInRange (DDDD)Lyw;
@@ -33,6 +35,7 @@ CLASS xd net/minecraft/world/World
 	METHOD b (IIIIII)Z
 		ARG 2 y
 	METHOD b markDirty (IIILkw;)V
+	METHOD b getEntities (Lnn;Lwu;)Ljava/util/List;
 	METHOD b getLightLevel (Lwl;III)I
 	METHOD b containsBlockWithMaterial (Lwu;Lacn;)Z
 	METHOD c getSkyAngle (F)F
@@ -56,3 +59,4 @@ CLASS xd net/minecraft/world/World
 	METHOD v getSeed ()J
 	METHOD w getTime ()J
 	METHOD x getSpawnPos ()Luh;
+	METHOD z getChunkGenerator ()Lca;

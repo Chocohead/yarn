@@ -92,6 +92,7 @@ CLASS pb net/minecraft/block/Block
 	FIELD bM REDSTONE_LAMP_LIT Lpb;
 	FIELD bN texUVStart I
 	FIELD bO id I
+	FIELD bU hasBlockEntity Z
 	FIELD ba PUMPKIN Lpb;
 	FIELD bb NETHERRACK Lpb;
 	FIELD bc SOUL_SAND Lpb;
@@ -130,6 +131,7 @@ CLASS pb net/minecraft/block/Block
 	FIELD k WOOL_SOUNDS Lvj;
 	FIELD l SAND_SOUNDS Lvj;
 	FIELD m BLOCKS [Lpb;
+	FIELD n FULL_OPAQUE [Z
 	FIELD t STONE Lpb;
 	FIELD u GRASS Lqy;
 	FIELD v DIRT Lpb;
@@ -139,23 +141,35 @@ CLASS pb net/minecraft/block/Block
 	FIELD z BEDROCK Lpb;
 	METHOD <init> (ILacn;)V
 		ARG 1 id
+	METHOD a isFullOpaque ()Z
 	METHOD a getDropId (ILjava/util/Random;I)I
 	METHOD a setRawName (Ljava/lang/String;)Lpb;
 	METHOD a getDropCount (Ljava/util/Random;)I
+	METHOD a getEffectiveExplosionResistance (Lnn;)F
 	METHOD a sounds (Lvj;)Lpb;
+	METHOD a beforeDestroyedByExplosion (Lxd;IIIIFI)V
+	METHOD a afterPlaced (Lxd;IIILacq;)V
 	METHOD a onScheduledTick (Lxd;IIILjava/util/Random;)V
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 	METHOD a onEntityCollision (Lxd;IIILnn;)V
 	METHOD a afterBreak (Lxd;Lyw;IIII)V
+	METHOD b isFullCube ()Z
+	METHOD b onDestroyedByExplosion (Lxd;III)V
 	METHOD b onBlockAction (Lxd;IIIII)V
+	METHOD b randomDisplayTick (Lxd;IIILjava/util/Random;)V
 	METHOD b activate (Lxd;IIILyw;)Z
+	METHOD b_ onBlockRemoved (Lxd;III)V
 	METHOD c getDropData (I)I
+	METHOD c getCollisionShape (Lxd;III)Lwu;
+	METHOD c onPlaced (Lxd;IIII)V
+	METHOD d getOutlineShape (Lxd;III)Lwu;
 	METHOD e getTickRate ()I
 	METHOD g emitsRedstonePower ()Z
-	METHOD g (I)Z
+	METHOD g canSuffocateIn (I)Z
 		ARG 0 id
 	METHOD g canPlaceAt (Lxd;III)Z
+	METHOD p hasBlockEntity ()Z
 	METHOD r getTranslatedName ()Ljava/lang/String;
 	METHOD s getRawName ()Ljava/lang/String;

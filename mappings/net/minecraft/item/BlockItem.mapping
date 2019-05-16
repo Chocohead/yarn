@@ -1,1 +1,2 @@
 CLASS acs net/minecraft/item/BlockItem
+	FIELD a blockId I

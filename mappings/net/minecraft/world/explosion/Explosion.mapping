@@ -1,1 +1,12 @@
 CLASS agh net/minecraft/world/explosion/Explosion
+	FIELD a createFire Z
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e entity Lnn;
+	FIELD f power F
+	FIELD g affectedBlocks Ljava/util/Set;
+	FIELD h random Ljava/util/Random;
+	FIELD i world Lxd;
+	METHOD a collectBlocksAndDamageEntities ()V
+	METHOD a affectWorld (Z)V

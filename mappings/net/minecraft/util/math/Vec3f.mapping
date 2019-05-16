@@ -1,4 +1,4 @@
-CLASS bo net/minecraft/client/util/math/Vector3f
+CLASS bo net/minecraft/util/math/Vec3f
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D

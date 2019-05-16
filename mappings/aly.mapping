@@ -1,2 +1,0 @@
-CLASS aly
-	FIELD k random Ljava/util/Random;

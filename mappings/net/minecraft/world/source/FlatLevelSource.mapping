@@ -1,0 +1,3 @@
+CLASS yh net/minecraft/world/source/FlatLevelSource
+	FIELD a world Lxd;
+	FIELD b random Ljava/util/Random;

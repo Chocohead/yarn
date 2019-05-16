@@ -1,0 +1,17 @@
+CLASS alb net/minecraft/world/dimension/Dimension
+	FIELD a world Lxd;
+	FIELD b levelGeneratorType Lvx;
+	FIELD c biomeSource Lrs;
+	FIELD d waterVaporizes Z
+	FIELD f lightLevelToBrightness [F
+	FIELD h backgroundColor [F
+	METHOD a initializeBiomeSource ()V
+	METHOD a getBackgroundColor (FF)[F
+	METHOD a getSkyAngle (JF)F
+	METHOD b createChunkGenerator ()Lca;
+	METHOD b getFogColor (FF)Lbo;
+	METHOD e hasVisibleSky ()Z
+	METHOD f getCloudHeight ()F
+	METHOD g getForcedSpawnPoint ()Luh;
+	METHOD i initializeLightLevelToBrightness ()V
+	METHOD k getHorizonShadingRatio ()D

@@ -1,1 +1,3 @@
 CLASS adg net/minecraft/entity/mob/BlazeMob
+	METHOD a setFireActive (Z)V
+	METHOD af isFireActive ()Z

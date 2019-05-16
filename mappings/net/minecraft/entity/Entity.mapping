@@ -43,6 +43,7 @@ CLASS nn net/minecraft/entity/Entity
 	METHOD J_ tick ()V
 	METHOD K scheduleVelocityUpdate ()V
 	METHOD M isAlive ()Z
+	METHOD N isInsideWall ()Z
 	METHOD P getHeightOffset ()D
 	METHOD W isSprinting ()Z
 	METHOD Z getParts ()[Lnn;
@@ -51,7 +52,10 @@ CLASS nn net/minecraft/entity/Entity
 	METHOD a getBrightnessAtEyes (F)F
 	METHOD a movementInputToVelocity (FFF)V
 	METHOD a burn (I)V
+	METHOD a dropItem (IIF)Lfq;
+		ARG 1 itemId
 	METHOD a playStepSound (IIII)V
+	METHOD a dropStack (Laan;F)Lfq;
 	METHOD a isInFluid (Lacn;)Z
 	METHOD a readCustomDataFromTag (Lady;)V
 	METHOD a damage (Lmd;I)Z
@@ -66,6 +70,7 @@ CLASS nn net/minecraft/entity/Entity
 	METHOD b setPositionAndAnglesAndUpdate (DDDFF)V
 	METHOD b getLightmapCoordinates (F)I
 	METHOD b setRotation (FF)V
+	METHOD b dropItem (II)Lfq;
 	METHOD b writeCustomDataToTag (Lady;)V
 	METHOD c addVelocity (DDD)V
 	METHOD c setPositionAndAngles (DDDFF)V
