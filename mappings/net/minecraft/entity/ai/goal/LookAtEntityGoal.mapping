@@ -1,0 +1,7 @@
+CLASS ob net/minecraft/entity/ai/goal/LookAtEntityGoal
+	FIELD a owner Lacq;
+	FIELD b target Lnn;
+	FIELD c range F
+	FIELD d lookTime I
+	FIELD e chance F
+	FIELD f targetType Ljava/lang/Class;

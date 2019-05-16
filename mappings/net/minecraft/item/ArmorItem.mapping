@@ -1,5 +1,6 @@
 CLASS ql net/minecraft/item/ArmorItem
-	FIELD a armorslot I
+	FIELD a armorSlot I
 	FIELD b protection I
 	FIELD bV BASE_DURABILITY [I
-	FIELD bW armorMaterial Lcg;
+	FIELD bW type Lcg;
+	FIELD c toughness I

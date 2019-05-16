@@ -1,3 +1,5 @@
 CLASS aim
-	METHOD a (ILjava/lang/Object;)V
+	METHOD a get (I)B
+	METHOD a startTracking (ILjava/lang/Object;)V
 		ARG 1 id
+	METHOD b set (ILjava/lang/Object;)V

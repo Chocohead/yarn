@@ -1,1 +1,9 @@
 CLASS oq net/minecraft/entity/mob/EnderDragonMob
+	FIELD am parts [Ldg;
+	FIELD an head Ldg;
+	FIELD ao body Ldg;
+	FIELD ap tailPart1 Ldg;
+	FIELD aq tailPart2 Ldg;
+	FIELD ar tailPart3 Ldg;
+	FIELD as wingRight Ldg;
+	FIELD at leftWing Ldg;

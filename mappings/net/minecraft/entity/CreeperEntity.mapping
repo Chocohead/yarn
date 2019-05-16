@@ -1,0 +1,6 @@
+CLASS yd net/minecraft/entity/CreeperEntity
+	FIELD a currentFuseTime I
+	FIELD b lastFuseTime I
+	METHOD af isCharged ()Z
+	METHOD ag getFuseSpeed ()I
+	METHOD d setFuseSpeed (I)V

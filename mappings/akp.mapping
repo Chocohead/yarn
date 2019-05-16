@@ -1,2 +1,3 @@
 CLASS akp
 	METHOD a saveWorld (Lwq;)V
+	METHOD c getLevelProperties ()Lwq;

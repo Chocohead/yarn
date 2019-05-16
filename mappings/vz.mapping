@@ -1,0 +1,2 @@
+CLASS vz
+	METHOD a lookAt (Lnn;FF)V

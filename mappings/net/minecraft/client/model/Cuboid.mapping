@@ -1,0 +1,12 @@
+CLASS qp net/minecraft/client/model/Cuboid
+	FIELD c rotationPointZ F
+	FIELD d rotationPointX F
+	FIELD e rotationPointY F
+	FIELD f pitch F
+	FIELD g yaw F
+	FIELD h roll F
+	FIELD i mirror Z
+	METHOD a render (F)V
+	METHOD a setRotationPoint (FFF)V
+	METHOD a addBox (Ljava/lang/String;FFFIII)Lqp;
+	METHOD a addChikd (Lqp;)V

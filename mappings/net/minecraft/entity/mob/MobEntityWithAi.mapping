@@ -1,0 +1,2 @@
+CLASS aaa net/minecraft/entity/mob/MobEntityWithAi
+	METHOD a getPathfindingFavor (III)F

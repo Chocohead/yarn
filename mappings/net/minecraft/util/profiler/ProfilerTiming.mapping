@@ -1,2 +1,5 @@
 CLASS aaf net/minecraft/util/profiler/ProfilerTiming
+	FIELD a parentSectionUsagePercentage D
+	FIELD b totalUsagePercentage D
 	FIELD c name Ljava/lang/String;
+	METHOD a getColor ()I

@@ -3,6 +3,7 @@ CLASS ou net/minecraft/block/entity/PistonBlockEntity
 	FIELD b blockData I
 	FIELD c facing I
 	FIELD d extending Z
+	FIELD e source Z
 	FIELD f nextProgress F
 	FIELD g progress F
 	METHOD a getProgress (F)F
@@ -11,3 +12,4 @@ CLASS ou net/minecraft/block/entity/PistonBlockEntity
 	METHOD d isExtending ()Z
 	METHOD d getRenderOffsetZ (F)F
 	METHOD e getFacing ()I
+	METHOD f isSource ()Z

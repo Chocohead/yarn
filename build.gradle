@@ -50,7 +50,7 @@ configurations {
 
 dependencies {
 	enigmaRuntime "net.fabricmc:stitch:0.1.1.39+"
-	enigmaRuntime "cuchaz:enigma:0.13.1.+:all"
+	enigmaRuntime "cuchaz:enigma:0.13.1.99:all"
 }
 
 def mappingsDir = file("mappings")
@@ -105,7 +105,9 @@ task downloadVersionsManifest {
 
 def getManifestVersion(File manifestFile, String minecraft_version) {
 	def manifest = manifestFile.exists() ? new JsonSlurper().parseText(FileUtils.readFileToString(manifestFile)) : null
-	return manifest != null ? manifest.versions.stream().filter({it.id.equals(minecraft_version)}).findFirst() : java.util.Optional.empty()
+	return manifest != null ? manifest.versions.stream().filter({
+		it.id.equals(minecraft_version)
+	}).findFirst() : java.util.Optional.empty()
 }
 
 task downloadWantedVersionManifest(dependsOn: downloadVersionsManifest) {
@@ -118,7 +120,8 @@ task downloadWantedVersionManifest(dependsOn: downloadVersionsManifest) {
 	outputs.file versionFile
 
 	doLast {
-		manifestVersion = getManifestVersion(manifestFile, minecraft_version) //nb need to re-read here in case it didn't exist before
+		manifestVersion = getManifestVersion(manifestFile, minecraft_version)
+		//nb need to re-read here in case it didn't exist before
 		if (manifestVersion.isPresent() || versionFile.exists()) {
 
 			if (manifestVersion.isPresent()) {
@@ -165,23 +168,23 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 }
 
 task mergeJars(dependsOn: downloadMcJars) {
-	inputs.files downloadMcJars.outputs.files.files
-	outputs.file(mergedFile)
-
-	doLast {
-		logger.lifecycle(":merging jars")
-		def client = inputs.files.files.find {it.name.endsWith("-client.jar")}
-		def server = inputs.files.files.find {it.name.endsWith("-server.jar")}
-		def merged = mergedFile
-
-		if(merged.exists()){
-			return
-		}
-
-		def jarMerger = new JarMerger(client, server, merged)
-		jarMerger.merge()
-		jarMerger.close()
-	}
+//	inputs.files downloadMcJars.outputs.files.files
+//	outputs.file(mergedFile)
+//
+//	doLast {
+//		logger.lifecycle(":merging jars")
+//		def client = inputs.files.files.find {it.name.endsWith("-client.jar")}
+//		def server = inputs.files.files.find {it.name.endsWith("-server.jar")}
+//		def merged = mergedFile
+//
+//		if(merged.exists()){
+//			return
+//		}
+//
+//		def jarMerger = new JarMerger(client, server, merged)
+//		jarMerger.merge()
+//		jarMerger.close()
+//	}
 
 }
 
@@ -198,7 +201,7 @@ task yarn(dependsOn: setupYarn) {
 			spawn: true
 		) {
 			jvmarg(value: "-Xmx2048m")
-			arg(value: mergedFile.getAbsolutePath())
+			arg(value: clientJar.getAbsolutePath())
 			arg(value: mappingsDir.getAbsolutePath())
 		}
 	}
@@ -217,7 +220,7 @@ task checkMappings {
 		logger.lifecycle(":checking mappings")
 
 		String[] args = [
-			mergedFile.getAbsolutePath(),
+			clientJar.getAbsolutePath(),
 			mappingsDir.getAbsolutePath()
 		]
 
@@ -225,10 +228,10 @@ task checkMappings {
 	}
 }
 
-task downloadIntermediary(type: Download){
-    def url = "https://github.com/FabricMC/intermediary/raw/master/mappings/${minecraft_version}.tiny"
-    src url.replaceAll(" ", "%20")
-    dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
+task downloadIntermediary(type: Download) {
+	def url = "https://github.com/FabricMC/intermediary/raw/master/mappings/${minecraft_version}.tiny"
+	src url.replaceAll(" ", "%20")
+	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 
 task patchIntermediary(dependsOn: ["mergeJars", "downloadIntermediary"], type: FileOutput) {
@@ -238,12 +241,12 @@ task patchIntermediary(dependsOn: ["mergeJars", "downloadIntermediary"], type: F
 	outputs.file(outputFile)
 	fileOutput = outputFile
 
-	outputs.upToDateWhen {return false}
+	outputs.upToDateWhen { return false }
 
 	doLast {
 		logger.lifecycle(":patching intermediary")
 		String[] args = [
-			mergedFile.getAbsolutePath(),
+			clientJar.getAbsolutePath(),
 			intermediaryTinyInput.getAbsolutePath(),
 			outputFile.getAbsolutePath(),
 			"--writeAll"
@@ -253,7 +256,7 @@ task patchIntermediary(dependsOn: ["mergeJars", "downloadIntermediary"], type: F
 	}
 }
 
-task buildYarnTiny(dependsOn: "mergeJars",type: FileOutput) {
+task buildYarnTiny(dependsOn: "mergeJars", type: FileOutput) {
 	inputs.dir mappingsDir
 	if (!libs.exists()) {
 		libs.mkdirs()
@@ -261,14 +264,14 @@ task buildYarnTiny(dependsOn: "mergeJars",type: FileOutput) {
 
 	def yarnTiny = new File(tempDir, "yarn-mappings.tiny")
 	fileOutput = yarnTiny
-	
-	outputs.upToDateWhen {return false}
+
+	outputs.upToDateWhen { return false }
 
 	doLast {
 		logger.lifecycle(":generating tiny mappings")
 
 		String[] args = [
-			mergedFile.getAbsolutePath(),
+			clientJar.getAbsolutePath(),
 			mappingsDir.getAbsolutePath(),
 			yarnTiny.getAbsolutePath(),
 			"official",
@@ -287,7 +290,7 @@ task mergeTiny(dependsOn: ["buildYarnTiny", "patchIntermediary"], type: FileOutp
 	outputs.file(outputFile)
 	fileOutput = outputFile
 
-	outputs.upToDateWhen {return false}
+	outputs.upToDateWhen { return false }
 
 	doLast {
 		logger.lifecycle(":merging yarn and intermediary")
@@ -304,23 +307,23 @@ task mergeTiny(dependsOn: ["buildYarnTiny", "patchIntermediary"], type: FileOutp
 }
 
 task tinyJar(type: Jar, dependsOn: "mergeTiny") {
-	outputs.upToDateWhen {return false}
+	outputs.upToDateWhen { return false }
 	archiveName = "yarn-${yarnVersion}.jar"
 	destinationDir(file("build/libs"))
 	classifier = ""
-	from (mergeTiny.fileOutput) {
+	from(mergeTiny.fileOutput) {
 		rename { "mappings/mappings.tiny" }
 	}
 }
 
-task compressTiny(dependsOn: ["tinyJar", "mergeTiny"], type: FileOutput){
+task compressTiny(dependsOn: ["tinyJar", "mergeTiny"], type: FileOutput) {
 	def outputFile = new File(libs, "yarn-tiny-${yarnVersion}.gz")
 	outputs.file(outputFile)
 	fileOutput = outputFile
 
 	def inputFile = mergeTiny.fileOutput
 
-	outputs.upToDateWhen {return false}
+	outputs.upToDateWhen { return false }
 
 	doLast {
 		logger.lifecycle(":compressing tiny mappings")
@@ -396,7 +399,7 @@ task mapIntermediaryJar(dependsOn: [downloadMcLibs, build]) {
 	doLast {
 		logger.lifecycle(":mapping minecraft to intermdiary")
 		def tinyInput = new File("build/libs/yarn-tiny-${yarnVersion}.gz")
-		mapJar(intermediaryJar, mergedFile, tinyInput, libraries, "official", "intermediary")
+		mapJar(intermediaryJar, clientJar, tinyInput, libraries, "official", "intermediary")
 	}
 }
 
@@ -424,14 +427,14 @@ publishing {
 			artifactId "yarn"
 			version yarnVersion
 
-			artifact (compressTiny.fileOutput) {
+			artifact(compressTiny.fileOutput) {
 				classifier "tiny"
 				builtBy compressTiny
 			}
-			artifact (buildEnigma) {
+			artifact(buildEnigma) {
 				classifier "enigma"
 			}
-			artifact (tinyJar)
+			artifact(tinyJar)
 		}
 	}
 	repositories {
@@ -448,7 +451,7 @@ publishing {
 }
 
 
-void mapJar(File output, File input, File mappings, File libraries, String from, String to){
+void mapJar(File output, File input, File mappings, File libraries, String from, String to) {
 	if (output.exists()) {
 		output.delete()
 	}
@@ -458,13 +461,13 @@ void mapJar(File output, File input, File mappings, File libraries, String from,
 		.renameInvalidLocals(true)
 		.rebuildSourceFilenames(true)
 		.build()
-      
+
 	try {
 		def outputConsumer = new OutputConsumerPath(output.toPath())
 		outputConsumer.addNonClassFiles(input.toPath())
 		remapper.readInputs(input.toPath())
 
-		libraries.eachFileRecurse(FileType.FILES) {file ->
+		libraries.eachFileRecurse(FileType.FILES) { file ->
 			remapper.readClassPath(file.toPath())
 		}
 		remapper.apply(outputConsumer)
@@ -477,5 +480,6 @@ void mapJar(File output, File input, File mappings, File libraries, String from,
 }
 
 class FileOutput extends DefaultTask {
-	@OutputFile File fileOutput
+	@OutputFile
+	File fileOutput
 }

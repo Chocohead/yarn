@@ -1,30 +1,49 @@
 CLASS acq net/minecraft/entity/LivingEntity
+	FIELD ar navigation Lrh;
+	FIELD as target Lacq;
+	FIELD at visibilityCache Labk;
 	FIELD bA hurtTime I
 	FIELD bD deathTime I
 	FIELD bE attackTime I
 	FIELD bI experiencePoints I
+	FIELD b attacker Lacq;
 	FIELD bS activeEffects Ljava/util/HashMap;
+	FIELD bT goalSelector Lnb;
+	FIELD bU targetSelector Lnb;
 	FIELD bm texture Ljava/lang/String;
 	FIELD bx health I
 	FIELD cd despawnCounter I
 	FIELD cj movementSpeed F
 	METHOD a hasEffect (Laad;)Z
 	METHOD a onKilled (Lmd;)V
+	METHOD aD jump ()V
+	METHOD aJ getLookControl ()Lvz;
+	METHOD aM getNavigation ()Lrh;
+	METHOD aN getVisibilityCache ()Labk;
 	METHOD aO getRandom ()Ljava/util/Random;
-	METHOD aq isAlive ()Z
+	METHOD aP getAttacker ()Lacq;
+	METHOD aR getDespawnCounter ()I
+	METHOD aT getTarget ()Lacq;
+	METHOD a_ travel (FF)V
+	METHOD ak getLookPitchSpeed ()I
+	METHOD aq cannotMove ()Z
 	METHOD at getWalkSpeed ()F
 	METHOD az isSleeping ()Z
 	METHOD b getEffect (Laad;)Lalg;
-	METHOD b addPotionEffect (Lalg;)V
+	METHOD b addStatusEffect (Lalg;)V
+	METHOD b applyEnchantmentsToDamage (Lmd;I)I
 	METHOD b getCurrentExperience (Lyw;)I
 	METHOD bb getHealth ()I
-	METHOD bf clearPotionEffects ()V
+	METHOD bf clearStatusEffects ()V
+	METHOD bi isBaby ()Z
 	METHOD c onToolBroken (Laan;)V
 	METHOD c applyDamage (Lmd;I)V
 	METHOD d getMaxHealth ()I
+	METHOD d applyArmorToDamage (Lmd;I)I
 	METHOD e updateDespawnCounter ()V
 	METHOD f getMobDrops ()I
 	METHOD g mobTick ()V
+	METHOD h damageArmor (I)V
 	METHOD i canSpawn ()Z
 	METHOD k addHealth (I)V
 	METHOD l setHealth (I)V

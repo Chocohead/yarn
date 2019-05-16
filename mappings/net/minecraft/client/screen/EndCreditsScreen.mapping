@@ -1,0 +1,3 @@
+CLASS c net/minecraft/client/screen/EndCreditsScreen
+	FIELD a ticksOpened I
+	METHOD d respawnPlayer ()V

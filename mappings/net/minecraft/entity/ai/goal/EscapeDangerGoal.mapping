@@ -1,0 +1,6 @@
+CLASS ke net/minecraft/entity/ai/goal/EscapeDangerGoal
+	FIELD a owner Laaa;
+	FIELD b speed F
+	FIELD c targetX D
+	FIELD d targetY D
+	FIELD e targetZ D

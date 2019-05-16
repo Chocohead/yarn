@@ -1,0 +1,2 @@
+CLASS abk
+	METHOD a canSee (Lnn;)Z

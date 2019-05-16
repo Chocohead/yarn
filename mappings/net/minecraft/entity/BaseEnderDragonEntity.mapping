@@ -1,0 +1,3 @@
+CLASS ajn net/minecraft/entity/BaseEnderDragonEntity
+	FIELD aA maximumHealth I
+	METHOD a damagePart (Ldg;Lmd;I)Z

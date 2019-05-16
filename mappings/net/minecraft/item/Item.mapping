@@ -147,7 +147,9 @@ CLASS yr net/minecraft/item/Item
 	FIELD y STONE_AXE Lyr;
 	FIELD z DIAMOND_SWORD Lyr;
 	METHOD a getRawName (Laan;)Ljava/lang/String;
+	METHOD a onBlockBrokenWith (Laan;IIIILacq;)Z
 	METHOD a interactWithEntity (Laan;Lacq;)V
+	METHOD a onEntityDamagedWith (Laan;Lacq;Lacq;)Z
 	METHOD a buildTooltip (Laan;Ljava/util/List;)V
 	METHOD a getBlockBreakingSpeed (Laan;Lpb;)F
 	METHOD a onEntityTick (Laan;Lxd;Lnn;IZ)V
@@ -157,9 +159,11 @@ CLASS yr net/minecraft/item/Item
 		ARG 5 y
 		ARG 6 z
 	METHOD a setRawName (Ljava/lang/String;)Lyr;
+	METHOD a getWeaponDamage (Lnn;)I
+	METHOD a isEffectiveOn (Lpb;)Z
 	METHOD a getHitResult (Lxd;Lyw;Z)Lpl;
 	METHOD b getEnchantability ()I
-	METHOD b getDisplayColor (II)I
+	METHOD b getColor (II)I
 	METHOD b getMaxUseTime (Laan;)I
 	METHOD b onItemFinishedUsing (Laan;Lxd;Lyw;)Laan;
 	METHOD c getUseAction (Laan;)Laaq;
@@ -172,5 +176,6 @@ CLASS yr net/minecraft/item/Item
 	METHOD g setDurability (I)Lyr;
 	METHOD h getDurability ()I
 	METHOD h translateRawName (Laan;)Ljava/lang/String;
+	METHOD i canDamage ()Z
 	METHOD j isTool (Laan;)Z
 	METHOD n getTranslatedName ()Ljava/lang/String;

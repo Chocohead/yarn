@@ -1,0 +1,8 @@
+CLASS als net/minecraft/entity/ai/goal/AnimalMateGoal
+	FIELD a world Lxd;
+	FIELD b timer I
+	FIELD c chance F
+	FIELD d owner Lbc;
+	FIELD e mate Lbc;
+	METHOD h findMate ()Lbc;
+	METHOD i breed ()V

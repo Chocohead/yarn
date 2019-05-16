@@ -1,3 +1,4 @@
 CLASS qq net/minecraft/world/chunk/ChunkNibbleArray
 	FIELD a byteArray [B
+	METHOD a get (III)I
 	METHOD a set (IIII)V

@@ -1,0 +1,3 @@
+CLASS ahe net/minecraft/entity/ai/goal/CreeperIgniteGoal
+	FIELD a owner Lyd;
+	FIELD b target Lacq;

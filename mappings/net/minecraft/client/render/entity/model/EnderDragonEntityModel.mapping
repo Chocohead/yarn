@@ -1,0 +1,15 @@
+CLASS aks net/minecraft/client/render/entity/model/EnderDragonEntityModel
+	FIELD a head Lqp;
+	FIELD b neck Lqp;
+	FIELD c jaw Lqp;
+	FIELD d body Lqp;
+	FIELD e rearLeg Lqp;
+	FIELD f frontLeg Lqp;
+	FIELD g rearLegTip Lqp;
+	FIELD n frontLegTip Lqp;
+	FIELD o rearFoot Lqp;
+	FIELD p frontFoot Lqp;
+	FIELD q wing Lqp;
+	FIELD r wingTip Lqp;
+	FIELD s delta F
+	METHOD a updateRotations (D)F

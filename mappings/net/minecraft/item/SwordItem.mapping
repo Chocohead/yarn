@@ -1,1 +1,3 @@
 CLASS lx net/minecraft/item/SwordItem
+	FIELD a weaponDamage I
+	FIELD b toolMaterial Luk;

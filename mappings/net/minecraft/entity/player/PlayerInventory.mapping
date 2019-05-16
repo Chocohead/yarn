@@ -1,0 +1,25 @@
+CLASS aak net/minecraft/entity/player/PlayerInventory
+	FIELD a main [Laan;
+	FIELD b armor [Laan;
+	FIELD c selectedHotbarSlot I
+	FIELD d player Lyw;
+	FIELD e dirty Z
+	FIELD f cursorStack Laan;
+	METHOD a clone (Laak;)V
+	METHOD a insertStack (Laan;)Z
+	METHOD a serialize (Lno;)Lno;
+	METHOD a getBlockBreakingSpeed (Lpb;)F
+	METHOD b getHandStack ()Laan;
+	METHOD b setCursorStack (Laan;)V
+	METHOD b deserialize (Lno;)V
+	METHOD b isUsingEffectiveTool (Lpb;)Z
+	METHOD c contains (Laan;)Z
+	METHOD d decreaseAmountOfItem (I)Z
+	METHOD e hasItemInInv (I)Z
+	METHOD f getArmorStack (I)Laan;
+	METHOD g damageArmor (I)V
+	METHOD h getTotalArmorProtection ()I
+	METHOD h getSlotWithStack (I)I
+		ARG 1 id
+	METHOD i dropInventory ()V
+	METHOD k getCursorStack ()Laan;

@@ -1,2 +1,2 @@
 CLASS dk net/minecraft/block/entity/JukeboxBlockEntity
-	FIELD a record I
+	FIELD a recordId I

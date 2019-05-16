@@ -119,6 +119,7 @@ CLASS pb net/minecraft/block/Block
 	FIELD by MYCELIUM Lalr;
 	FIELD bz LILYPAD Lpb;
 	FIELD cb sounds Lvj;
+	FIELD cd material Lacn;
 	FIELD d STONE_SOUNDS Lvj;
 	FIELD e WOOD_SOUNDS Lvj;
 	FIELD f GRAVEL_SOUNDS Lvj;
@@ -147,6 +148,7 @@ CLASS pb net/minecraft/block/Block
 		ARG 3 y
 		ARG 4 z
 	METHOD a onEntityCollision (Lxd;IIILnn;)V
+	METHOD a afterBreak (Lxd;Lyw;IIII)V
 	METHOD b onBlockAction (Lxd;IIIII)V
 	METHOD b activate (Lxd;IIILyw;)Z
 	METHOD c getDropData (I)I

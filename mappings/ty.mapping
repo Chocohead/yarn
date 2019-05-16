@@ -1,2 +1,5 @@
 CLASS ty
 	FIELD d world Lxd;
+	METHOD b start ()V
+	METHOD c stop ()V
+	METHOD e getOSType ()Laaz;

@@ -1,1 +1,5 @@
 CLASS jg net/minecraft/entity/mob/EndermanMob
+	METHOD g_ setCarriedBlockId (I)V
+	METHOD h_ setCarriedBlockData (I)V
+	METHOD x getCarriedData ()I
+	METHOD z_ getCarriedBlockId ()I

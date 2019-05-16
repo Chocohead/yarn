@@ -10,3 +10,5 @@ CLASS uh net/minecraft/util/Vec3i
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD b getDistance (III)D
+	METHOD c getSquaredDistance (III)F

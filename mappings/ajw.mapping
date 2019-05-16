@@ -1,4 +1,0 @@
-CLASS ajw
-	FIELD a name Ljava/lang/String;
-	FIELD e id I
-	METHOD i getName ()Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS aje net/minecraft/entity/ai/goal/SwimGoal
+	FIELD a entity Lacq;

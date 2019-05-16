@@ -4,3 +4,4 @@ CLASS cj net/minecraft/block/entity/MobSpawnerBlockEntity
 	METHOD a getEntityId ()Ljava/lang/String;
 	METHOD a setEntityId (Ljava/lang/String;)V
 	METHOD d resetDelay ()V
+	METHOD t_ isPlayerInRange ()Z

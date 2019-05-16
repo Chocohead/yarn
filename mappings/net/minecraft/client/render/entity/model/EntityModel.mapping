@@ -1,0 +1,2 @@
+CLASS ho net/minecraft/client/render/entity/model/EntityModel
+	METHOD a render (Lnn;FFFFFF)V

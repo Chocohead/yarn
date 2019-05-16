@@ -34,6 +34,7 @@ CLASS abn net/minecraft/world/biome/Biome
 	FIELD y name Ljava/lang/String;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD a getSkyColor (F)I
 	METHOD a setTemperatureRange (FF)Labn;
 		ARG 1 minTemp
 		ARG 2 maxTemp

@@ -1,1 +1,5 @@
 CLASS bc net/minecraft/entity/mob/Mob
+	METHOD a create (Lbc;)Lbc;
+	METHOD b canBreedWith (Lbc;)Z
+	METHOD o_ isInLove ()Z
+	METHOD p_ resetLoveTicks ()V

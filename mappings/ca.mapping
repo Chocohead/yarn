@@ -1,0 +1,2 @@
+CLASS ca
+	METHOD a isChunkLoaded (II)Z

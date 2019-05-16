@@ -1,1 +1,6 @@
 CLASS hb net/minecraft/block/entity/ChestBlockEntity
+	FIELD f animationAngle F
+	FIELD g lastAnimationAngle F
+	FIELD h viewerCount I
+	FIELD p contents [Laan;
+	FIELD q ticksOpened I

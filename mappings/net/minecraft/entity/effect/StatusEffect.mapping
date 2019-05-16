@@ -2,7 +2,7 @@ CLASS aad net/minecraft/entity/effect/StatusEffect
 	FIELD a POTIONS [Laad;
 	FIELD c SWIFTNESS_POTION Laad;
 	FIELD d SLOWNESS_POTION Laad;
-	FIELD e HASTE_POTION Laad;
+	FIELD e HASTE Laad;
 	FIELD f MINING_FATIGUE Laad;
 	FIELD g STRENGTH Laad;
 	FIELD h INSTANT_HEALTH Laad;

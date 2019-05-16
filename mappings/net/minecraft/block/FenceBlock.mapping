@@ -1,1 +1,3 @@
 CLASS abg net/minecraft/block/FenceBlock
+	METHOD g (Lali;III)Z
+		ARG 1 world

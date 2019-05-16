@@ -1,0 +1,9 @@
+CLASS fg net/minecraft/entity/ai/goal/FleeEntityGoal
+	FIELD a fleeingEntity Laaa;
+	FIELD b fleeSlowSpeed F
+	FIELD c fleeFastSpeed F
+	FIELD d targetEntity Lnn;
+	FIELD e fleeDistance F
+	FIELD f fleePath Lvu;
+	FIELD g fleeingEntityNavigation Lrh;
+	FIELD h classToFleeFrom Ljava/lang/Class;

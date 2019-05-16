@@ -1,0 +1,5 @@
+CLASS alb
+	FIELD a world Lxd;
+	FIELD b levelGeneratorType Lvx;
+	FIELD c biomeSource Lrs;
+	METHOD e hasVisibleSky ()Z

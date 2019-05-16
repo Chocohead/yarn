@@ -1,8 +1,9 @@
-CLASS ali
+CLASS ali net/minecraft/world/BlockView
 	METHOD a getBiome (II)Labn;
 	METHOD a getBlockId (III)I
 	METHOD b getBlockEntity (III)Lkw;
 	METHOD b getLightmapIndex (IIII)I
 	METHOD c getBrightness (III)F
 	METHOD e getBlockData (III)I
+	METHOD f getMaterial (III)Lacn;
 	METHOD i isAir (III)Z

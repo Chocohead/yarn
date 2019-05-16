@@ -1,0 +1,18 @@
+CLASS wh net/minecraft/block/material/MaterialColor
+	FIELD a COLORS [Lwh;
+	FIELD b AIR Lwh;
+	FIELD c GRASS Lwh;
+	FIELD d SAND Lwh;
+	FIELD e WEB Lwh;
+	FIELD f LAVA Lwh;
+	FIELD g ICE Lwh;
+	FIELD h IRON Lwh;
+	FIELD i FOLIAGE Lwh;
+	FIELD j WHITE Lwh;
+	FIELD k CLAY Lwh;
+	FIELD l DIRT Lwh;
+	FIELD m STONE Lwh;
+	FIELD n WATER Lwh;
+	FIELD o WOOD Lwh;
+	FIELD p color I
+	FIELD q id I

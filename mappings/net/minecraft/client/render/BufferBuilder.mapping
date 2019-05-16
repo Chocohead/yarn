@@ -9,6 +9,7 @@ CLASS adz net/minecraft/client/render/BufferBuilder
 	METHOD a end ()I
 	METHOD a vertex (DDD)V
 	METHOD a vertex (DDDDD)V
+	METHOD a color4f (FFFF)V
 	METHOD a begin (I)V
 	METHOD b begin ()V
 	METHOD b setOffset (DDD)V

@@ -1,0 +1,4 @@
+CLASS ais net/minecraft/enchantment/EnchantmentHelper
+	FIELD a random Ljava/util/Random;
+	METHOD b getEfficiency (Laak;)I
+	METHOD g hasAquaAffinity (Laak;)Z

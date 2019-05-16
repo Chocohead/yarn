@@ -1,0 +1,2 @@
+CLASS akz net/minecraft/entity/ai/goal/TemptGoal
+	FIELD h player Lyw;

@@ -17,10 +17,12 @@ CLASS aan net/minecraft/item/ItemStack
 	METHOD a use (Lxd;Lyw;)Laan;
 	METHOD a onCrafted (Lxd;Lyw;I)V
 	METHOD b setDamage (I)V
-	METHOD b areEqualIgnoreDurability (Laan;)Laan;
+	METHOD b copy (Laan;)Laan;
 	METHOD b areEqual (Laan;Laan;)Z
 	METHOD b toTag (Lady;)Lady;
+	METHOD b isEffectiveOn (Lpb;)Z
 	METHOD b onItemFinishedUsing (Lxd;Lyw;)Laan;
+	METHOD b onItemStopUsing (Lxd;Lyw;I)V
 	METHOD c getMaxStackSize ()I
 	METHOD c isEqualCheckCount (Laan;)Z
 	METHOD c fromTag (Lady;)V
