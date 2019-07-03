@@ -1,1 +1,3 @@
 CLASS aja net/minecraft/entity/mob/SlimeMob
+	METHOD ap getSize ()I
+	METHOD d setSize (I)V

@@ -130,7 +130,7 @@ CLASS pb net/minecraft/block/Block
 	FIELD j GLASS_SOUNDS Lvj;
 	FIELD k WOOL_SOUNDS Lvj;
 	FIELD l SAND_SOUNDS Lvj;
-	FIELD m BLOCKS [Lpb;
+	FIELD m BY_ID [Lpb;
 	FIELD n FULL_OPAQUE [Z
 	FIELD t STONE Lpb;
 	FIELD u GRASS Lqy;
@@ -165,7 +165,7 @@ CLASS pb net/minecraft/block/Block
 	METHOD c getCollisionShape (Lxd;III)Lwu;
 	METHOD c onPlaced (Lxd;IIII)V
 	METHOD d getOutlineShape (Lxd;III)Lwu;
-	METHOD e getTickRate ()I
+	METHOD e getTickrate ()I
 	METHOD g emitsRedstonePower ()Z
 	METHOD g canSuffocateIn (I)Z
 		ARG 0 id

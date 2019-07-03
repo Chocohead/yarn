@@ -4,7 +4,7 @@ CLASS yu net/minecraft/container/Slot
 	FIELD c id I
 	FIELD d xPosition I
 	FIELD e yPosition I
-	METHOD a getMaxStackAmount ()I
+	METHOD a getMaxStackCount ()I
 	METHOD a takeStack (I)Laan;
 	METHOD a canInsert (Laan;)Z
 	METHOD a onCrafted (Laan;I)V

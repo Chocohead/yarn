@@ -22,7 +22,7 @@ CLASS xd net/minecraft/world/World
 	METHOD a setTime (J)V
 	METHOD a getEntities (Ljava/lang/Class;Lwu;)Ljava/util/List;
 	METHOD a getClosestEntity (Ljava/lang/Class;Lwu;Lnn;)Lnn;
-	METHOD a playSound (Ljava/lang/String;DDDDDD)V
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a addBlockEntities (Ljava/util/Collection;)V
 	METHOD a spawnEntity (Lnn;)Z
 	METHOD a getClosestPlayer (Lnn;D)Lyw;
@@ -35,12 +35,13 @@ CLASS xd net/minecraft/world/World
 	METHOD b (IIIIII)Z
 		ARG 2 y
 	METHOD b markDirty (IIILkw;)V
+	METHOD b canSuffocate (IIIZ)Z
 	METHOD b getEntities (Lnn;Lwu;)Ljava/util/List;
 	METHOD b getLightLevel (Lwl;III)I
 	METHOD b containsBlockWithMaterial (Lwu;Lacn;)Z
 	METHOD c getSkyAngle (F)F
 	METHOD f getCloudColor (F)Lbo;
-	METHOD f setBlockData (IIII)V
+	METHOD f setBlockMeta (IIII)V
 	METHOD g disconnect ()V
 	METHOD g setBlock (IIII)Z
 	METHOD g playLevelEvent (IIIII)V

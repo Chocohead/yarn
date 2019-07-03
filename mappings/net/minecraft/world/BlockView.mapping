@@ -4,7 +4,7 @@ CLASS ali net/minecraft/world/BlockView
 	METHOD b getBlockEntity (III)Lkw;
 	METHOD b getLightmapIndex (IIII)I
 	METHOD c getBrightness (III)F
-	METHOD e getBlockData (III)I
+	METHOD e getBlockMeta (III)I
 	METHOD f getMaterial (III)Lacn;
 	METHOD h canSuffocate (III)Z
 	METHOD i isAir (III)Z

@@ -1,6 +1,7 @@
 CLASS nl net/minecraft/client/font/TextRenderer
 	FIELD c random Ljava/util/Random;
 	FIELD i textureManager Laaw;
+	METHOD a getTextWidth (Ljava/lang/String;)I
 	METHOD a drawWithShadow (Ljava/lang/String;III)I
 	METHOD a drawWithShadow (Ljava/lang/String;IIIZ)I
 	METHOD b isColorCode (C)Z

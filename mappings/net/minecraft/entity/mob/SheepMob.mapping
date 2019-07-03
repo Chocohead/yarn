@@ -1,1 +1,2 @@
 CLASS cu net/minecraft/entity/mob/SheepMob
+	METHOD u isSheared ()Z

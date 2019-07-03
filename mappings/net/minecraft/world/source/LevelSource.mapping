@@ -1,4 +1,4 @@
 CLASS ca net/minecraft/world/source/LevelSource
 	METHOD a isChunkLoaded (II)Z
 	METHOD a getSpawnableMobs (Lacf;III)Ljava/util/List;
-	METHOD c getName ()Ljava/lang/String;
+	METHOD c toString ()Ljava/lang/String;

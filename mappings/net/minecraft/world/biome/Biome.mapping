@@ -40,6 +40,8 @@ CLASS abn net/minecraft/world/biome/Biome
 		ARG 2 maxTemp
 	METHOD a getSpawnableMobs (Lacf;)Ljava/util/List;
 	METHOD a setName (Ljava/lang/String;)Labn;
+	METHOD c canSnow ()Z
+	METHOD d canRain ()Z
 	METHOD e hasHighHumidity ()Z
 	METHOD f getMaxSpawnLimit ()F
 	METHOD i getMaxTemperature ()F

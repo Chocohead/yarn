@@ -9,7 +9,7 @@ CLASS aak net/minecraft/entity/player/PlayerInventory
 	METHOD a insertStack (Laan;)Z
 	METHOD a serialize (Lno;)Lno;
 	METHOD a getBlockBreakingSpeed (Lpb;)F
-	METHOD b getHandStack ()Laan;
+	METHOD b getHeldStack ()Laan;
 	METHOD b setCursorStack (Laan;)V
 	METHOD b deserialize (Lno;)V
 	METHOD b isUsingEffectiveTool (Lpb;)Z

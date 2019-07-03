@@ -124,7 +124,7 @@ CLASS yr net/minecraft/item/Item
 	FIELD by BREWING_STAND Lyr;
 	FIELD bz CAULDRON Lyr;
 	FIELD d random Ljava/util/Random;
-	FIELD e ITEMS [Lyr;
+	FIELD e BY_ID [Lyr;
 	FIELD f IRON_SHOVEL Lyr;
 	FIELD g IRON_PICKAXE Lyr;
 	FIELD h IRON_AXE Lyr;

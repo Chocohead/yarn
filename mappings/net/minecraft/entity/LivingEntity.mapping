@@ -15,7 +15,7 @@ CLASS acq net/minecraft/entity/LivingEntity
 	FIELD cd despawnCounter I
 	FIELD cj movementSpeed F
 	METHOD a hasEffect (Laad;)Z
-	METHOD a onKilled (Lmd;)V
+	METHOD a onKilledBy (Lmd;)V
 	METHOD aD jump ()V
 	METHOD aJ getLookControl ()Lvz;
 	METHOD aM getNavigation ()Lrh;

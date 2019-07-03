@@ -50,6 +50,7 @@ CLASS nn net/minecraft/entity/Entity
 	METHOD a handleStatus (B)V
 	METHOD a setVelocity (DDD)V
 	METHOD a getBrightnessAtEyes (F)F
+	METHOD a setSize (FF)V
 	METHOD a movementInputToVelocity (FFF)V
 	METHOD a burn (I)V
 	METHOD a dropItem (IIF)Lfq;
@@ -58,6 +59,7 @@ CLASS nn net/minecraft/entity/Entity
 	METHOD a dropStack (Laan;F)Lfq;
 	METHOD a isInFluid (Lacn;)Z
 	METHOD a readCustomDataFromTag (Lady;)V
+	METHOD a onStruckByLightning (Ld;)V
 	METHOD a damage (Lmd;I)Z
 	METHOD a isPartOf (Lnn;)Z
 	METHOD a onKilledOther (Lnn;I)V
