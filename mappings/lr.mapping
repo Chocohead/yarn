@@ -1,3 +1,0 @@
-CLASS lr
-	FIELD r minecraft Lnet/minecraft/client/Minecraft;
-	METHOD a tick ()V

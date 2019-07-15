@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_166
+	METHOD method_3141 getBiome (II)Lnet/minecraft/class_145;

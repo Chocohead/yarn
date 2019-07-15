@@ -1,4 +1,4 @@
-CLASS az net/minecraft/block/entity/DispenserBlockEntity
-	FIELD a contents [Laan;
-	FIELD b random Ljava/util/Random;
-	METHOD m_ getItemToDispense ()Laan;
+CLASS net/minecraft/class_319 net/minecraft/block/entity/DispenserBlockEntity
+	FIELD field_1354 contents [Lnet/minecraft/class_24;
+	FIELD field_1355 random Ljava/util/Random;
+	METHOD method_1117 getItemToDispense ()Lnet/minecraft/class_24;

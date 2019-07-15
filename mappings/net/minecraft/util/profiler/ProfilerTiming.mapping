@@ -1,5 +1,5 @@
-CLASS aaf net/minecraft/util/profiler/ProfilerTiming
-	FIELD a parentSectionUsagePercentage D
-	FIELD b totalUsagePercentage D
-	FIELD c name Ljava/lang/String;
-	METHOD a getColor ()I
+CLASS net/minecraft/class_205 net/minecraft/util/profiler/ProfilerTiming
+	FIELD field_721 parentSectionUsagePercentage D
+	FIELD field_722 totalUsagePercentage D
+	FIELD field_723 name Ljava/lang/String;
+	METHOD method_578 getColor ()I

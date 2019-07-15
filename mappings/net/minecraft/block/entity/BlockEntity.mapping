@@ -1,26 +1,26 @@
-CLASS kw net/minecraft/block/entity/BlockEntity
-	FIELD a ID_TO_CLASS_MAP Ljava/util/Map;
-	FIELD b CLASS_TO_ID_MAP Ljava/util/Map;
-	FIELD i world Lxd;
-	FIELD j x I
-	FIELD k y I
-	FIELD l z I
-	FIELD m invalid Z
-	FIELD n cachedId I
-	FIELD o block Lpb;
-	METHOD a getSquaredDistance (DDD)D
-	METHOD a fromTag (Lady;)V
-	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
+CLASS net/minecraft/class_121 net/minecraft/block/entity/BlockEntity
+	FIELD field_3013 ID_TO_CLASS_MAP Ljava/util/Map;
+	FIELD field_3014 CLASS_TO_ID_MAP Ljava/util/Map;
+	FIELD field_3015 world Lnet/minecraft/class_26;
+	FIELD field_3016 x I
+	FIELD field_3017 y I
+	FIELD field_3018 z I
+	FIELD field_3019 invalid Z
+	FIELD field_3020 cachedId I
+	FIELD field_3021 block Lnet/minecraft/class_38;
+	METHOD method_2496 getSquaredDistance (DDD)D
+	METHOD method_2503 fromTag (Lnet/minecraft/class_209;)V
+	METHOD method_2497 register (Ljava/lang/Class;Ljava/lang/String;)V
 		ARG 0 blockEntityClass
 		ARG 1 id
-	METHOD b resetBlock ()V
-	METHOD b onBlockAction (II)V
-	METHOD b writeIdentifyingData (Lady;)V
-	METHOD c createFromTag (Lady;)Lkw;
-	METHOD h invalidate ()V
-	METHOD i getCachedId ()I
-	METHOD j markDirty ()V
-	METHOD k getBlock ()Lpb;
-	METHOD l isInvalid ()Z
-	METHOD m validate ()V
-	METHOD n_ tick ()V
+	METHOD method_2493 resetBlock ()V
+	METHOD method_2494 onBlockAction (II)V
+	METHOD method_2504 writeIdentifyingData (Lnet/minecraft/class_209;)V
+	METHOD method_2498 createFromTag (Lnet/minecraft/class_209;)Lnet/minecraft/class_121;
+	METHOD method_2495 invalidate ()V
+	METHOD method_2499 getCachedId ()I
+	METHOD method_2217 markDirty ()V
+	METHOD method_2500 getBlock ()Lnet/minecraft/class_38;
+	METHOD method_2501 isInvalid ()Z
+	METHOD method_2502 validate ()V
+	METHOD method_2506 tick ()V

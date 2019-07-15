@@ -1,2 +1,2 @@
-CLASS zs net/minecraft/item/DoorItem
-	FIELD a material Lacn;
+CLASS net/minecraft/class_793 net/minecraft/item/DoorItem
+	FIELD field_2880 material Lnet/minecraft/class_56;

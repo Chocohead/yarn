@@ -1,5 +1,5 @@
-CLASS rs net/minecraft/world/biome/source/BiomeSource
-	FIELD d spawnBiomes Ljava/util/List;
-	METHOD a getSpawnBiomes ()Ljava/util/List;
-	METHOD a getBiome (II)Labn;
-	METHOD a sampleBiomes ([Labn;IIII)[Labn;
+CLASS net/minecraft/class_144 net/minecraft/world/biome/source/BiomeSource
+	FIELD field_625 spawnBiomes Ljava/util/List;
+	METHOD method_522 getSpawnBiomes ()Ljava/util/List;
+	METHOD method_523 getBiome (II)Lnet/minecraft/class_145;
+	METHOD method_527 sampleBiomes ([Lnet/minecraft/class_145;IIII)[Lnet/minecraft/class_145;

@@ -1,2 +1,2 @@
-CLASS ed net/minecraft/entity/VillagerMob
-	METHOD u getProfession ()I
+CLASS net/minecraft/class_114 net/minecraft/entity/VillagerMob
+	METHOD method_1417 getProfession ()I

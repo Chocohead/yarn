@@ -1,13 +1,13 @@
-CLASS afu net/minecraft/client/options/KeyBinding
-	FIELD a keyBindings Ljava/util/List;
-	FIELD b keysByCode Labh;
-	FIELD c name Ljava/lang/String;
-	FIELD d key I
-	FIELD e isPressed Z
-	FIELD f timesPressed I
-	METHOD a unpressAll ()V
-	METHOD a onKeyPressed (I)V
-	METHOD a setPressed (IZ)V
-	METHOD b updateKeysByCode ()V
-	METHOD c wasPressed ()Z
-	METHOD d reset ()V
+CLASS net/minecraft/class_268 net/minecraft/client/options/KeyBinding
+	FIELD field_853 keyBindings Ljava/util/List;
+	FIELD field_854 keysByCode Lnet/minecraft/class_85;
+	FIELD field_855 name Ljava/lang/String;
+	FIELD field_856 key I
+	FIELD field_857 isPressed Z
+	FIELD field_858 timesPressed I
+	METHOD method_690 unpressAll ()V
+	METHOD method_691 onKeyPressed (I)V
+	METHOD method_692 setPressed (IZ)V
+	METHOD method_693 updateKeysByCode ()V
+	METHOD method_694 wasPressed ()Z
+	METHOD method_695 reset ()V

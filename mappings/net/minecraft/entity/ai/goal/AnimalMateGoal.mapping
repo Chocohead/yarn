@@ -1,8 +1,8 @@
-CLASS als net/minecraft/entity/ai/goal/AnimalMateGoal
-	FIELD a world Lxd;
-	FIELD b timer I
-	FIELD c chance F
-	FIELD d owner Lbc;
-	FIELD e mate Lbc;
-	METHOD h findMate ()Lbc;
-	METHOD i breed ()V
+CLASS net/minecraft/class_310 net/minecraft/entity/ai/goal/AnimalMateGoal
+	FIELD field_981 world Lnet/minecraft/class_26;
+	FIELD field_982 timer I
+	FIELD field_983 chance F
+	FIELD field_984 owner Lnet/minecraft/class_311;
+	FIELD field_985 mate Lnet/minecraft/class_311;
+	METHOD method_764 findMate ()Lnet/minecraft/class_311;
+	METHOD method_765 breed ()V

@@ -1,8 +1,8 @@
-CLASS amc net/minecraft/block/entity/BrewingStandBlockEntity
-	FIELD a contents [Laan;
-	FIELD b brewTime I
-	FIELD d itemBrewing I
-	METHOD c setBrewTime (I)V
-	METHOD g getBrewTime ()I
-	METHOD o canCraft ()Z
-	METHOD p craft ()V
+CLASS net/minecraft/class_442 net/minecraft/block/entity/BrewingStandBlockEntity
+	FIELD field_1781 contents [Lnet/minecraft/class_24;
+	FIELD field_1782 brewTime I
+	FIELD field_1784 itemBrewing I
+	METHOD method_1423 setBrewTime (I)V
+	METHOD method_1425 getBrewTime ()I
+	METHOD method_1427 canCraft ()Z
+	METHOD method_1428 craft ()V

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_158
+	METHOD method_2492 canSee (Lnet/minecraft/class_37;)Z

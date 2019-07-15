@@ -1,2 +1,2 @@
-CLASS agy net/minecraft/block/BlockWithEntity
-	METHOD u_ createBlockEntity ()Lkw;
+CLASS net/minecraft/class_307 net/minecraft/block/BlockWithEntity
+	METHOD method_762 createBlockEntity ()Lnet/minecraft/class_121;

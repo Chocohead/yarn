@@ -1,2 +1,2 @@
-CLASS hs net/minecraft/moveme/JsonObject
-	FIELD a fields Ljava/util/Map;
+CLASS argo/jdom/JsonObject net/minecraft/moveme/JsonObject
+	FIELD fields fields Ljava/util/Map;

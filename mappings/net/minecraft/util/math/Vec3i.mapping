@@ -1,4 +1,4 @@
-CLASS qo net/minecraft/util/math/Vec3i
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
+CLASS net/minecraft/class_167 net/minecraft/util/math/Vec3i
+	FIELD field_3946 x I
+	FIELD field_3947 y I
+	FIELD field_3948 z I

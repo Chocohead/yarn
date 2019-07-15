@@ -1,15 +1,15 @@
-CLASS adn net/minecraft/client/resource/language/TranslationStorage
-	FIELD a INSTANCE Ladn;
-	FIELD b translations Ljava/util/Properties;
-	FIELD c languages Ljava/util/TreeMap;
-	FIELD d language Ljava/lang/String;
-	METHOD a getInstance ()Ladn;
-	METHOD a load (Ljava/lang/String;)V
-	METHOD a translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-	METHOD a load (Ljava/util/Properties;Ljava/lang/String;)V
-	METHOD b getLanguages ()Ljava/util/TreeMap;
-	METHOD b translate (Ljava/lang/String;)Ljava/lang/String;
-	METHOD c getLanguage ()Ljava/lang/String;
-	METHOD c translateRaw (Ljava/lang/String;)Ljava/lang/String;
-	METHOD d isRightToLeft (Ljava/lang/String;)Z
-	METHOD e readLanguages ()V
+CLASS net/minecraft/class_197 net/minecraft/client/resource/language/TranslationStorage
+	FIELD field_700 INSTANCE Lnet/minecraft/class_197;
+	FIELD field_701 translations Ljava/util/Properties;
+	FIELD field_702 languages Ljava/util/TreeMap;
+	FIELD field_703 language Ljava/lang/String;
+	METHOD method_562 getInstance ()Lnet/minecraft/class_197;
+	METHOD method_563 load (Ljava/lang/String;)V
+	METHOD method_564 translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD method_565 load (Ljava/util/Properties;Ljava/lang/String;)V
+	METHOD method_566 getLanguages ()Ljava/util/TreeMap;
+	METHOD method_567 translate (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_568 getLanguage ()Ljava/lang/String;
+	METHOD method_569 translateRaw (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_571 isRightToLeft (Ljava/lang/String;)Z
+	METHOD method_572 readLanguages ()V

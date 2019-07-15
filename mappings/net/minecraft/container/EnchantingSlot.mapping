@@ -1,2 +1,0 @@
-CLASS sl net/minecraft/container/EnchantingSlot
-	FIELD a enchantingContainer Lgm;

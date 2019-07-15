@@ -1,2 +1,2 @@
-CLASS m net/minecraft/nbt/FloatTag
-	FIELD a value F
+CLASS net/minecraft/class_862 net/minecraft/nbt/FloatTag
+	FIELD field_3232 value F

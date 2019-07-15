@@ -1,2 +1,2 @@
-CLASS mb net/minecraft/enchantment/EnchantmentTarget
-	METHOD a canApplyTo (Lyr;)Z
+CLASS net/minecraft/class_803 net/minecraft/enchantment/EnchantmentTarget
+	METHOD method_2624 canApplyTo (Lnet/minecraft/class_325;)Z

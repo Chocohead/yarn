@@ -1,17 +1,17 @@
-CLASS alb net/minecraft/world/dimension/Dimension
-	FIELD a world Lxd;
-	FIELD b levelGeneratorType Lvx;
-	FIELD c biomeSource Lrs;
-	FIELD d waterVaporizes Z
-	FIELD f lightLevelToBrightness [F
-	FIELD h backgroundColor [F
-	METHOD a initializeBiomeSource ()V
-	METHOD a getBackgroundColor (FF)[F
-	METHOD a getSkyAngle (JF)F
-	METHOD b createChunkGenerator ()Lca;
-	METHOD b getFogColor (FF)Lbo;
-	METHOD e hasVisibleSky ()Z
-	METHOD f getCloudHeight ()F
-	METHOD g getForcedSpawnPoint ()Luh;
-	METHOD i initializeLightLevelToBrightness ()V
-	METHOD k getHorizonShadingRatio ()D
+CLASS net/minecraft/class_425 net/minecraft/world/dimension/Dimension
+	FIELD field_1259 world Lnet/minecraft/class_26;
+	FIELD field_1260 levelGeneratorType Lnet/minecraft/class_217;
+	FIELD field_1261 biomeSource Lnet/minecraft/class_144;
+	FIELD field_1262 waterVaporizes Z
+	FIELD field_1264 lightLevelToBrightness [F
+	FIELD field_1266 backgroundColor [F
+	METHOD method_1023 initializeBiomeSource ()V
+	METHOD method_1032 getBackgroundColor (FF)[F
+	METHOD method_1025 getSkyAngle (JF)F
+	METHOD method_1026 createChunkGenerator ()Lnet/minecraft/class_146;
+	METHOD method_1027 getFogColor (FF)Lnet/minecraft/class_131;
+	METHOD method_1030 hasVisibleSky ()Z
+	METHOD method_1037 getCloudHeight ()F
+	METHOD method_1038 getForcedSpawnPoint ()Lnet/minecraft/class_159;
+	METHOD method_1031 initializeLightLevelToBrightness ()V
+	METHOD method_1041 getHorizonShadingRatio ()D

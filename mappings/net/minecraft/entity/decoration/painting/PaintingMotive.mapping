@@ -1,7 +1,7 @@
-CLASS go net/minecraft/entity/decoration/painting/PaintingMotive
-	FIELD A id Ljava/lang/String;
-	FIELD B width I
-	FIELD C height I
+CLASS net/minecraft/class_683 net/minecraft/entity/decoration/painting/PaintingMotive
+	FIELD field_2156 id Ljava/lang/String;
+	FIELD field_2157 width I
+	FIELD field_2158 height I
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
 		ARG 3 name
 		ARG 4 width

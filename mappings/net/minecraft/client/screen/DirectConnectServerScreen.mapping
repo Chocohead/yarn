@@ -1,4 +1,4 @@
-CLASS acz net/minecraft/client/screen/DirectConnectServerScreen
-	FIELD a parent Lvp;
-	FIELD b addressField Lagu;
-	FIELD c serverEntry Loa;
+CLASS net/minecraft/class_175 net/minecraft/client/screen/DirectConnectServerScreen
+	FIELD field_658 parent Lnet/minecraft/class_65;
+	FIELD field_659 addressField Lnet/minecraft/class_89;
+	FIELD field_660 serverEntry Lnet/minecraft/class_97;

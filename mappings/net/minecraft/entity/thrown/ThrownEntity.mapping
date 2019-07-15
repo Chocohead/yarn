@@ -1,2 +1,2 @@
-CLASS av net/minecraft/entity/thrown/ThrownEntity
-	METHOD a onCollision (Lpl;)V
+CLASS net/minecraft/class_469 net/minecraft/entity/thrown/ThrownEntity
+	METHOD method_1114 onCollision (Lnet/minecraft/class_161;)V

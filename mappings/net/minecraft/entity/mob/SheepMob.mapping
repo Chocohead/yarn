@@ -1,2 +1,2 @@
-CLASS cu net/minecraft/entity/mob/SheepMob
-	METHOD u isSheared ()Z
+CLASS net/minecraft/class_452 net/minecraft/entity/mob/SheepMob
+	METHOD method_1255 isSheared ()Z

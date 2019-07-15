@@ -1,11 +1,11 @@
-CLASS bz net/minecraft/entity/ExperienceOrbEntity
-	FIELD b xpAge I
-	FIELD d health I
-	FIELD e amount I
+CLASS net/minecraft/class_7 net/minecraft/entity/ExperienceOrbEntity
+	FIELD field_1416 xpAge I
+	FIELD field_1418 health I
+	FIELD field_1419 amount I
 	METHOD <init> (Lxd;DDDI)V
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD b roundToOrbSize (I)I
-	METHOD h getExperienceAmount ()I
-	METHOD i getOrbSize ()I
+	METHOD method_1176 roundToOrbSize (I)I
+	METHOD method_1177 getExperienceAmount ()I
+	METHOD method_1178 getOrbSize ()I

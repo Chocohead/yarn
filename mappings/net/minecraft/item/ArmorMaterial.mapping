@@ -1,7 +1,7 @@
-CLASS cg net/minecraft/item/ArmorMaterial
-	FIELD f durabilityMultiplier I
-	FIELD g protectionAmounts [I
-	FIELD h enchantability I
-	METHOD a getEnchantability ()I
-	METHOD a getDurability (I)I
-	METHOD b getProtectionAmount (I)I
+CLASS net/minecraft/class_515 net/minecraft/item/ArmorMaterial
+	FIELD field_1457 durabilityMultiplier I
+	FIELD field_1458 protectionAmounts [I
+	FIELD field_1459 enchantability I
+	METHOD method_1202 getEnchantability ()I
+	METHOD method_1203 getDurability (I)I
+	METHOD method_1204 getProtectionAmount (I)I

@@ -1,12 +1,12 @@
-CLASS ahg net/minecraft/block/entity/FurnaceBlockEntity
-	FIELD a burnTime I
-	FIELD b fuelTime I
-	FIELD c cookTime I
-	FIELD d inventory [Laan;
-	METHOD a getFuelTime (Laan;)I
-	METHOD b isBurning (Laan;)Z
-	METHOD c getCookProgress (I)I
-	METHOD d getFuelProgress (I)I
-	METHOD g isBurning ()Z
-	METHOD n craftRecipe ()V
-	METHOD o canAcceptRecipeOutput ()Z
+CLASS net/minecraft/class_320 net/minecraft/block/entity/FurnaceBlockEntity
+	FIELD field_995 burnTime I
+	FIELD field_996 fuelTime I
+	FIELD field_997 cookTime I
+	FIELD field_998 inventory [Lnet/minecraft/class_24;
+	METHOD method_767 getFuelTime (Lnet/minecraft/class_24;)I
+	METHOD method_768 isBurning (Lnet/minecraft/class_24;)Z
+	METHOD method_769 getCookProgress (I)I
+	METHOD method_770 getFuelProgress (I)I
+	METHOD method_771 isBurning ()Z
+	METHOD method_772 craftRecipe ()V
+	METHOD method_773 canAcceptRecipeOutput ()Z

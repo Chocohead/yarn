@@ -1,1 +1,1 @@
-CLASS acb net/minecraft/block/DoorBlock
+CLASS net/minecraft/class_32 net/minecraft/block/DoorBlock

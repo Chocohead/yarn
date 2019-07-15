@@ -1,2 +1,2 @@
-CLASS jr net/minecraft/recipe/DyeRecipes
-	METHOD a addRecipes (Lfr;)V
+CLASS net/minecraft/class_801 net/minecraft/recipe/DyeRecipes
+	METHOD method_2373 addRecipes (Lnet/minecraft/class_177;)V

@@ -1,2 +1,0 @@
-CLASS iz net/minecraft/client/screen/WorldListWidget
-	FIELD a parent Lmw;

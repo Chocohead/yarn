@@ -1,5 +1,7 @@
-CLASS fp net/minecraft/world/level/storage/AnvilLevelStorage
-	METHOD a convertRegion (Ljava/io/File;Ljava/io/File;Lrs;IILrw;)V
-	METHOD a addRegionFiles (Ljava/io/File;Ljava/util/ArrayList;)V
-	METHOD a convertRegions (Ljava/io/File;Ljava/util/ArrayList;Lrs;IILrw;)V
-	METHOD d makeMcrLevelDatBackup (Ljava/lang/String;)V
+CLASS net/minecraft/class_644 net/minecraft/world/level/storage/AnvilLevelStorage
+	CLASS 1 net/minecraft/util/MCRFilenameFilter
+		FIELD field_1981 storage Lnet/minecraft/class_644;
+	METHOD method_1626 convertRegion (Ljava/io/File;Ljava/io/File;Lnet/minecraft/class_144;IILnet/minecraft/class_356;)V
+	METHOD method_1627 addRegionFiles (Ljava/io/File;Ljava/util/ArrayList;)V
+	METHOD method_1628 convertRegions (Ljava/io/File;Ljava/util/ArrayList;Lnet/minecraft/class_144;IILnet/minecraft/class_356;)V
+	METHOD method_1630 makeMcrLevelDatBackup (Ljava/lang/String;)V

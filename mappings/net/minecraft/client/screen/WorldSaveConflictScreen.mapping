@@ -1,2 +1,2 @@
-CLASS afx net/minecraft/client/screen/WorldSaveConflictScreen
-	FIELD a ticksOpened I
+CLASS net/minecraft/class_272 net/minecraft/client/screen/WorldSaveConflictScreen
+	FIELD field_867 ticksOpened I

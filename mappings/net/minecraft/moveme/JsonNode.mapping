@@ -1,4 +1,4 @@
-CLASS fd net/minecraft/moveme/JsonNode
-	METHOD b getText ()Ljava/lang/String;
-	METHOD c getFields ()Ljava/util/Map;
-	METHOD d getElements ()Ljava/util/List;
+CLASS argo/jdom/JsonNode net/minecraft/moveme/JsonNode
+	METHOD getText getText ()Ljava/lang/String;
+	METHOD getFields getFields ()Ljava/util/Map;
+	METHOD getElements getElements ()Ljava/util/List;

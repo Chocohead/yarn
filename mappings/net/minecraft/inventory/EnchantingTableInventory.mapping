@@ -1,2 +1,0 @@
-CLASS tj net/minecraft/inventory/EnchantingTableInventory
-	FIELD a enchantingTableContainer Lgm;

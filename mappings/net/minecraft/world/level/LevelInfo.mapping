@@ -1,6 +1,6 @@
-CLASS fj net/minecraft/world/level/LevelInfo
-	METHOD a getSeed ()J
-	METHOD b getGameType ()I
-	METHOD c isHardcore ()Z
-	METHOD d getStructures ()Z
-	METHOD e getGeneratorType ()Lvx;
+CLASS net/minecraft/class_635 net/minecraft/world/level/LevelInfo
+	METHOD method_1589 getSeed ()J
+	METHOD method_1590 getGameType ()I
+	METHOD method_1591 isHardcore ()Z
+	METHOD method_1592 getStructures ()Z
+	METHOD method_1593 getGeneratorType ()Lnet/minecraft/class_217;

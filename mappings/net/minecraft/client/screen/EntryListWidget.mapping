@@ -1,18 +1,18 @@
-CLASS if net/minecraft/client/screen/EntryListWidget
-	FIELD a minecraft Lnet/minecraft/client/Minecraft;
-	FIELD b width I
-	FIELD c height I
-	FIELD d right I
-	FIELD e left I
-	FIELD h top I
-	FIELD i bottom I
-	FIELD j itemHeight I
-	FIELD m yDrag F
-	FIELD o scrollAmount F
-	FIELD s renderHeader Z
-	METHOD a renderList (IIF)V
-	METHOD a renderHoleBackground (IIII)V
-	METHOD a render (IIIILadz;)V
-	METHOD a renderHeader (IILadz;)V
-	METHOD b renderDecorations (II)V
-	METHOD d validateScrollAmount ()V
+CLASS net/minecraft/class_554 net/minecraft/client/screen/EntryListWidget
+	FIELD field_2674 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_2675 width I
+	FIELD field_2676 height I
+	FIELD field_2677 right I
+	FIELD field_2678 left I
+	FIELD field_2681 top I
+	FIELD field_2682 bottom I
+	FIELD field_2683 itemHeight I
+	FIELD field_2686 yDrag F
+	FIELD field_2688 scrollAmount F
+	FIELD field_2692 renderHeader Z
+	METHOD method_2109 renderList (IIF)V
+	METHOD method_2110 renderHoleBackground (IIII)V
+	METHOD method_2100 render (IIIILnet/minecraft/class_21;)V
+	METHOD method_2101 renderHeader (IILnet/minecraft/class_21;)V
+	METHOD method_2108 renderDecorations (II)V
+	METHOD method_2116 validateScrollAmount ()V

@@ -1,2 +1,2 @@
-CLASS gc net/minecraft/nbt/IntArrayTag
-	FIELD a value [I
+CLASS net/minecraft/class_662 net/minecraft/nbt/IntArrayTag
+	FIELD field_2035 value [I

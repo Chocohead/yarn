@@ -1,6 +1,9 @@
-CLASS y net/minecraft/container/PlayerContainer
-	FIELD a craftingInv Lade;
-	FIELD b resultInv Lio;
-	FIELD c local Z
+CLASS net/minecraft/class_242 net/minecraft/container/PlayerContainer
+	CLASS 1 net/minecraft/container/ArmorSlot
+		FIELD field_817 armorSlot I
+		FIELD field_818 playerContainer Lnet/minecraft/class_242;
+	FIELD field_814 craftingInv Lnet/minecraft/class_185;
+	FIELD field_815 resultInv Lnet/minecraft/class_125;
+	FIELD field_816 local Z
 	METHOD <init> (Laak;Z)V
 		ARG 2 local

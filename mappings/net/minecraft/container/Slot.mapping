@@ -1,17 +1,17 @@
-CLASS yu net/minecraft/container/Slot
-	FIELD a invSlot I
-	FIELD b inventory Lio;
-	FIELD c id I
-	FIELD d xPosition I
-	FIELD e yPosition I
-	METHOD a getMaxStackCount ()I
-	METHOD a takeStack (I)Laan;
-	METHOD a canInsert (Laan;)Z
-	METHOD a onCrafted (Laan;I)V
-	METHOD a onStackChanged (Laan;Laan;)V
-	METHOD b getStack ()Laan;
-	METHOD b onCrafted (Laan;)V
-	METHOD c hasStack ()Z
-	METHOD c onTake (Laan;)V
-	METHOD d markDirty ()V
-	METHOD d setStack (Laan;)V
+CLASS net/minecraft/class_558 net/minecraft/container/Slot
+	FIELD field_2694 invSlot I
+	FIELD field_2695 inventory Lnet/minecraft/class_125;
+	FIELD field_2696 id I
+	FIELD field_2697 xPosition I
+	FIELD field_2698 yPosition I
+	METHOD method_2128 getMaxStackCount ()I
+	METHOD method_2123 takeStack (I)Lnet/minecraft/class_24;
+	METHOD method_2124 canInsert (Lnet/minecraft/class_24;)Z
+	METHOD method_2125 onCrafted (Lnet/minecraft/class_24;I)V
+	METHOD method_2117 onStackChanged (Lnet/minecraft/class_24;Lnet/minecraft/class_24;)V
+	METHOD method_2119 getStack ()Lnet/minecraft/class_24;
+	METHOD method_2127 onCrafted (Lnet/minecraft/class_24;)V
+	METHOD method_2120 hasStack ()Z
+	METHOD method_2126 onTake (Lnet/minecraft/class_24;)V
+	METHOD method_2121 markDirty ()V
+	METHOD method_2122 setStack (Lnet/minecraft/class_24;)V

@@ -1,4 +1,4 @@
-CLASS oe net/minecraft/network/listener/PacketListener
-	METHOD a onPacket (Labs;)V
-	METHOD a onHandSwing (Lkc;)V
-	METHOD a onPlayerAbilities (Lym;)V
+CLASS net/minecraft/class_845 net/minecraft/network/listener/PacketListener
+	METHOD method_2892 onPacket (Lnet/minecraft/class_87;)V
+	METHOD method_2935 onHandSwing (Lnet/minecraft/class_817;)V
+	METHOD method_2953 onPlayerAbilities (Lnet/minecraft/class_733;)V

@@ -1,7 +1,7 @@
-CLASS aar net/minecraft/client/render/block/entity/BlockEntityRenderer
-	FIELD b renderers Lach;
-	METHOD a getTextRenderer ()Lnl;
-	METHOD a setRenderers (Lach;)V
-	METHOD a bindTexture (Ljava/lang/String;)V
-	METHOD a render (Lkw;DDDF)V
-	METHOD a setWorld (Lxd;)V
+CLASS net/minecraft/class_134 net/minecraft/client/render/block/entity/BlockEntityRenderer
+	FIELD field_1358 renderers Lnet/minecraft/class_132;
+	METHOD method_1119 getTextRenderer ()Lnet/minecraft/class_23;
+	METHOD method_1120 setRenderers (Lnet/minecraft/class_132;)V
+	METHOD method_1121 bindTexture (Ljava/lang/String;)V
+	METHOD method_1122 render (Lnet/minecraft/class_121;DDDF)V
+	METHOD method_1123 setWorld (Lnet/minecraft/class_26;)V

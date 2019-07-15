@@ -1,5 +1,5 @@
-CLASS fq net/minecraft/entity/ItemEntity
-	FIELD a item Laan;
-	FIELD b age I
-	FIELD c pickupDelay I
-	FIELD e health I
+CLASS net/minecraft/class_22 net/minecraft/entity/ItemEntity
+	FIELD field_1982 item Lnet/minecraft/class_24;
+	FIELD field_1983 age I
+	FIELD field_1984 pickupDelay I
+	FIELD field_1986 health I

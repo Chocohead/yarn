@@ -1,16 +1,16 @@
-CLASS adz net/minecraft/client/render/BufferBuilder
-	FIELD a INSTANCE Ladz;
-	FIELD d bufByte Ljava/nio/ByteBuffer;
-	FIELD e bufInt Ljava/nio/IntBuffer;
-	FIELD f bufFloat Ljava/nio/FloatBuffer;
-	FIELD g bufShort Ljava/nio/ShortBuffer;
-	FIELD u drawMode I
-	FIELD z tesselating Z
-	METHOD a end ()I
-	METHOD a vertex (DDD)V
-	METHOD a vertex (DDDDD)V
-	METHOD a color4f (FFFF)V
-	METHOD a begin (I)V
-	METHOD b begin ()V
-	METHOD b setOffset (DDD)V
-	METHOD d clear ()V
+CLASS net/minecraft/class_21 net/minecraft/client/render/BufferBuilder
+	FIELD field_732 INSTANCE Lnet/minecraft/class_21;
+	FIELD field_735 bufByte Ljava/nio/ByteBuffer;
+	FIELD field_736 bufInt Ljava/nio/IntBuffer;
+	FIELD field_737 bufFloat Ljava/nio/FloatBuffer;
+	FIELD field_738 bufShort Ljava/nio/ShortBuffer;
+	FIELD field_752 drawMode I
+	FIELD field_757 tesselating Z
+	METHOD method_608 end ()I
+	METHOD method_610 vertex (DDD)V
+	METHOD method_611 vertex (DDDDD)V
+	METHOD method_613 color4f (FFFF)V
+	METHOD method_614 begin (I)V
+	METHOD method_618 begin ()V
+	METHOD method_619 setOffset (DDD)V
+	METHOD method_625 clear ()V

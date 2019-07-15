@@ -1,4 +1,4 @@
-CLASS aaw net/minecraft/client/texture/TextureManager
-	FIELD k gameOptions Lhu;
-	METHOD b bindTexture (I)V
-	METHOD b getTextureId (Ljava/lang/String;)I
+CLASS net/minecraft/class_18 net/minecraft/client/texture/TextureManager
+	FIELD field_1670 gameOptions Lnet/minecraft/class_271;
+	METHOD method_1360 bindTexture (I)V
+	METHOD method_1362 getTextureId (Ljava/lang/String;)I

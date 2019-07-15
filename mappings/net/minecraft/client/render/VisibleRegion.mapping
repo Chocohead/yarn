@@ -1,6 +1,6 @@
-CLASS amd net/minecraft/client/render/VisibleRegion
-	METHOD a setOrigin (DDD)V
+CLASS net/minecraft/class_458 net/minecraft/client/render/VisibleRegion
+	METHOD method_1090 setOrigin (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD a intersects (Lwu;)Z
+	METHOD method_1091 intersects (Lnet/minecraft/class_39;)Z

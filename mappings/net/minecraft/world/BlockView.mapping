@@ -1,10 +1,10 @@
-CLASS ali net/minecraft/world/BlockView
-	METHOD a getBiome (II)Labn;
-	METHOD a getBlockId (III)I
-	METHOD b getBlockEntity (III)Lkw;
-	METHOD b getLightmapIndex (IIII)I
-	METHOD c getBrightness (III)F
-	METHOD e getBlockMeta (III)I
-	METHOD f getMaterial (III)Lacn;
-	METHOD h canSuffocate (III)Z
-	METHOD i isAir (III)Z
+CLASS net/minecraft/class_33 net/minecraft/world/BlockView
+	METHOD method_1066 getBiome (II)Lnet/minecraft/class_145;
+	METHOD method_1067 getBlockId (III)I
+	METHOD method_1070 getBlockEntity (III)Lnet/minecraft/class_121;
+	METHOD method_1071 getLightmapIndex (IIII)I
+	METHOD method_1072 getBrightness (III)F
+	METHOD method_1073 getBlockMeta (III)I
+	METHOD method_1074 getMaterial (III)Lnet/minecraft/class_56;
+	METHOD method_1076 canSuffocate (III)Z
+	METHOD method_1077 isAir (III)Z

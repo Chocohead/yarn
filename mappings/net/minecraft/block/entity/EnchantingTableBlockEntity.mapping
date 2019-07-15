@@ -1,7 +1,7 @@
-CLASS uz net/minecraft/block/entity/EnchantingTableBlockEntity
-	FIELD a ticks I
-	FIELD b nextPageAngle F
-	FIELD c pageAngle F
-	FIELD f nextPageTurningSpeed F
-	FIELD g pageTurningSpeed F
-	FIELD r random Ljava/util/Random;
+CLASS net/minecraft/class_546 net/minecraft/block/entity/EnchantingTableBlockEntity
+	FIELD field_1570 ticks I
+	FIELD field_1571 nextPageAngle F
+	FIELD field_1572 pageAngle F
+	FIELD field_1575 nextPageTurningSpeed F
+	FIELD field_1576 pageTurningSpeed F
+	FIELD field_1580 random Ljava/util/Random;

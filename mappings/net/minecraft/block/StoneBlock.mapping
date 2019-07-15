@@ -1,1 +1,1 @@
-CLASS do net/minecraft/block/StoneBlock
+CLASS net/minecraft/class_572 net/minecraft/block/StoneBlock

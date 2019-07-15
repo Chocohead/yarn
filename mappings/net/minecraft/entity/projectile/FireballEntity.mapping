@@ -1,1 +1,1 @@
-CLASS bt net/minecraft/entity/projectile/FireballEntity
+CLASS net/minecraft/class_499 net/minecraft/entity/projectile/FireballEntity

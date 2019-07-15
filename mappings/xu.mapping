@@ -1,3 +1,0 @@
-CLASS xu
-	FIELD c random Ljava/util/Random;
-	FIELD d world Lxd;

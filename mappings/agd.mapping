@@ -1,5 +1,0 @@
-CLASS agd
-	FIELD d scaledWidth I
-	FIELD e scaledHeight I
-	METHOD a getScaledWidth ()I
-	METHOD b getScaledHeight ()I

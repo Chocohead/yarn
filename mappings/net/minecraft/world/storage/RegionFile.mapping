@@ -1,4 +1,4 @@
-CLASS lz net/minecraft/world/storage/RegionFile
-	METHOD a close ()V
-	METHOD a getChunkDataInputStream (II)Ljava/io/DataInputStream;
-	METHOD c hasChunk (II)Z
+CLASS net/minecraft/class_295 net/minecraft/world/storage/RegionFile
+	METHOD method_2608 close ()V
+	METHOD method_2609 getChunkDataInputStream (II)Ljava/io/DataInputStream;
+	METHOD method_2620 hasChunk (II)Z

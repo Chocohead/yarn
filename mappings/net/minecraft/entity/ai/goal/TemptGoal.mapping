@@ -1,2 +1,2 @@
-CLASS akz net/minecraft/entity/ai/goal/TemptGoal
-	FIELD h player Lyw;
+CLASS net/minecraft/class_439 net/minecraft/entity/ai/goal/TemptGoal
+	FIELD field_1248 player Lnet/minecraft/class_75;

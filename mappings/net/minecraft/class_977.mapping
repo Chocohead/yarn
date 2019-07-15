@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_977
+	FIELD field_4096 sound Lpaulscode/sound/SoundSystem;
+	METHOD method_3252 updateSounds ()V

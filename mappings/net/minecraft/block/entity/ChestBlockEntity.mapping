@@ -1,6 +1,6 @@
-CLASS hb net/minecraft/block/entity/ChestBlockEntity
-	FIELD f animationAngle F
-	FIELD g lastAnimationAngle F
-	FIELD h viewerCount I
-	FIELD p contents [Laan;
-	FIELD q ticksOpened I
+CLASS net/minecraft/class_396 net/minecraft/block/entity/ChestBlockEntity
+	FIELD field_2286 animationAngle F
+	FIELD field_2287 lastAnimationAngle F
+	FIELD field_2288 viewerCount I
+	FIELD field_2289 contents [Lnet/minecraft/class_24;
+	FIELD field_2290 ticksOpened I

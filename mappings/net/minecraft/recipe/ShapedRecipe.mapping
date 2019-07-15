@@ -1,7 +1,7 @@
-CLASS aai net/minecraft/recipe/ShapedRecipe
-	FIELD a resultId I
-	FIELD b width I
-	FIELD c height I
-	FIELD d ingredients [Laan;
-	FIELD e result Laan;
-	METHOD a matchesSmall (Lade;IIZ)Z
+CLASS net/minecraft/class_273 net/minecraft/recipe/ShapedRecipe
+	FIELD field_868 resultId I
+	FIELD field_869 width I
+	FIELD field_870 height I
+	FIELD field_871 ingredients [Lnet/minecraft/class_24;
+	FIELD field_872 result Lnet/minecraft/class_24;
+	METHOD method_698 matchesSmall (Lnet/minecraft/class_185;IIZ)Z

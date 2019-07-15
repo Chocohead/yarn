@@ -1,2 +1,2 @@
-CLASS xn net/minecraft/util/CharacterUtils
-	METHOD a stripInvalidChars (Ljava/lang/String;)Ljava/lang/String;
+CLASS net/minecraft/class_697 net/minecraft/util/CharacterUtils
+	METHOD method_1925 stripInvalidChars (Ljava/lang/String;)Ljava/lang/String;

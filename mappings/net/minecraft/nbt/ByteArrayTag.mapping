@@ -1,2 +1,2 @@
-CLASS zl net/minecraft/nbt/ByteArrayTag
-	FIELD a value [B
+CLASS net/minecraft/class_779 net/minecraft/nbt/ByteArrayTag
+	FIELD field_2818 value [B

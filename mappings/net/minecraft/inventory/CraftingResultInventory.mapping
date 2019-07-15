@@ -1,2 +1,2 @@
-CLASS akk net/minecraft/inventory/CraftingResultInventory
-	FIELD a contents [Laan;
+CLASS net/minecraft/class_419 net/minecraft/inventory/CraftingResultInventory
+	FIELD field_1208 contents [Lnet/minecraft/class_24;

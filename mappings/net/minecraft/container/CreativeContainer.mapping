@@ -1,2 +1,2 @@
-CLASS os net/minecraft/container/CreativeContainer
-	FIELD a items Ljava/util/List;
+CLASS net/minecraft/class_923 net/minecraft/container/CreativeContainer
+	FIELD field_3670 items Ljava/util/List;

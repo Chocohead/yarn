@@ -1,1 +1,1 @@
-CLASS qb net/minecraft/entity/projectile/SmallFireballEntity
+CLASS net/minecraft/class_950 net/minecraft/entity/projectile/SmallFireballEntity

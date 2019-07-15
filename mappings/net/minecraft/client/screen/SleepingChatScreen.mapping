@@ -1,2 +1,2 @@
-CLASS yj net/minecraft/client/screen/SleepingChatScreen
-	METHOD g stopSleeping ()V
+CLASS net/minecraft/class_103 net/minecraft/client/screen/SleepingChatScreen
+	METHOD method_244 stopSleeping ()V

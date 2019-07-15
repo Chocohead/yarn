@@ -1,3 +1,0 @@
-CLASS yg
-	FIELD a decorator Lxd;
-	METHOD a startDecorating (Lxd;Ljava/util/Random;II)V

@@ -1,3 +1,0 @@
-CLASS afq net/minecraft/container/ArmorSlot
-	FIELD a armorSlot I
-	FIELD f playerContainer Ly;

@@ -1,3 +1,0 @@
-CLASS sd
-	FIELD a sound Lpaulscode/sound/SoundSystem;
-	METHOD a updateSounds ()V

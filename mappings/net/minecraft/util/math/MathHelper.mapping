@@ -1,16 +1,16 @@
-CLASS gk net/minecraft/util/math/MathHelper
-	FIELD a SINE_TABLE [F
-	METHOD a sqrt (D)F
-	METHOD a absMax (DD)D
-	METHOD a sin (F)F
-	METHOD a clamp (FFF)F
-	METHOD a clamp (III)I
-	METHOD a isEmpty (Ljava/lang/String;)Z
-	METHOD a nextInt (Ljava/util/Random;II)I
-	METHOD b fastFloor (D)I
-	METHOD b cos (F)F
-	METHOD c floor (D)I
-	METHOD c sqrt (F)F
-	METHOD d lfloor (D)J
-	METHOD d floor (F)I
-	METHOD e absFloor (F)F
+CLASS net/minecraft/class_676 net/minecraft/util/math/MathHelper
+	FIELD field_2145 SINE_TABLE [F
+	METHOD method_1870 sqrt (D)F
+	METHOD method_1871 absMax (DD)D
+	METHOD method_1872 sin (F)F
+	METHOD method_1873 clamp (FFF)F
+	METHOD method_1875 clamp (III)I
+	METHOD method_1876 isEmpty (Ljava/lang/String;)Z
+	METHOD method_1877 nextInt (Ljava/util/Random;II)I
+	METHOD method_1878 fastFloor (D)I
+	METHOD method_1879 cos (F)F
+	METHOD method_1880 floor (D)I
+	METHOD method_1881 sqrt (F)F
+	METHOD method_1882 lfloor (D)J
+	METHOD method_1883 floor (F)I
+	METHOD method_1884 absFloor (F)F

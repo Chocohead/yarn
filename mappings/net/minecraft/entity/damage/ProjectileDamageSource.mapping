@@ -1,1 +1,1 @@
-CLASS ft net/minecraft/entity/damage/ProjectileDamageSource
+CLASS net/minecraft/class_649 net/minecraft/entity/damage/ProjectileDamageSource

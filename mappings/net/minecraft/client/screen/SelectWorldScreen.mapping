@@ -1,7 +1,9 @@
-CLASS mw net/minecraft/client/screen/SelectWorldScreen
-	FIELD a parent Lvp;
-	FIELD b title Ljava/lang/String;
-	FIELD i worldString Ljava/lang/String;
-	FIELD j conversionString Ljava/lang/String;
-	FIELD k gamemodeStrings [Ljava/lang/String;
-	METHOD d addButtons ()V
+CLASS net/minecraft/class_880 net/minecraft/client/screen/SelectWorldScreen
+	CLASS class_881 net/minecraft/client/screen/WorldListWidget
+		FIELD field_3384 parent Lnet/minecraft/class_880;
+	FIELD field_3370 parent Lnet/minecraft/class_65;
+	FIELD field_3371 title Ljava/lang/String;
+	FIELD field_3377 worldString Ljava/lang/String;
+	FIELD field_3378 conversionString Ljava/lang/String;
+	FIELD field_3379 gamemodeStrings [Ljava/lang/String;
+	METHOD method_2690 addButtons ()V

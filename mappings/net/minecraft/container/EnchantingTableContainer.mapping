@@ -1,5 +1,9 @@
-CLASS gm net/minecraft/container/EnchantingTableContainer
-	FIELD a inventory Lio;
-	FIELD c enchantmentPower [I
-	FIELD h world Lxd;
-	FIELD l random Ljava/util/Random;
+CLASS net/minecraft/class_678 net/minecraft/container/EnchantingTableContainer
+	CLASS 1 net/minecraft/container/EnchantingSlot
+		FIELD field_2154 enchantingContainer Lnet/minecraft/class_678;
+	CLASS 2 net/minecraft/inventory/EnchantingTableInventory
+		FIELD field_2155 enchantingTableContainer Lnet/minecraft/class_678;
+	FIELD field_2146 inventory Lnet/minecraft/class_125;
+	FIELD field_2148 enchantmentPower [I
+	FIELD field_2149 world Lnet/minecraft/class_26;
+	FIELD field_2153 random Ljava/util/Random;

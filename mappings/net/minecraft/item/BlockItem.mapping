@@ -1,2 +1,2 @@
-CLASS acs net/minecraft/item/BlockItem
-	FIELD a blockId I
+CLASS net/minecraft/class_164 net/minecraft/item/BlockItem
+	FIELD field_621 blockId I

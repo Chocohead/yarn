@@ -1,12 +1,12 @@
-CLASS qp net/minecraft/client/model/Cuboid
-	FIELD c rotationPointZ F
-	FIELD d rotationPointX F
-	FIELD e rotationPointY F
-	FIELD f pitch F
-	FIELD g yaw F
-	FIELD h roll F
-	FIELD i mirror Z
-	METHOD a render (F)V
-	METHOD a setRotationPoint (FFF)V
-	METHOD a addBox (Ljava/lang/String;FFFIII)Lqp;
-	METHOD a addChikd (Lqp;)V
+CLASS net/minecraft/class_11 net/minecraft/client/model/Cuboid
+	FIELD field_3951 rotationPointZ F
+	FIELD field_3952 rotationPointX F
+	FIELD field_3953 rotationPointY F
+	FIELD field_3954 pitch F
+	FIELD field_3955 yaw F
+	FIELD field_3956 roll F
+	FIELD field_3957 mirror Z
+	METHOD method_3170 render (F)V
+	METHOD method_3171 setRotationPoint (FFF)V
+	METHOD method_3175 addBox (Ljava/lang/String;FFFIII)Lnet/minecraft/class_11;
+	METHOD method_3176 addChikd (Lnet/minecraft/class_11;)V

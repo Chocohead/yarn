@@ -1,4 +1,4 @@
-CLASS qq net/minecraft/world/chunk/ChunkNibbleArray
-	FIELD a byteArray [B
-	METHOD a get (III)I
-	METHOD a set (IIII)V
+CLASS net/minecraft/class_770 net/minecraft/world/chunk/ChunkNibbleArray
+	FIELD field_3968 byteArray [B
+	METHOD method_3181 get (III)I
+	METHOD method_3182 set (IIII)V

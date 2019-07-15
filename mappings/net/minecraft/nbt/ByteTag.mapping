@@ -1,2 +1,2 @@
-CLASS mf net/minecraft/nbt/ByteTag
-	FIELD a value B
+CLASS net/minecraft/class_865 net/minecraft/nbt/ByteTag
+	FIELD field_3266 value B

@@ -1,7 +1,7 @@
-CLASS qu net/minecraft/entity/player/PlayerAbilities
-	FIELD a invulnerable Z
-	FIELD b flying Z
-	FIELD c allowFlying Z
-	FIELD d creativeMode Z
-	METHOD a toTag (Lady;)V
-	METHOD b fromTag (Lady;)V
+CLASS net/minecraft/class_745 net/minecraft/entity/player/PlayerAbilities
+	FIELD field_3975 invulnerable Z
+	FIELD field_3976 flying Z
+	FIELD field_3977 allowFlying Z
+	FIELD field_3978 creativeMode Z
+	METHOD method_3186 toTag (Lnet/minecraft/class_209;)V
+	METHOD method_3187 fromTag (Lnet/minecraft/class_209;)V

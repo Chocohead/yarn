@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_723
+	FIELD field_2354 decorator Lnet/minecraft/class_26;
+	METHOD method_1985 startDecorating (Lnet/minecraft/class_26;Ljava/util/Random;II)V

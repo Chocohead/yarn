@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_424
+	METHOD method_1008 saveWorld (Lnet/minecraft/class_427;)V
+	METHOD method_1010 getLevelProperties ()Lnet/minecraft/class_427;
