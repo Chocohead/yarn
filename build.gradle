@@ -59,7 +59,7 @@ configurations {
 
 dependencies {
 	enigmaRuntime 'com.github.Chocohead:Stitch:7453a34'
-	enigmaRuntime "cuchaz:enigma:0.13.1.99:all"
+	enigmaRuntime "cuchaz:enigma:0.14.1.130"
 }
 
 def mappingsDir = file("mappings")
@@ -280,8 +280,12 @@ task yarn(dependsOn: setupYarn) {
 			spawn: true
 		) {
 			jvmarg(value: "-Xmx2048m")
+			arg(value: '-jar')
 			arg(value: mergedJar.getAbsolutePath())
+			arg(value: '-mappings')
 			arg(value: mappingsDir.getAbsolutePath())
+			arg(value: '-profile')
+			arg(value: 'enigma_profile.json')
 		}
 	}
 }
