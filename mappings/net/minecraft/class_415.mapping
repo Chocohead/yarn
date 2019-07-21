@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_415
+	METHOD method_993 register (Ljava/lang/Class;Ljava/lang/String;I)V

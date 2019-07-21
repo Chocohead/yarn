@@ -1,6 +1,6 @@
-CLASS ax net/minecraft/entity/ai/goal/MeleeAttackGoal
-	FIELD a world Lxd;
-	FIELD b entity Lacq;
-	FIELD c target Lacq;
-	FIELD d ticksUntilAttack I
-	FIELD g path Lvu;
+CLASS net/minecraft/class_474 net/minecraft/entity/ai/goal/MeleeAttackGoal
+	FIELD field_1343 world Lnet/minecraft/class_26;
+	FIELD field_1344 entity Lnet/minecraft/class_133;
+	FIELD field_1345 target Lnet/minecraft/class_133;
+	FIELD field_1346 ticksUntilAttack I
+	FIELD field_1349 path Lnet/minecraft/class_431;

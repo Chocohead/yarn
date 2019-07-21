@@ -1,2 +1,2 @@
-CLASS agr net/minecraft/item/MinecartItem
-	FIELD a type I
+CLASS net/minecraft/class_300 net/minecraft/item/MinecartItem
+	FIELD field_949 type I

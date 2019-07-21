@@ -1,2 +1,2 @@
-CLASS pm net/minecraft/block/BedBlock
-	METHOD f findWakeUpPosition (Lxd;IIII)Luh;
+CLASS net/minecraft/class_943 net/minecraft/block/BedBlock
+	METHOD method_3135 findWakeUpPosition (Lnet/minecraft/class_26;IIII)Lnet/minecraft/class_159;

@@ -1,2 +1,2 @@
-CLASS dk net/minecraft/block/entity/JukeboxBlockEntity
-	FIELD a recordId I
+CLASS net/minecraft/class_568 net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD field_1649 recordId I

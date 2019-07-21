@@ -1,3 +1,3 @@
-CLASS sn net/minecraft/block/ChestBlock
-	FIELD a random Ljava/util/Random;
-	METHOD j hasCatOnTop (Lxd;III)Z
+CLASS net/minecraft/class_623 net/minecraft/block/ChestBlock
+	FIELD field_1885 random Ljava/util/Random;
+	METHOD method_1516 hasCatOnTop (Lnet/minecraft/class_26;III)Z

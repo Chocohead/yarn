@@ -1,7 +1,7 @@
-CLASS pl net/minecraft/util/hit/HitResult
-	FIELD a type Laat;
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
-	FIELD f pos Lbo;
-	FIELD g entity Lnn;
+CLASS net/minecraft/class_161 net/minecraft/util/hit/HitResult
+	FIELD field_3883 type Lnet/minecraft/class_511;
+	FIELD field_3884 x I
+	FIELD field_3885 y I
+	FIELD field_3886 z I
+	FIELD field_3888 pos Lnet/minecraft/class_131;
+	FIELD field_3889 entity Lnet/minecraft/class_37;

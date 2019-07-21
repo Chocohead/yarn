@@ -1,3 +1,0 @@
-CLASS fe
-	METHOD a renderLabel (Lacq;Ljava/lang/String;DDDI)V
-	METHOD b render (Lacq;IF)I

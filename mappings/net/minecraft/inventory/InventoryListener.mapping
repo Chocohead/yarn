@@ -1,2 +1,2 @@
-CLASS zr net/minecraft/inventory/InventoryListener
-	METHOD a onInvChange (Lme;)V
+CLASS net/minecraft/class_792 net/minecraft/inventory/InventoryListener
+	METHOD method_2369 onInvChange (Lnet/minecraft/class_793;)V

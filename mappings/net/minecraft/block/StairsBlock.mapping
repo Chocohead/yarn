@@ -1,2 +1,2 @@
-CLASS nr net/minecraft/block/StairsBlock
-	FIELD a baseBlock Lpb;
+CLASS net/minecraft/class_902 net/minecraft/block/StairsBlock
+	FIELD field_3585 baseBlock Lnet/minecraft/class_38;

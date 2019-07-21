@@ -1,2 +1,2 @@
-CLASS ho net/minecraft/client/render/entity/model/EntityModel
-	METHOD a render (Lnn;FFFFFF)V
+CLASS net/minecraft/class_35 net/minecraft/client/render/entity/model/EntityModel
+	METHOD method_1983 render (Lnet/minecraft/class_37;FFFFFF)V

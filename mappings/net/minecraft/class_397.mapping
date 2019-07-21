@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_397
+	METHOD method_970 setBreedingAge (I)V

@@ -1,1 +1,1 @@
-CLASS act net/minecraft/entity/projectile/FishHookEntity
+CLASS net/minecraft/class_168 net/minecraft/entity/projectile/FishHookEntity

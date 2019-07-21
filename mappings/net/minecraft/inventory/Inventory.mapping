@@ -1,12 +1,12 @@
-CLASS io net/minecraft/inventory/Inventory
-	METHOD a getInvSize ()I
-	METHOD a takeInvStack (II)Laan;
-	METHOD a setInvStack (ILaan;)V
-	METHOD a_ canPlayerUseInv (Lyw;)Z
-	METHOD b removeInvStack (I)Laan;
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getMaxStackSize ()I
-	METHOD e onOpened ()V
-	METHOD f onClosed ()V
-	METHOD j markDirty ()V
-	METHOD k_ getInvStack (I)Laan;
+CLASS net/minecraft/class_125 net/minecraft/inventory/Inventory
+	METHOD method_2208 getInvSize ()I
+	METHOD method_2209 takeInvStack (II)Lnet/minecraft/class_24;
+	METHOD method_2210 setInvStack (ILnet/minecraft/class_24;)V
+	METHOD method_2211 canPlayerUseInv (Lnet/minecraft/class_75;)Z
+	METHOD method_2212 removeInvStack (I)Lnet/minecraft/class_24;
+	METHOD method_2213 getInvName ()Ljava/lang/String;
+	METHOD method_2214 getMaxStackSize ()I
+	METHOD method_2215 onOpened ()V
+	METHOD method_2216 onClosed ()V
+	METHOD method_2217 markDirty ()V
+	METHOD method_2218 getInvStack (I)Lnet/minecraft/class_24;

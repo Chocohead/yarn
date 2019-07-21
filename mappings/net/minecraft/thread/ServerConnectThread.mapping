@@ -1,6 +1,0 @@
-CLASS ala net/minecraft/thread/ServerConnectThread
-	FIELD a minecraft Lnet/minecraft/client/Minecraft;
-	FIELD b host Ljava/lang/String;
-	FIELD d screen Lajy;
-	METHOD <init> (Lajy;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
-		ARG 3 host

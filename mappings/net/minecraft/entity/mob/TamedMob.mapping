@@ -1,4 +1,4 @@
-CLASS wd net/minecraft/entity/mob/TamedMob
-	METHOD a setOwner (Ljava/lang/String;)V
-	METHOD af isSitting ()Z
-	METHOD b setTamed (Z)V
+CLASS net/minecraft/class_335 net/minecraft/entity/mob/TamedMob
+	METHOD method_1488 setOwner (Ljava/lang/String;)V
+	METHOD method_1493 isSitting ()Z
+	METHOD method_1490 setTamed (Z)V

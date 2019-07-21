@@ -1,2 +1,2 @@
-CLASS rw net/minecraft/util/ProgressListener
-	METHOD a progressStagePercentage (I)V
+CLASS net/minecraft/class_356 net/minecraft/util/ProgressListener
+	METHOD method_839 progressStagePercentage (I)V

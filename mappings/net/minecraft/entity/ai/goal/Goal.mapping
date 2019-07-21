@@ -1,7 +1,7 @@
-CLASS rc net/minecraft/entity/ai/goal/Goal
-	METHOD a canStart ()Z
-	METHOD b shouldContinue ()Z
-	METHOD c start ()V
-	METHOD d stop ()V
-	METHOD e tick ()V
-	METHOD f canStop ()Z
+CLASS net/minecraft/class_890 net/minecraft/entity/ai/goal/Goal
+	METHOD method_3198 canStart ()Z
+	METHOD method_3199 shouldContinue ()Z
+	METHOD method_3205 start ()V
+	METHOD method_3200 stop ()V
+	METHOD method_3201 tick ()V
+	METHOD method_3203 canStop ()Z

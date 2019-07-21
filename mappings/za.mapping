@@ -1,3 +1,0 @@
-CLASS za
-	METHOD a (Ljava/lang/String;Lzk;)V
-		ARG 2 data

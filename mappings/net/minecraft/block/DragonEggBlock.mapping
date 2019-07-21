@@ -1,2 +1,2 @@
-CLASS de net/minecraft/block/DragonEggBlock
-	METHOD i activate (Lxd;III)V
+CLASS net/minecraft/class_61 net/minecraft/block/DragonEggBlock
+	METHOD method_1324 activate (Lnet/minecraft/class_26;III)V

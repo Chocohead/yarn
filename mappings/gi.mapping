@@ -1,4 +1,0 @@
-CLASS gi
-	FIELD e minecraft Lnet/minecraft/client/Minecraft;
-	FIELD f texturepacksDir Ljava/io/File;
-	FIELD g skin Ljava/lang/String;

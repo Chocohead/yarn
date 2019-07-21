@@ -1,6 +1,0 @@
-CLASS aaj
-	FIELD b xCenter I
-	FIELD c zCenter I
-	FIELD d dimension B
-	FIELD e scale B
-	FIELD f colors [B

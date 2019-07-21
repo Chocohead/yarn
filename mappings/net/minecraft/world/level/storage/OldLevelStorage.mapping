@@ -1,2 +1,2 @@
-CLASS aib net/minecraft/world/level/storage/OldLevelStorage
-	FIELD a path Ljava/io/File;
+CLASS net/minecraft/class_345 net/minecraft/world/level/storage/OldLevelStorage
+	FIELD field_1067 path Ljava/io/File;

@@ -1,2 +1,2 @@
-CLASS aly net/minecraft/world/source/RandomLevelSource
-	FIELD k random Ljava/util/Random;
+CLASS net/minecraft/class_449 net/minecraft/world/source/RandomLevelSource
+	FIELD field_1288 random Ljava/util/Random;

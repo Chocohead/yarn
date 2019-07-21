@@ -1,6 +1,6 @@
-CLASS ke net/minecraft/entity/ai/goal/EscapeDangerGoal
-	FIELD a owner Laaa;
-	FIELD b speed F
-	FIELD c targetX D
-	FIELD d targetY D
-	FIELD e targetZ D
+CLASS net/minecraft/class_822 net/minecraft/entity/ai/goal/EscapeDangerGoal
+	FIELD field_2970 owner Lnet/minecraft/class_170;
+	FIELD field_2971 speed F
+	FIELD field_2972 targetX D
+	FIELD field_2973 targetY D
+	FIELD field_2974 targetZ D

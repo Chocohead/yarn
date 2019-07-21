@@ -1,2 +1,2 @@
-CLASS ahl net/minecraft/nbt/DoubleTag
-	FIELD a value D
+CLASS net/minecraft/class_326 net/minecraft/nbt/DoubleTag
+	FIELD field_1016 value D

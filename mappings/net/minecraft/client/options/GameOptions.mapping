@@ -1,58 +1,58 @@
-CLASS hu net/minecraft/client/options/GameOptions
-	FIELD A keyBindings [Lafu;
-	FIELD B minecraft Lnet/minecraft/client/Minecraft;
-	FIELD C difficulty I
-	FIELD F debugEnabled Z
-	FIELD H lastServer Ljava/lang/String;
-	FIELD N fov F
-	FIELD O gamma F
-	FIELD P guiScale I
-	FIELD Q particles I
-	FIELD R lang Ljava/lang/String;
-	FIELD S RENDER_DISTANCE_OPTIONS [Ljava/lang/String;
-	FIELD T DIFFICULTY_OPTIONS [Ljava/lang/String;
-	FIELD U GUI_SCALE_OPTIONS [Ljava/lang/String;
-	FIELD V PARTICLES_OPTIONS [Ljava/lang/String;
-	FIELD W PERFORMANCE_OPTIONS [Ljava/lang/String;
-	FIELD X optionsFile Ljava/io/File;
-	FIELD a music F
-	FIELD b sound F
-	FIELD c mouseSensitivity F
-	FIELD d invertyMouseY Z
-	FIELD e viewDistance I
-	FIELD f bobView Z
-	FIELD g anaglyph3d Z
-	FIELD h advancedOpenGL Z
-	FIELD i fpsLimit I
-	FIELD j fancyGraphics Z
-	FIELD k ao Z
-	FIELD l clouds Z
-	FIELD m skin Ljava/lang/String;
-	FIELD n forwardKey Lafu;
-	FIELD o leftKey Lafu;
-	FIELD p backKey Lafu;
-	FIELD q rightKey Lafu;
-	FIELD r jumpKey Lafu;
-	FIELD s inventoryKey Lafu;
-	FIELD t dropItemKey Lafu;
-	FIELD u chatKey Lafu;
-	FIELD v sneakKey Lafu;
-	FIELD w attackKey Lafu;
-	FIELD x useKey Lafu;
-	FIELD y playerListKey Lafu;
-	FIELD z pickItemKey Lafu;
-	METHOD a getTranslatedName (I)Ljava/lang/String;
+CLASS net/minecraft/class_271 net/minecraft/client/options/GameOptions
+	FIELD field_2396 keyBindings [Lnet/minecraft/class_268;
+	FIELD field_2397 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_2398 difficulty I
+	FIELD field_2401 debugEnabled Z
+	FIELD field_2403 lastServer Ljava/lang/String;
+	FIELD field_2409 fov F
+	FIELD field_2410 gamma F
+	FIELD field_2411 guiScale I
+	FIELD field_2412 particles I
+	FIELD field_2413 lang Ljava/lang/String;
+	FIELD field_2414 RENDER_DISTANCE_OPTIONS [Ljava/lang/String;
+	FIELD field_2415 DIFFICULTY_OPTIONS [Ljava/lang/String;
+	FIELD field_2416 GUI_SCALE_OPTIONS [Ljava/lang/String;
+	FIELD field_2417 PARTICLES_OPTIONS [Ljava/lang/String;
+	FIELD field_2418 PERFORMANCE_OPTIONS [Ljava/lang/String;
+	FIELD field_2419 optionsFile Ljava/io/File;
+	FIELD field_2420 music F
+	FIELD field_2421 sound F
+	FIELD field_2422 mouseSensitivity F
+	FIELD field_2423 invertyMouseY Z
+	FIELD field_2424 viewDistance I
+	FIELD field_2425 bobView Z
+	FIELD field_2426 anaglyph3d Z
+	FIELD field_2427 advancedOpenGL Z
+	FIELD field_2428 fpsLimit I
+	FIELD field_2429 fancyGraphics Z
+	FIELD field_2430 ao Z
+	FIELD field_2431 clouds Z
+	FIELD field_2432 skin Ljava/lang/String;
+	FIELD field_2433 forwardKey Lnet/minecraft/class_268;
+	FIELD field_2434 leftKey Lnet/minecraft/class_268;
+	FIELD field_2435 backKey Lnet/minecraft/class_268;
+	FIELD field_2436 rightKey Lnet/minecraft/class_268;
+	FIELD field_2437 jumpKey Lnet/minecraft/class_268;
+	FIELD field_2438 inventoryKey Lnet/minecraft/class_268;
+	FIELD field_2439 dropItemKey Lnet/minecraft/class_268;
+	FIELD field_2440 chatKey Lnet/minecraft/class_268;
+	FIELD field_2441 sneakKey Lnet/minecraft/class_268;
+	FIELD field_2442 attackKey Lnet/minecraft/class_268;
+	FIELD field_2443 useKey Lnet/minecraft/class_268;
+	FIELD field_2444 playerListKey Lnet/minecraft/class_268;
+	FIELD field_2445 pickItemKey Lnet/minecraft/class_268;
+	METHOD method_1996 getTranslatedName (I)Ljava/lang/String;
 		ARG 1 id
-	METHOD a setKey (II)V
+	METHOD method_1997 setKey (II)V
 		ARG 1 id
 		ARG 2 key
-	METHOD a changeOption (Lzq;F)V
+	METHOD method_2000 changeOption (Lnet/minecraft/class_112;F)V
 		ARG 2 value
-	METHOD a changeOption (Lzq;I)V
+	METHOD method_2001 changeOption (Lnet/minecraft/class_112;I)V
 		ARG 2 value
-	METHOD b saveOptions ()V
-	METHOD b getValue (I)Ljava/lang/String;
+	METHOD method_2003 saveOptions ()V
+	METHOD method_2004 getValue (I)Ljava/lang/String;
 		ARG 1 id
-	METHOD c shouldRenderClouds ()Z
-	METHOD c (I)Ljava/lang/String;
+	METHOD method_2006 shouldRenderClouds ()Z
+	METHOD method_2007 (I)Ljava/lang/String;
 		ARG 0 id

@@ -1,6 +1,6 @@
-CLASS no net/minecraft/nbt/ListTag
-	FIELD a value Ljava/util/List;
-	FIELD b type B
-	METHOD a get (I)Lgh;
-	METHOD a add (Lgh;)V
-	METHOD d size ()I
+CLASS net/minecraft/class_140 net/minecraft/nbt/ListTag
+	FIELD field_3570 value Ljava/util/List;
+	FIELD field_3571 type B
+	METHOD method_2874 get (I)Lnet/minecraft/class_210;
+	METHOD method_2875 add (Lnet/minecraft/class_210;)V
+	METHOD method_2876 size ()I

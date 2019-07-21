@@ -1,2 +1,2 @@
-CLASS adl net/minecraft/client/network/ClientPlayNetworkHandler
-	METHOD c sendPacket (Labs;)V
+CLASS net/minecraft/class_192 net/minecraft/client/network/ClientPlayNetworkHandler
+	METHOD method_552 sendPacket (Lnet/minecraft/class_87;)V

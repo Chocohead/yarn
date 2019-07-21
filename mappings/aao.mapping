@@ -1,2 +1,0 @@
-CLASS aao
-	METHOD a register (Ljava/lang/Class;Ljava/lang/String;I)V

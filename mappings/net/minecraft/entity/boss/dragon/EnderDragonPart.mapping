@@ -1,3 +1,3 @@
-CLASS dg net/minecraft/entity/boss/dragon/EnderDragonPart
-	FIELD a owner Lajn;
-	FIELD b name Ljava/lang/String;
+CLASS net/minecraft/class_390 net/minecraft/entity/boss/dragon/EnderDragonPart
+	FIELD field_1627 owner Lnet/minecraft/class_389;
+	FIELD field_1628 name Ljava/lang/String;

@@ -1,6 +1,6 @@
-CLASS abp net/minecraft/client/screen/Button
-	FIELD e text Ljava/lang/String;
-	FIELD f id I
-	FIELD h active Z
+CLASS net/minecraft/class_66 net/minecraft/client/screen/Button
+	FIELD field_3593 text Ljava/lang/String;
+	FIELD field_3594 id I
+	FIELD field_3595 active Z
 	METHOD <init> (IIIIILjava/lang/String;)V
 		ARG 1 id

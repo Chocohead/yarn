@@ -1,3 +1,0 @@
-CLASS adj net/minecraft/moveme/JsonNodeDoesNotMatchJsonNodeSelectorException
-	FIELD a node Lse;
-	FIELD b path Ljava/util/List;

@@ -1,7 +1,7 @@
-CLASS tf net/minecraft/client/render/GuiLighting
-	FIELD a buffer Ljava/nio/FloatBuffer;
-	METHOD a disable ()V
-	METHOD a singletonBuffer (DDDD)Ljava/nio/FloatBuffer;
-	METHOD a singletonBuffer (FFFF)Ljava/nio/FloatBuffer;
-	METHOD b enable ()V
-	METHOD c enableForItems ()V
+CLASS net/minecraft/class_12 net/minecraft/client/render/GuiLighting
+	FIELD field_22 buffer Ljava/nio/FloatBuffer;
+	METHOD method_3 disable ()V
+	METHOD method_4 singletonBuffer (DDDD)Ljava/nio/FloatBuffer;
+	METHOD method_5 singletonBuffer (FFFF)Ljava/nio/FloatBuffer;
+	METHOD method_6 enable ()V
+	METHOD method_7 enableForItems ()V

@@ -1,4 +1,0 @@
-CLASS ks
-	METHOD a post (Ljava/net/URL;Ljava/lang/String;Z)Ljava/lang/String;
-	METHOD a post (Ljava/net/URL;Ljava/util/Map;Z)Ljava/lang/String;
-	METHOD a toString (Ljava/util/Map;)Ljava/lang/String;

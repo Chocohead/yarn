@@ -1,4 +1,4 @@
-CLASS amn net/minecraft/container/CraftingResultSlot
-	FIELD a resultInventory Lio;
-	FIELD f player Lyw;
-	FIELD g amount I
+CLASS net/minecraft/class_807 net/minecraft/container/CraftingResultSlot
+	FIELD field_2921 resultInventory Lnet/minecraft/class_125;
+	FIELD field_2922 player Lnet/minecraft/class_75;
+	FIELD field_2923 amount I

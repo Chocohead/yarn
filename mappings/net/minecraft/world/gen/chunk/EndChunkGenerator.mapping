@@ -1,2 +1,2 @@
-CLASS xo net/minecraft/world/gen/chunk/EndChunkGenerator
-	FIELD i random Ljava/util/Random;
+CLASS net/minecraft/class_701 net/minecraft/world/gen/chunk/EndChunkGenerator
+	FIELD field_2257 random Ljava/util/Random;

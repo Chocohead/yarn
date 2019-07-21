@@ -1,4 +1,4 @@
-CLASS aah net/minecraft/container/CraftingTableContainer
-	FIELD a resultInv Lade;
-	FIELD b inventory Lio;
-	FIELD c world Lxd;
+CLASS net/minecraft/class_250 net/minecraft/container/CraftingTableContainer
+	FIELD field_832 resultInv Lnet/minecraft/class_185;
+	FIELD field_833 inventory Lnet/minecraft/class_125;
+	FIELD field_834 world Lnet/minecraft/class_26;

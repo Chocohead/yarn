@@ -1,2 +1,0 @@
-CLASS dx
-	FIELD a URL_PATTERN Ljava/util/regex/Pattern;

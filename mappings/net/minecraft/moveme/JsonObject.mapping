@@ -1,2 +1,0 @@
-CLASS hs net/minecraft/moveme/JsonObject
-	FIELD a fields Ljava/util/Map;

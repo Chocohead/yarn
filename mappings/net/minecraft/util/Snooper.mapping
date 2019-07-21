@@ -1,5 +1,5 @@
-CLASS vt net/minecraft/util/Snooper
-	FIELD a info Ljava/util/Map;
-	FIELD b snooperUrl Ljava/net/URL;
-	METHOD a start ()V
-	METHOD a addInfo (Ljava/lang/String;Ljava/lang/Object;)V
+CLASS net/minecraft/class_875 net/minecraft/util/Snooper
+	FIELD field_3329 info Ljava/util/Map;
+	FIELD field_3330 snooperUrl Ljava/net/URL;
+	METHOD method_2671 start ()V
+	METHOD method_2673 addInfo (Ljava/lang/String;Ljava/lang/Object;)V

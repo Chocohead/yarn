@@ -1,2 +1,2 @@
-CLASS cc net/minecraft/util/WeightedPickerEntry
-	FIELD d weight I
+CLASS net/minecraft/class_510 net/minecraft/util/WeightedPickerEntry
+	FIELD field_1428 weight I

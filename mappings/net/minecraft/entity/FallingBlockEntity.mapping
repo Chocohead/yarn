@@ -1,2 +1,2 @@
-CLASS abf net/minecraft/entity/FallingBlockEntity
-	METHOD n getWorld ()Lxd;
+CLASS net/minecraft/class_108 net/minecraft/entity/FallingBlockEntity
+	METHOD method_2043 getWorld ()Lnet/minecraft/class_26;

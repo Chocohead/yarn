@@ -1,1 +1,1 @@
-CLASS kz net/minecraft/client/render/block/entity/EndPortalBlockEntityRenderer
+CLASS net/minecraft/class_839 net/minecraft/client/render/block/entity/EndPortalBlockEntityRenderer

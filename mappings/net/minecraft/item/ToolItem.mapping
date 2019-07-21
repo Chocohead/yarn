@@ -1,5 +1,5 @@
-CLASS da net/minecraft/item/ToolItem
-	FIELD a breakSpeed F
-	FIELD b material Luk;
-	FIELD bV weaponDamage I
-	FIELD c minableBlocks [Lpb;
+CLASS net/minecraft/class_547 net/minecraft/item/ToolItem
+	FIELD field_1566 breakSpeed F
+	FIELD field_1567 material Lnet/minecraft/class_521;
+	FIELD field_1568 weaponDamage I
+	FIELD field_1569 minableBlocks [Lnet/minecraft/class_38;

@@ -1,2 +1,2 @@
-CLASS aje net/minecraft/entity/ai/goal/SwimGoal
-	FIELD a entity Lacq;
+CLASS net/minecraft/class_380 net/minecraft/entity/ai/goal/SwimGoal
+	FIELD field_1146 entity Lnet/minecraft/class_133;

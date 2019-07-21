@@ -1,6 +1,6 @@
-CLASS gb net/minecraft/client/screen/container/ContainerScreen
-	FIELD b containerWidth I
-	FIELD c containerHeight I
-	METHOD a drawBackground (FII)V
-	METHOD a onMouseClick (Lyu;IIZ)V
-	METHOD d drawForeground ()V
+CLASS net/minecraft/class_662 net/minecraft/client/screen/container/ContainerScreen
+	FIELD field_2029 containerWidth I
+	FIELD field_2030 containerHeight I
+	METHOD method_1658 drawBackground (FII)V
+	METHOD method_1657 onMouseClick (Lnet/minecraft/class_560;IIZ)V
+	METHOD method_1659 drawForeground ()V

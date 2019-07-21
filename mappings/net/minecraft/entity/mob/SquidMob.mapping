@@ -1,1 +1,1 @@
-CLASS all net/minecraft/entity/mob/SquidMob
+CLASS net/minecraft/class_82 net/minecraft/entity/mob/SquidMob

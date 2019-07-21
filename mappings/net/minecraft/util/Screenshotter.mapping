@@ -1,2 +1,2 @@
-CLASS zh net/minecraft/util/Screenshotter
-	FIELD a dateFormat Ljava/text/DateFormat;
+CLASS net/minecraft/class_123 net/minecraft/util/Screenshotter
+	FIELD field_356 dateFormat Ljava/text/DateFormat;

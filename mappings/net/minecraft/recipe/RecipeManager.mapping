@@ -1,12 +1,14 @@
-CLASS fr net/minecraft/recipe/RecipeManager
-	FIELD a INSTANCE Lfr;
-	FIELD b recipes Ljava/util/List;
-	METHOD a getInstance ()Lfr;
-	METHOD a addShaped (Laan;[Ljava/lang/Object;)V
+CLASS net/minecraft/class_177 net/minecraft/recipe/RecipeManager
+	CLASS 1
+		FIELD field_1996 recipeManager Lnet/minecraft/class_177;
+	FIELD field_1994 INSTANCE Lnet/minecraft/class_177;
+	FIELD field_1995 recipes Ljava/util/List;
+	METHOD method_1637 getInstance ()Lnet/minecraft/class_177;
+	METHOD method_1638 addShaped (Lnet/minecraft/class_24;[Ljava/lang/Object;)V
 		ARG 1 result
 		ARG 2 ingredients
-	METHOD a getResult (Lade;)Laan;
-	METHOD b getRecipes ()Ljava/util/List;
-	METHOD b addShapeless (Laan;[Ljava/lang/Object;)V
+	METHOD method_1639 getResult (Lnet/minecraft/class_185;)Lnet/minecraft/class_24;
+	METHOD method_1640 getRecipes ()Ljava/util/List;
+	METHOD method_1641 addShapeless (Lnet/minecraft/class_24;[Ljava/lang/Object;)V
 		ARG 1 result
 		ARG 2 ingredients

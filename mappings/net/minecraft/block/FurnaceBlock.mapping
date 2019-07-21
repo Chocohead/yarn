@@ -1,6 +1,6 @@
-CLASS aho net/minecraft/block/FurnaceBlock
-	FIELD a random Ljava/util/Random;
-	FIELD b lit Z
-	FIELD c SETTING_BLOCK Z
-	METHOD a setBurning (ZLxd;III)V
+CLASS net/minecraft/class_330 net/minecraft/block/FurnaceBlock
+	FIELD field_1018 random Ljava/util/Random;
+	FIELD field_1019 lit Z
+	FIELD field_1020 SETTING_BLOCK Z
+	METHOD method_814 setBurning (ZLnet/minecraft/class_26;III)V
 		ARG 0 burning

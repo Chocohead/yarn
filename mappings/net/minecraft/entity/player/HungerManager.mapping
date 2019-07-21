@@ -1,18 +1,18 @@
-CLASS ne net/minecraft/entity/player/HungerManager
-	FIELD a foodLevel I
-	FIELD b foodSaturationLevel F
-	FIELD c foodExhaustionLevel F
-	FIELD d foodTickTimer I
-	FIELD e prevFoodLevel I
-	METHOD a getFoodLevel ()I
-	METHOD a addExhaustion (F)V
-	METHOD a setFoodLevel (I)V
-	METHOD a add (IF)V
-	METHOD a fromTag (Lady;)V
-	METHOD a eat (Lamm;)V
-	METHOD a update (Lyw;)V
-	METHOD b getPrevFoodLevel ()I
-	METHOD b setSaturationLevel (F)V
-	METHOD b toTag (Lady;)V
-	METHOD c isNotFull ()Z
-	METHOD d getSaturationLevel ()F
+CLASS net/minecraft/class_748 net/minecraft/entity/player/HungerManager
+	FIELD field_3446 foodLevel I
+	FIELD field_3447 foodSaturationLevel F
+	FIELD field_3448 foodExhaustionLevel F
+	FIELD field_3449 foodTickTimer I
+	FIELD field_3450 prevFoodLevel I
+	METHOD method_2729 getFoodLevel ()I
+	METHOD method_2730 addExhaustion (F)V
+	METHOD method_2731 setFoodLevel (I)V
+	METHOD method_2732 add (IF)V
+	METHOD method_2733 fromTag (Lnet/minecraft/class_209;)V
+	METHOD method_2734 eat (Lnet/minecraft/class_787;)V
+	METHOD method_2735 update (Lnet/minecraft/class_75;)V
+	METHOD method_2736 getPrevFoodLevel ()I
+	METHOD method_2737 setSaturationLevel (F)V
+	METHOD method_2738 toTag (Lnet/minecraft/class_209;)V
+	METHOD method_2739 isNotFull ()Z
+	METHOD method_2740 getSaturationLevel ()F

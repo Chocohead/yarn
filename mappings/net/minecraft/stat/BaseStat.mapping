@@ -1,8 +1,8 @@
-CLASS ajw net/minecraft/stat/BaseStat
-	FIELD a name Ljava/lang/String;
-	FIELD e id I
+CLASS net/minecraft/class_339 net/minecraft/stat/BaseStat
+	FIELD field_1169 name Ljava/lang/String;
+	FIELD field_1173 id I
 	METHOD <init> (ILjava/lang/String;Lqt;)V
 		ARG 1 id
 		ARG 2 name
-	METHOD a register ()Lajw;
-	METHOD i getName ()Ljava/lang/String;
+	METHOD method_977 register ()Lnet/minecraft/class_339;
+	METHOD method_974 getName ()Ljava/lang/String;

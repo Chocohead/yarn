@@ -1,2 +1,2 @@
-CLASS akd net/minecraft/item/ShovelItem
-	FIELD c EFFECTIVE_BLOCKS [Lpb;
+CLASS net/minecraft/class_411 net/minecraft/item/ShovelItem
+	FIELD field_1195 EFFECTIVE_BLOCKS [Lnet/minecraft/class_38;

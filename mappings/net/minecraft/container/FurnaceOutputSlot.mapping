@@ -1,3 +1,3 @@
-CLASS ajv net/minecraft/container/FurnaceOutputSlot
-	FIELD a player Lyw;
-	FIELD f amount I
+CLASS net/minecraft/class_401 net/minecraft/container/FurnaceOutputSlot
+	FIELD field_1167 player Lnet/minecraft/class_75;
+	FIELD field_1168 amount I

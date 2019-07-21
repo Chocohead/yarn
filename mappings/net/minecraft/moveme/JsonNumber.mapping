@@ -1,3 +1,0 @@
-CLASS aam net/minecraft/moveme/JsonNumber
-	FIELD a JSON_NUMBER_PATTERN Ljava/util/regex/Pattern;
-	FIELD b raw Ljava/lang/String;

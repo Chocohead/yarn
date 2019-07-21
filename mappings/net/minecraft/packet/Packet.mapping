@@ -1,10 +1,10 @@
-CLASS abs net/minecraft/packet/Packet
-	FIELD a CLASS_TO_ID Ljava/util/Map;
-	FIELD k ID_TO_CLASS Labh;
-	METHOD a getFromId (I)Labs;
+CLASS net/minecraft/class_87 net/minecraft/packet/Packet
+	FIELD field_3691 CLASS_TO_ID Ljava/util/Map;
+	FIELD field_3694 ID_TO_CLASS Lnet/minecraft/class_85;
+	METHOD method_3008 getFromId (I)Lnet/minecraft/class_87;
 		ARG 0 id
-	METHOD a register (IZZLjava/lang/Class;)V
+	METHOD method_3009 register (IZZLjava/lang/Class;)V
 		ARG 0 packetId
 		ARG 3 packetClass
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD method_3005 read (Ljava/io/DataInputStream;)V
+	METHOD method_3006 write (Ljava/io/DataOutputStream;)V
