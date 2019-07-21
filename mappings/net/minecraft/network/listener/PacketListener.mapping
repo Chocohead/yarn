@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_845 net/minecraft/network/listener/PacketListener
+CLASS net/minecraft/class_847 net/minecraft/network/listener/PacketListener
 	METHOD method_2892 onPacket (Lnet/minecraft/class_87;)V
-	METHOD method_2935 onHandSwing (Lnet/minecraft/class_817;)V
-	METHOD method_2953 onPlayerAbilities (Lnet/minecraft/class_733;)V
+	METHOD method_2935 onHandSwing (Lnet/minecraft/class_819;)V
+	METHOD method_2953 onPlayerAbilities (Lnet/minecraft/class_735;)V

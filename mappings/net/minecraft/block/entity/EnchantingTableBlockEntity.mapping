@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_546 net/minecraft/block/entity/EnchantingTableBlockEntity
+CLASS net/minecraft/class_548 net/minecraft/block/entity/EnchantingTableBlockEntity
 	FIELD field_1570 ticks I
 	FIELD field_1571 nextPageAngle F
 	FIELD field_1572 pageAngle F

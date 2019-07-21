@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_902 net/minecraft/item/AxeItem
+CLASS net/minecraft/class_905 net/minecraft/item/AxeItem
 	FIELD field_3588 EFFECTIVE_BLOCKS [Lnet/minecraft/class_38;

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_635 net/minecraft/world/level/LevelInfo
+CLASS net/minecraft/class_637 net/minecraft/world/level/LevelInfo
 	METHOD method_1589 getSeed ()J
 	METHOD method_1590 getGameType ()I
 	METHOD method_1591 isHardcore ()Z

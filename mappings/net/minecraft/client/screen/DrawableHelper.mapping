@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_918 net/minecraft/client/screen/DrawableHelper
+CLASS net/minecraft/class_921 net/minecraft/client/screen/DrawableHelper
 	FIELD field_3640 blitOffset F
 	METHOD method_2963 hLine (IIII)V
 	METHOD method_2964 fill (IIIII)V

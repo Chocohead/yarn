@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_925 net/minecraft/block/CakeBlock
+CLASS net/minecraft/class_929 net/minecraft/block/CakeBlock
 	METHOD method_2998 tryEat (Lnet/minecraft/class_26;IIILnet/minecraft/class_75;)V

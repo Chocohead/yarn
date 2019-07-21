@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_441 net/minecraft/container/BrewingStandContainer
-	CLASS 1 net/minecraft/container/BrewingStandIngredientSlot
-	CLASS 2 net/minecraft/container/BrewingStandPotionSlot
+	CLASS class_443 IngredientSlot
+	CLASS class_444 PotionSlot
 		FIELD field_1258 player Lnet/minecraft/class_75;
 	FIELD field_1254 brewingStand Lnet/minecraft/class_442;

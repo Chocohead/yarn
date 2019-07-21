@@ -1,3 +1,0 @@
-CLASS argo/jdom/JsonNumberNode net/minecraft/moveme/JsonNumber
-	FIELD PATTERN JSON_NUMBER_PATTERN Ljava/util/regex/Pattern;
-	FIELD value raw Ljava/lang/String;

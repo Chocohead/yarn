@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_242 net/minecraft/container/PlayerContainer
-	CLASS 1 net/minecraft/container/ArmorSlot
+	CLASS 1
 		FIELD field_817 armorSlot I
 		FIELD field_818 playerContainer Lnet/minecraft/class_242;
 	FIELD field_814 craftingInv Lnet/minecraft/class_185;

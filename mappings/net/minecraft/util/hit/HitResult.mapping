@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_161 net/minecraft/util/hit/HitResult
-	FIELD field_3883 type Lnet/minecraft/class_509;
+	FIELD field_3883 type Lnet/minecraft/class_511;
 	FIELD field_3884 x I
 	FIELD field_3885 y I
 	FIELD field_3886 z I

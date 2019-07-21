@@ -1,6 +1,6 @@
-CLASS net/minecraft/class_539 net/minecraft/client/particle/ParticleManager
+CLASS net/minecraft/class_541 net/minecraft/client/particle/ParticleManager
 	FIELD field_1558 world Lnet/minecraft/class_26;
 	FIELD field_1560 textureManager Lnet/minecraft/class_18;
 	FIELD field_1561 random Ljava/util/Random;
 	METHOD method_1258 tick ()V
-	METHOD method_1262 addEmitter (Lnet/minecraft/class_540;)V
+	METHOD method_1262 addEmitter (Lnet/minecraft/class_542;)V

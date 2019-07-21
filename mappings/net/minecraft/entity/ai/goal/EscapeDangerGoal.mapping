@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_820 net/minecraft/entity/ai/goal/EscapeDangerGoal
+CLASS net/minecraft/class_822 net/minecraft/entity/ai/goal/EscapeDangerGoal
 	FIELD field_2970 owner Lnet/minecraft/class_170;
 	FIELD field_2971 speed F
 	FIELD field_2972 targetX D

@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_561 net/minecraft/entity/PaintingEntity
-	FIELD field_3295 type Lnet/minecraft/class_683;
+CLASS net/minecraft/class_563 net/minecraft/entity/PaintingEntity
+	FIELD field_3295 type Lnet/minecraft/class_685;

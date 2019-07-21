@@ -1,7 +1,7 @@
 CLASS net/minecraft/client/Minecraft
-	CLASS 4
-		FIELD field_4205 minecraft Lnet/minecraft/client/Minecraft;
-	CLASS 5
+	CLASS class_993
+		FIELD field_4202 minecraft Lnet/minecraft/client/Minecraft;
+	CLASS class_996
 		FIELD field_4206 frame Ljava/awt/Frame;
 	FIELD field_4137 options Lnet/minecraft/class_271;
 	FIELD field_4147 inGameHud Lnet/minecraft/class_48;
@@ -12,15 +12,15 @@ CLASS net/minecraft/client/Minecraft
 	FIELD field_4178 windowScaledWidth I
 	FIELD field_4179 windowScaledHeight I
 	FIELD field_4180 world Lnet/minecraft/class_26;
-	FIELD field_4181 levelRenderer Lnet/minecraft/class_838;
+	FIELD field_4181 levelRenderer Lnet/minecraft/class_840;
 	FIELD field_4182 player Lnet/minecraft/class_68;
-	FIELD field_4184 particleManager Lnet/minecraft/class_539;
+	FIELD field_4184 particleManager Lnet/minecraft/class_541;
 	FIELD field_4185 session Lnet/minecraft/class_49;
 	FIELD field_4189 paused Z
 	FIELD field_4190 textureManager Lnet/minecraft/class_18;
 	FIELD field_4191 textRenderer Lnet/minecraft/class_23;
 	FIELD field_4193 currentScreen Lnet/minecraft/class_65;
-	FIELD field_4195 gameRenderer Lnet/minecraft/class_855;
+	FIELD field_4195 gameRenderer Lnet/minecraft/class_857;
 	FIELD field_4197 chatHud Lnet/minecraft/class_371;
 	FIELD field_4198 skipGameRender Z
 	FIELD field_4200 hitResult Lnet/minecraft/class_161;

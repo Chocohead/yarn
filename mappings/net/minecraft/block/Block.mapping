@@ -9,7 +9,7 @@ CLASS net/minecraft/class_38 net/minecraft/block/Block
 	FIELD field_3713 IRON_ORE Lnet/minecraft/class_38;
 	FIELD field_3714 COAL_ORE Lnet/minecraft/class_38;
 	FIELD field_3715 LOG Lnet/minecraft/class_38;
-	FIELD field_3716 LEAVES Lnet/minecraft/class_505;
+	FIELD field_3716 LEAVES Lnet/minecraft/class_507;
 	FIELD field_3717 SPONGE Lnet/minecraft/class_38;
 	FIELD field_3718 GLASS Lnet/minecraft/class_38;
 	FIELD field_3719 LAPIS_LAZULI_ORE Lnet/minecraft/class_38;
@@ -22,8 +22,8 @@ CLASS net/minecraft/class_38 net/minecraft/block/Block
 	FIELD field_3726 DETECTOR_RAIL Lnet/minecraft/class_38;
 	FIELD field_3727 STICKY_PISTON Lnet/minecraft/class_38;
 	FIELD field_3728 COBWEB Lnet/minecraft/class_38;
-	FIELD field_3729 TALL_GRASS Lnet/minecraft/class_883;
-	FIELD field_3730 DEAD_BUSH Lnet/minecraft/class_689;
+	FIELD field_3729 TALL_GRASS Lnet/minecraft/class_886;
+	FIELD field_3730 DEAD_BUSH Lnet/minecraft/class_691;
 	FIELD field_3731 PISTON Lnet/minecraft/class_38;
 	FIELD field_3733 FARMLAND Lnet/minecraft/class_38;
 	FIELD field_3734 FURNACE Lnet/minecraft/class_38;
@@ -52,12 +52,12 @@ CLASS net/minecraft/class_38 net/minecraft/block/Block
 	FIELD field_3756 SUGAR_CANE Lnet/minecraft/class_38;
 	FIELD field_3757 JUKEBOX Lnet/minecraft/class_38;
 	FIELD field_3758 FENCE Lnet/minecraft/class_38;
-	FIELD field_3759 PISTON_HEAD Lnet/minecraft/class_813;
+	FIELD field_3759 PISTON_HEAD Lnet/minecraft/class_815;
 	FIELD field_3760 WOOL Lnet/minecraft/class_38;
-	FIELD field_3762 FLOWER Lnet/minecraft/class_932;
-	FIELD field_3763 ROSE Lnet/minecraft/class_932;
-	FIELD field_3764 BROWN_MUSHROOM Lnet/minecraft/class_932;
-	FIELD field_3765 RED_MUSHROOM Lnet/minecraft/class_932;
+	FIELD field_3762 FLOWER Lnet/minecraft/class_936;
+	FIELD field_3763 ROSE Lnet/minecraft/class_936;
+	FIELD field_3764 BROWN_MUSHROOM Lnet/minecraft/class_936;
+	FIELD field_3765 RED_MUSHROOM Lnet/minecraft/class_936;
 	FIELD field_3766 GOLD_BLOCK Lnet/minecraft/class_38;
 	FIELD field_3767 IRON_BLOCK Lnet/minecraft/class_38;
 	FIELD field_3768 DOUBLE_STONE_SLAB Lnet/minecraft/class_38;
@@ -68,7 +68,7 @@ CLASS net/minecraft/class_38 net/minecraft/block/Block
 	FIELD field_3773 MOSSY_COBBLESTONE Lnet/minecraft/class_38;
 	FIELD field_3774 OBSIDIAN Lnet/minecraft/class_38;
 	FIELD field_3775 TORCH Lnet/minecraft/class_38;
-	FIELD field_3776 FIRE Lnet/minecraft/class_615;
+	FIELD field_3776 FIRE Lnet/minecraft/class_617;
 	FIELD field_3777 MOB_SPAWNER Lnet/minecraft/class_38;
 	FIELD field_3778 WOOD_STAIRS Lnet/minecraft/class_38;
 	FIELD field_3779 CHEST Lnet/minecraft/class_38;
@@ -97,7 +97,7 @@ CLASS net/minecraft/class_38 net/minecraft/block/Block
 	FIELD field_3812 NETHERRACK Lnet/minecraft/class_38;
 	FIELD field_3813 SOUL_SAND Lnet/minecraft/class_38;
 	FIELD field_3814 GLOWSTONE Lnet/minecraft/class_38;
-	FIELD field_3815 PORTAL Lnet/minecraft/class_443;
+	FIELD field_3815 PORTAL Lnet/minecraft/class_445;
 	FIELD field_3816 JACK_O_LANTERN Lnet/minecraft/class_38;
 	FIELD field_3817 CAKE Lnet/minecraft/class_38;
 	FIELD field_3818 REDSTONE_REPEATER Lnet/minecraft/class_38;
@@ -119,21 +119,21 @@ CLASS net/minecraft/class_38 net/minecraft/block/Block
 	FIELD field_3834 STONE_BRICKS_STAIRS Lnet/minecraft/class_38;
 	FIELD field_3835 MYCELIUM Lnet/minecraft/class_285;
 	FIELD field_3836 LILYPAD Lnet/minecraft/class_38;
-	FIELD field_3838 sounds Lnet/minecraft/class_577;
+	FIELD field_3838 sounds Lnet/minecraft/class_579;
 	FIELD field_3840 material Lnet/minecraft/class_56;
-	FIELD field_3842 STONE_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3843 WOOD_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3844 GRAVEL_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3845 GRASS_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3846 PISTON_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3847 METAL_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3848 GLASS_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3849 WOOL_SOUNDS Lnet/minecraft/class_577;
-	FIELD field_3850 SAND_SOUNDS Lnet/minecraft/class_577;
+	FIELD field_3842 STONE_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3843 WOOD_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3844 GRAVEL_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3845 GRASS_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3846 PISTON_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3847 METAL_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3848 GLASS_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3849 WOOL_SOUNDS Lnet/minecraft/class_579;
+	FIELD field_3850 SAND_SOUNDS Lnet/minecraft/class_579;
 	FIELD field_3851 BY_ID [Lnet/minecraft/class_38;
 	FIELD field_3852 FULL_OPAQUE [Z
 	FIELD field_3858 STONE Lnet/minecraft/class_38;
-	FIELD field_3859 GRASS Lnet/minecraft/class_933;
+	FIELD field_3859 GRASS Lnet/minecraft/class_937;
 	FIELD field_3860 DIRT Lnet/minecraft/class_38;
 	FIELD field_3861 COBBLESTONE Lnet/minecraft/class_38;
 	FIELD field_3862 PLANKS Lnet/minecraft/class_38;
@@ -146,7 +146,7 @@ CLASS net/minecraft/class_38 net/minecraft/block/Block
 	METHOD method_3057 setRawName (Ljava/lang/String;)Lnet/minecraft/class_38;
 	METHOD method_3096 getDropCount (Ljava/util/Random;)I
 	METHOD method_3053 getEffectiveExplosionResistance (Lnet/minecraft/class_37;)F
-	METHOD method_3058 sounds (Lnet/minecraft/class_577;)Lnet/minecraft/class_38;
+	METHOD method_3058 sounds (Lnet/minecraft/class_579;)Lnet/minecraft/class_38;
 	METHOD method_3099 beforeDestroyedByExplosion (Lnet/minecraft/class_26;IIIIFI)V
 	METHOD method_3088 afterPlaced (Lnet/minecraft/class_26;IIILnet/minecraft/class_133;)V
 	METHOD method_3097 onScheduledTick (Lnet/minecraft/class_26;IIILjava/util/Random;)V

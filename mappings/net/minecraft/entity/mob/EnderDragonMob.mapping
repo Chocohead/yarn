@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_921 net/minecraft/entity/mob/EnderDragonMob
+CLASS net/minecraft/class_925 net/minecraft/entity/mob/EnderDragonMob
 	FIELD field_3649 parts [Lnet/minecraft/class_390;
 	FIELD field_3650 head Lnet/minecraft/class_390;
 	FIELD field_3651 body Lnet/minecraft/class_390;

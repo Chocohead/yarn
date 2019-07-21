@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_906 net/minecraft/entity/ai/goal/LookAtEntityGoal
+CLASS net/minecraft/class_909 net/minecraft/entity/ai/goal/LookAtEntityGoal
 	FIELD field_3607 owner Lnet/minecraft/class_133;
 	FIELD field_3608 target Lnet/minecraft/class_37;
 	FIELD field_3609 range F

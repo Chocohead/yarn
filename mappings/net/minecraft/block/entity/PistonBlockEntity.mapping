@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_652 net/minecraft/block/entity/PistonBlockEntity
+CLASS net/minecraft/class_654 net/minecraft/block/entity/PistonBlockEntity
 	FIELD field_3673 blockId I
 	FIELD field_3674 blockData I
 	FIELD field_3675 facing I

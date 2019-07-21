@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_694 net/minecraft/stat/Stats
+CLASS net/minecraft/class_696 net/minecraft/stat/Stats
 	FIELD field_2207 PLAYER_KILLS Lnet/minecraft/class_339;
 	FIELD field_2208 FISH_CAUGHT Lnet/minecraft/class_339;
 	FIELD field_2209 MINE_BLOCK [Lnet/minecraft/class_339;

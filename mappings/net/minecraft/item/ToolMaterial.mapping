@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_519 net/minecraft/item/ToolMaterial
+CLASS net/minecraft/class_521 net/minecraft/item/ToolMaterial
 	FIELD field_1481 miningLevel I
 	FIELD field_1482 durability I
 	FIELD field_1483 blockBreakSpeed F

@@ -1,3 +1,3 @@
-CLASS net/minecraft/class_932 net/minecraft/block/PlantBlock
+CLASS net/minecraft/class_936 net/minecraft/block/PlantBlock
 	METHOD method_3168 canPlantOnTop (I)Z
 		ARG 1 id

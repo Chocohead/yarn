@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_779 net/minecraft/nbt/ByteArrayTag
+CLASS net/minecraft/class_781 net/minecraft/nbt/ByteArrayTag
 	FIELD field_2818 value [B

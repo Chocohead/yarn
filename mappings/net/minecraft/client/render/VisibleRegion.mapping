@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_458 net/minecraft/client/render/VisibleRegion
+CLASS net/minecraft/class_460 net/minecraft/client/render/VisibleRegion
 	METHOD method_1090 setOrigin (DDD)V
 		ARG 1 x
 		ARG 3 y

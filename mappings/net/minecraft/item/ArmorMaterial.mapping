@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_515 net/minecraft/item/ArmorMaterial
+CLASS net/minecraft/class_517 net/minecraft/item/ArmorMaterial
 	FIELD field_1457 durabilityMultiplier I
 	FIELD field_1458 protectionAmounts [I
 	FIELD field_1459 enchantability I

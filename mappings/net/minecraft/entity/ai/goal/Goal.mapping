@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_887 net/minecraft/entity/ai/goal/Goal
+CLASS net/minecraft/class_890 net/minecraft/entity/ai/goal/Goal
 	METHOD method_3198 canStart ()Z
 	METHOD method_3199 shouldContinue ()Z
 	METHOD method_3205 start ()V

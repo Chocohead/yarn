@@ -1,3 +1,0 @@
-CLASS argo/jdom/JsonNodeDoesNotMatchChainedJsonNodeSelectorException net/minecraft/moveme/JsonNodeDoesNotMatchJsonNodeSelectorException
-	FIELD failedNode node Largo/jdom/Functor;
-	FIELD failPath path Ljava/util/List;

@@ -1,5 +1,4 @@
-CLASS net/minecraft/class_872 net/minecraft/util/Snooper
-	CLASS 1 net/minecraft/moveme/SnooperThread
+CLASS net/minecraft/class_875 net/minecraft/util/Snooper
 	FIELD field_3329 info Ljava/util/Map;
 	FIELD field_3330 snooperUrl Ljava/net/URL;
 	METHOD method_2671 start ()V

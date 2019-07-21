@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_939 net/minecraft/block/BedBlock
+CLASS net/minecraft/class_943 net/minecraft/block/BedBlock
 	METHOD method_3135 findWakeUpPosition (Lnet/minecraft/class_26;IIII)Lnet/minecraft/class_159;

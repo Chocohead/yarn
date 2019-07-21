@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_558 net/minecraft/container/Slot
+CLASS net/minecraft/class_560 net/minecraft/container/Slot
 	FIELD field_2694 invSlot I
 	FIELD field_2695 inventory Lnet/minecraft/class_125;
 	FIELD field_2696 id I

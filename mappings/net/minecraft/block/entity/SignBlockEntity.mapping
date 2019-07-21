@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_454 net/minecraft/block/entity/SignBlockEntity
+CLASS net/minecraft/class_456 net/minecraft/block/entity/SignBlockEntity
 	FIELD field_1551 lines [Ljava/lang/String;

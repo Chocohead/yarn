@@ -100,8 +100,8 @@ CLASS net/minecraft/class_325 net/minecraft/item/Item
 	FIELD field_2569 BED Lnet/minecraft/class_325;
 	FIELD field_2619 REDSTONE_REPEATER Lnet/minecraft/class_325;
 	FIELD field_2620 COOKIE Lnet/minecraft/class_325;
-	FIELD field_2621 MAP Lnet/minecraft/class_741;
-	FIELD field_2622 SHEARS Lnet/minecraft/class_483;
+	FIELD field_2621 MAP Lnet/minecraft/class_743;
+	FIELD field_2622 SHEARS Lnet/minecraft/class_485;
 	FIELD field_2623 MELON Lnet/minecraft/class_325;
 	FIELD field_2624 PUMPKIN_SEEDS Lnet/minecraft/class_325;
 	FIELD field_2625 MELON_SEEDS Lnet/minecraft/class_325;
@@ -115,7 +115,7 @@ CLASS net/minecraft/class_325 net/minecraft/item/Item
 	FIELD field_2633 GHAST_TEAR Lnet/minecraft/class_325;
 	FIELD field_2634 GOLD_NUGGET Lnet/minecraft/class_325;
 	FIELD field_2635 NETHER_WART Lnet/minecraft/class_325;
-	FIELD field_2636 POTION Lnet/minecraft/class_597;
+	FIELD field_2636 POTION Lnet/minecraft/class_599;
 	FIELD field_2637 GLASS_BOTTLE Lnet/minecraft/class_325;
 	FIELD field_2638 SPIDER_EYE Lnet/minecraft/class_325;
 	FIELD field_2639 FERMENTED_SPIDER_EYE Lnet/minecraft/class_325;

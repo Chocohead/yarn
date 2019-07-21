@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_662 net/minecraft/nbt/IntArrayTag
+CLASS net/minecraft/class_664 net/minecraft/nbt/IntArrayTag
 	FIELD field_2035 value [I

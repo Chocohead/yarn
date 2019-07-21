@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_683 net/minecraft/entity/decoration/painting/PaintingMotive
+CLASS net/minecraft/class_685 net/minecraft/entity/decoration/painting/PaintingMotive
 	FIELD field_2156 id Ljava/lang/String;
 	FIELD field_2157 width I
 	FIELD field_2158 height I

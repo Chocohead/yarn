@@ -1,4 +1,0 @@
-CLASS argo/jdom/JsonNode net/minecraft/moveme/JsonNode
-	METHOD getText getText ()Ljava/lang/String;
-	METHOD getFields getFields ()Ljava/util/Map;
-	METHOD getElements getElements ()Ljava/util/List;

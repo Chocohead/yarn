@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_631 net/minecraft/entity/ai/goal/FleeEntityGoal
+CLASS net/minecraft/class_633 net/minecraft/entity/ai/goal/FleeEntityGoal
 	FIELD field_1915 fleeingEntity Lnet/minecraft/class_170;
 	FIELD field_1916 fleeSlowSpeed F
 	FIELD field_1917 fleeFastSpeed F

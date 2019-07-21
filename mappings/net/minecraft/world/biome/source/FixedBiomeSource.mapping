@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_642 net/minecraft/world/biome/source/FixedBiomeSource
+CLASS net/minecraft/class_644 net/minecraft/world/biome/source/FixedBiomeSource
 	FIELD field_1963 biome Lnet/minecraft/class_145;

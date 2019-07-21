@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_858 net/minecraft/util/Profiler
+CLASS net/minecraft/class_860 net/minecraft/util/Profiler
 	FIELD field_3213 debugEnabled Z
 	METHOD method_2601 push (Ljava/lang/String;)V
 	METHOD method_2602 pop ()V

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_616 net/minecraft/recipe/Recipe
+CLASS net/minecraft/class_618 net/minecraft/recipe/Recipe
 	METHOD method_1504 getSize ()I
 	METHOD method_1505 matches (Lnet/minecraft/class_185;)Z
 	METHOD method_1502 getOutput ()Lnet/minecraft/class_24;

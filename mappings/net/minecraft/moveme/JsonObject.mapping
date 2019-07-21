@@ -1,2 +1,0 @@
-CLASS argo/jdom/JsonObject net/minecraft/moveme/JsonObject
-	FIELD fields fields Ljava/util/Map;

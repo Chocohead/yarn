@@ -1,3 +1,2 @@
 CLASS net/minecraft/class_151 net/minecraft/client/screen/MultiplayerScreen
-	CLASS 1 net/minecraft/moveme/ServerPingThread
 	FIELD field_524 screen Lnet/minecraft/class_65;

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_745 net/minecraft/entity/player/PlayerAbilities
+CLASS net/minecraft/class_747 net/minecraft/entity/player/PlayerAbilities
 	FIELD field_3975 invulnerable Z
 	FIELD field_3976 flying Z
 	FIELD field_3977 allowFlying Z

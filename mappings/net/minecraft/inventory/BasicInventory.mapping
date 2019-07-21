@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_791 net/minecraft/inventory/BasicInventory
+CLASS net/minecraft/class_793 net/minecraft/inventory/BasicInventory
 	FIELD field_3262 name Ljava/lang/String;
 	FIELD field_3263 size I
 	FIELD field_3264 contents [Lnet/minecraft/class_24;

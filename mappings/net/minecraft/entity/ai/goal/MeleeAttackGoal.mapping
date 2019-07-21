@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_472 net/minecraft/entity/ai/goal/MeleeAttackGoal
+CLASS net/minecraft/class_474 net/minecraft/entity/ai/goal/MeleeAttackGoal
 	FIELD field_1343 world Lnet/minecraft/class_26;
 	FIELD field_1344 entity Lnet/minecraft/class_133;
 	FIELD field_1345 target Lnet/minecraft/class_133;

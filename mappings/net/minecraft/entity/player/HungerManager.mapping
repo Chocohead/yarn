@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_746 net/minecraft/entity/player/HungerManager
+CLASS net/minecraft/class_748 net/minecraft/entity/player/HungerManager
 	FIELD field_3446 foodLevel I
 	FIELD field_3447 foodSaturationLevel F
 	FIELD field_3448 foodExhaustionLevel F
@@ -9,7 +9,7 @@ CLASS net/minecraft/class_746 net/minecraft/entity/player/HungerManager
 	METHOD method_2731 setFoodLevel (I)V
 	METHOD method_2732 add (IF)V
 	METHOD method_2733 fromTag (Lnet/minecraft/class_209;)V
-	METHOD method_2734 eat (Lnet/minecraft/class_785;)V
+	METHOD method_2734 eat (Lnet/minecraft/class_787;)V
 	METHOD method_2735 update (Lnet/minecraft/class_75;)V
 	METHOD method_2736 getPrevFoodLevel ()I
 	METHOD method_2737 setSaturationLevel (F)V

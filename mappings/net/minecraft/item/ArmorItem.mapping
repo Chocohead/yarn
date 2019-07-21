@@ -1,6 +1,6 @@
-CLASS net/minecraft/class_956 net/minecraft/item/ArmorItem
+CLASS net/minecraft/class_960 net/minecraft/item/ArmorItem
 	FIELD field_3939 armorSlot I
 	FIELD field_3940 protection I
 	FIELD field_3941 BASE_DURABILITY [I
-	FIELD field_3942 type Lnet/minecraft/class_515;
+	FIELD field_3942 type Lnet/minecraft/class_517;
 	FIELD field_3943 toughness I

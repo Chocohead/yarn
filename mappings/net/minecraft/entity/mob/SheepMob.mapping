@@ -1,2 +1,2 @@
-CLASS net/minecraft/class_452 net/minecraft/entity/mob/SheepMob
+CLASS net/minecraft/class_454 net/minecraft/entity/mob/SheepMob
 	METHOD method_1255 isSheared ()Z

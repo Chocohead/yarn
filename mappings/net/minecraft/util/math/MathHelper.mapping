@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_676 net/minecraft/util/math/MathHelper
+CLASS net/minecraft/class_678 net/minecraft/util/math/MathHelper
 	FIELD field_2145 SINE_TABLE [F
 	METHOD method_1870 sqrt (D)F
 	METHOD method_1871 absMax (DD)D

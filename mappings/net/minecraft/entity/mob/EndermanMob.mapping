@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_783 net/minecraft/entity/mob/EndermanMob
+CLASS net/minecraft/class_785 net/minecraft/entity/mob/EndermanMob
 	METHOD method_2350 setCarriedBlockId (I)V
 	METHOD method_2351 setCarriedBlockData (I)V
 	METHOD method_2353 getCarriedData ()I

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_770 net/minecraft/world/chunk/ChunkNibbleArray
+CLASS net/minecraft/class_772 net/minecraft/world/chunk/ChunkNibbleArray
 	FIELD field_3968 byteArray [B
 	METHOD method_3181 get (III)I
 	METHOD method_3182 set (IIII)V

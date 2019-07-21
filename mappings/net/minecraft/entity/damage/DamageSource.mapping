@@ -16,8 +16,8 @@ CLASS net/minecraft/class_162 net/minecraft/entity/damage/DamageSource
 	FIELD field_3260 fire Z
 	METHOD method_2626 getEntity ()Lnet/minecraft/class_37;
 	METHOD method_2629 mob (Lnet/minecraft/class_133;)Lnet/minecraft/class_162;
-	METHOD method_2630 fireball (Lnet/minecraft/class_499;Lnet/minecraft/class_37;)Lnet/minecraft/class_162;
-	METHOD method_2631 arrow (Lnet/minecraft/class_766;Lnet/minecraft/class_37;)Lnet/minecraft/class_162;
+	METHOD method_2630 fireball (Lnet/minecraft/class_501;Lnet/minecraft/class_37;)Lnet/minecraft/class_162;
+	METHOD method_2631 arrow (Lnet/minecraft/class_768;Lnet/minecraft/class_37;)Lnet/minecraft/class_162;
 	METHOD method_2632 projectile (Lnet/minecraft/class_37;Lnet/minecraft/class_37;)Lnet/minecraft/class_162;
 	METHOD method_2633 player (Lnet/minecraft/class_75;)Lnet/minecraft/class_162;
 	METHOD method_2634 indirectMagic (Lnet/minecraft/class_37;Lnet/minecraft/class_37;)Lnet/minecraft/class_162;

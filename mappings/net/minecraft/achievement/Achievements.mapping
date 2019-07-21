@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_573 net/minecraft/achievement/Achievements
+CLASS net/minecraft/class_575 net/minecraft/achievement/Achievements
 	FIELD field_1674 POTION Lnet/minecraft/class_215;
 	FIELD field_1675 THE_END Lnet/minecraft/class_215;
 	FIELD field_1676 THE_END_2 Lnet/minecraft/class_215;

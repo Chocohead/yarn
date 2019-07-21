@@ -22,7 +22,7 @@ CLASS net/minecraft/class_264 net/minecraft/enchantment/Enchantment
 	FIELD field_2915 FLAME Lnet/minecraft/class_264;
 	FIELD field_2916 INFINITY Lnet/minecraft/class_264;
 	FIELD field_2917 id I
-	FIELD field_2918 target Lnet/minecraft/class_803;
+	FIELD field_2918 target Lnet/minecraft/class_805;
 	FIELD field_2919 rawName Ljava/lang/String;
 	FIELD field_2920 weight I
 	METHOD method_2383 getMaximumLevel ()I
